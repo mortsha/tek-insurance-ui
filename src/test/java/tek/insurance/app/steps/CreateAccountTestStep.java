@@ -79,6 +79,7 @@ public class CreateAccountTestStep extends CommonUtility {
 
 			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
 			logger.info("User seccessfully entered the employment status - process passed");
+			
 
 		}
 
@@ -105,22 +106,46 @@ public class CreateAccountTestStep extends CommonUtility {
 
 	@Then("user click on Cancel button")
 	public void userClickOnCancelButton() {
-		waitTillClickable(factory.getCreateAccountTest().createAccountBttn);
-		click(factory.getCreateAccountTest().createAccountBttn);
+		waitTillClickable(factory.getCreateAccountTest().resetFormBttn);
+		click(factory.getCreateAccountTest().resetFormBttn);
 		logger.info("Use successfully clicked - process passed");
 	}
 
 	@Then("the fields should be removed")
 	public void theFieldsShouldBeRemoved() {
-		if(factory.getCreateAccountTest().emailField.getText() == "") {
-			logger.info("the email field is empty");
-		}else if(factory.getCreateAccountTest().firstNameField.getText() =="") {
-			logger.info("the first name field is empty");
-		}else if(factory.getCreateAccountTest().lastNameField.getText()== "") {
-			logger.info("The last name field is empty");
-		}else {
-			logger.info("The fields are not empty");
-		}
+		waitTillPresence(factory.getCreateAccountTest().emailField);
+		String actualEmailField = factory.getCreateAccountTest().emailField.getText();
+		String expectedEmailField = "";
+		softAssertEquals(actualEmailField, expectedEmailField);
+		
+		waitTillPresence(factory.getCreateAccountTest().firstNameField);
+		String actualFirstName = factory.getCreateAccountTest().firstNameField.getText();
+		String expectedFirstName = "";
+		softAssertEquals(actualFirstName, expectedFirstName);
+		
+		waitTillPresence(factory.getCreateAccountTest().lastNameField);
+		String actualLastNameField = factory.getCreateAccountTest().lastNameField.getText();
+		String expectedLastName = "";
+		softAssertEquals(expectedLastName, actualLastNameField);
+		
+		waitTillPresence(factory.getCreateAccountTest().employmentStatusField);
+		String actualEmpField = factory.getCreateAccountTest().employmentStatusField.getText();
+		String expectedEmpField  = "";
+		softAssertEquals(expectedEmpField, actualEmpField);
+		
+		logger.info("The field are empty");
+//		
+//		if(factory.getCreateAccountTest().emailField.getText() == "") {
+//			logger.info("the email field is empty");
+//		}else if(factory.getCreateAccountTest().firstNameField.getText() =="") {
+//			logger.info("the first name field is empty");
+//		}else if(factory.getCreateAccountTest().lastNameField.getText()== "") {
+//			logger.info("The last name field is empty");
+//		}else {
+//			logger.info("The fields are not empty");
+//		}
+//		
+//	
 	}
 
 }

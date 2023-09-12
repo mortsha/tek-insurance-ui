@@ -55,3 +55,139 @@
 2023-09-12 00:36:04,596 [main] INFO logger_file - User seccessfully entered the employment status - process passed
 2023-09-12 00:36:04,857 [main] INFO logger_file - Use successfully clicked - process passed
 2023-09-12 00:36:04,872 [main] INFO logger_file - The fields are not empty
+2023-09-12 09:44:29,156 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 09:44:29,473 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 09:44:29,498 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 09:44:29,521 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 09:44:29,664 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 09:44:29,918 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 09:44:29,964 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 09:44:30,013 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 09:44:30,252 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 09:44:30,483 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 09:44:30,518 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 09:44:30,598 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 09:44:35,872 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 09:45:11,556 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 09:45:11,868 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 09:45:11,895 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 09:45:11,920 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 09:45:12,063 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 09:45:12,325 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 09:45:12,371 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 09:45:12,420 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 09:45:12,664 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 09:45:12,900 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 09:45:12,934 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 09:45:13,018 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 09:45:18,289 [main] INFO logger_file - Use successfully clicked - process passed
+2023-09-12 09:45:18,316 [main] INFO logger_file - The fields are not empty
+2023-09-12 09:46:11,784 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 09:46:12,106 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 09:46:12,135 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 09:46:12,158 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 09:46:12,301 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 09:46:12,550 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 09:46:12,596 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 09:46:12,652 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 09:46:12,896 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 09:46:13,132 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 09:46:13,165 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 09:46:13,251 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 09:46:18,519 [main] INFO logger_file - Use successfully clicked - process passed
+2023-09-12 09:48:00,887 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 09:48:01,198 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 09:48:01,227 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 09:48:01,250 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 09:48:01,385 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 09:48:01,633 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 09:48:01,680 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 09:48:01,731 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 09:48:01,972 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 09:48:02,205 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 09:48:02,236 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 09:48:02,314 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 09:48:07,571 [main] INFO logger_file - Use successfully clicked - process passed
+2023-09-12 09:48:12,605 [main] INFO logger_file - The fields are not empty
+2023-09-12 09:54:09,959 [main] INFO logger_file - User was able to log in to the main page and the tek insurance title was displayed - process passed
+2023-09-12 10:01:54,546 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 10:01:54,860 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:01:54,886 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 10:01:54,908 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 10:01:55,048 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 10:01:55,293 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 10:01:55,344 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 10:01:55,388 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 10:01:55,631 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 10:01:55,864 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 10:01:55,899 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 10:01:55,978 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 10:02:01,261 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:02:24,212 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 10:02:24,525 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:02:24,551 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 10:02:24,579 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 10:02:24,714 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 10:02:24,963 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 10:02:25,012 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 10:02:25,059 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 10:02:25,304 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 10:02:25,543 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 10:02:25,577 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 10:02:25,653 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 10:02:30,927 [main] INFO logger_file - Use successfully clicked - process passed
+2023-09-12 10:02:36,004 [main] INFO logger_file - The field are empty
+2023-09-12 10:04:50,175 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 10:04:50,494 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:04:50,521 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 10:04:50,545 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 10:04:50,683 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 10:04:50,938 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 10:04:50,989 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 10:04:51,037 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 10:04:51,275 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 10:04:51,509 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 10:04:51,544 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 10:04:51,621 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 10:04:56,900 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:05:05,460 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 10:05:05,762 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:05:05,785 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 10:05:05,803 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 10:05:05,935 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 10:05:06,169 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 10:05:06,214 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 10:05:06,265 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 10:05:06,501 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 10:05:06,739 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 10:05:06,770 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 10:05:06,854 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 10:05:12,109 [main] INFO logger_file - Use successfully clicked - process passed
+2023-09-12 10:05:17,181 [main] INFO logger_file - The field are empty
+2023-09-12 10:06:21,194 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 10:06:21,506 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:06:21,533 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 10:06:21,557 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 10:06:21,693 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 10:06:21,936 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 10:06:21,983 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 10:06:22,032 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 10:06:22,271 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 10:06:22,511 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 10:06:22,547 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 10:06:22,628 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 10:06:22,881 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:06:26,595 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-09-12 10:06:26,903 [main] INFO logger_file - User successfully clicked - process passed
+2023-09-12 10:06:26,928 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-09-12 10:06:26,945 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 10:06:27,077 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-09-12 10:06:27,313 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-09-12 10:06:27,357 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-09-12 10:06:27,401 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-09-12 10:06:27,637 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-09-12 10:06:27,874 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-09-12 10:06:27,904 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-09-12 10:06:27,986 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-09-12 10:06:28,233 [main] INFO logger_file - Use successfully clicked - process passed
+2023-09-12 10:06:28,300 [main] INFO logger_file - The field are empty
