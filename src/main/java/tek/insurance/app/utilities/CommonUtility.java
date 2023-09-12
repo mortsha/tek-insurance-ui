@@ -25,9 +25,15 @@ import tek.insurance.app.base.BaseSetup;
 public class CommonUtility extends BaseSetup{
 	
 
-	public SoftAssert softAssert(String expected, String actual) {
+	public SoftAssert softAssertEquals(String expected, String actual) {
 		SoftAssert softAssert = new SoftAssert();
 		softAssert.assertEquals(expected, actual);
+		softAssert.assertAll();
+		return softAssert ;
+	}
+	public SoftAssert softAssertTrue(Boolean True) {
+		SoftAssert softAssert = new SoftAssert();
+		softAssert.assertTrue(True);
 		softAssert.assertAll();
 		return softAssert ;
 	}

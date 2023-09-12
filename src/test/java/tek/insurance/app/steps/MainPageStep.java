@@ -18,7 +18,7 @@ public class MainPageStep extends CommonUtility {
 		String actual = factory.getMainPage().tekInsuranceLink.getText();
 //		Assert.assertEquals(expected, actual);
 		
-		softAssert(expected, actual);
+		softAssertEquals(expected, actual);
 		logger.info(
 				"User was able to log in to the main page and the tek insurance title was displayed - process passed");
 	}
@@ -27,7 +27,7 @@ public class MainPageStep extends CommonUtility {
 	public void verifyTextShouldBeDisplayed(String expected) {
 		waitTillPresence(factory.getMainPage().letGetStartedText);
 		String actualText = factory.getMainPage().letGetStartedText.getText();
-		softAssert(expected, actualText);
+		softAssertEquals(expected, actualText);
 //		Assert.assertEquals(expected, actualText);
 		logger.info("The Actual and expected text was same - process passed");
 	}
@@ -36,7 +36,7 @@ public class MainPageStep extends CommonUtility {
 	public void verifyButtonShouldBeDisplayed(String expected) {
 		waitTillPresence(factory.getMainPage().createPrimaryAccountBttn);
 		String actualTextBttn = factory.getMainPage().createPrimaryAccountBttn.getText();
-		softAssert(expected, actualTextBttn);
+		softAssertEquals(expected, actualTextBttn);
 		
 //		Assert.assertEquals(expected, actualTextBttn);
 		logger.info("The actual and expected text button was same - process passed");

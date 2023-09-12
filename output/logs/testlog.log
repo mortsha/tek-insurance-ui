@@ -17,3 +17,41 @@
 2023-09-10 18:40:09,167 - logger_file -INFO - The Actual and expected text was same - process passed
 2023-09-10 18:40:09,191 - logger_file -INFO - The actual and expected text button was same - process passed
 2023-09-10 18:40:25,515 - logger_file -INFO - User was able to log in to the main page and the tek insurance title was displayed - process passed
+2023-09-11 23:51:34,815 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-11 23:51:38,697 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-12 00:27:45,579 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-12 00:27:45,908 - logger_file -INFO - User successfully clicked - process passed
+2023-09-12 00:27:45,934 - logger_file -INFO - the create primary account was displayed - process passed
+2023-09-12 00:34:51,113 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-12 00:34:51,431 - logger_file -INFO - User successfully clicked - process passed
+2023-09-12 00:34:51,458 - logger_file -INFO - the create primary account was displayed - process passed
+2023-09-12 00:34:55,382 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-12 00:34:55,693 - logger_file -INFO - User successfully clicked - process passed
+2023-09-12 00:34:55,717 - logger_file -INFO - the create primary account was displayed - process passed
+2023-09-12 00:35:57,332 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-12 00:35:57,655 - logger_file -INFO - User successfully clicked - process passed
+2023-09-12 00:35:57,680 - logger_file -INFO - the create primary account was displayed - process passed
+2023-09-12 00:35:57,703 - logger_file -INFO - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 00:35:57,862 - logger_file -INFO - User seccessfully entered the email - process passed
+2023-09-12 00:35:58,110 - logger_file -INFO - User seccessfully select the title - process passed
+2023-09-12 00:35:58,159 - logger_file -INFO - User seccessfully entered the first name - process passed
+2023-09-12 00:35:58,205 - logger_file -INFO - User seccessfully entered the last name - process passed
+2023-09-12 00:35:58,446 - logger_file -INFO - User seccessfully select the gender - process passed
+2023-09-12 00:35:58,684 - logger_file -INFO - User seccessfully select the marital status - process passed
+2023-09-12 00:35:58,721 - logger_file -INFO - User seccessfully entered the date of birth - process passed
+2023-09-12 00:35:58,803 - logger_file -INFO - User seccessfully entered the employment status - process passed
+2023-09-12 00:35:59,062 - logger_file -INFO - User successfully clicked - process passed
+2023-09-12 00:36:03,180 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-12 00:36:03,488 - logger_file -INFO - User successfully clicked - process passed
+2023-09-12 00:36:03,512 - logger_file -INFO - the create primary account was displayed - process passed
+2023-09-12 00:36:03,531 - logger_file -INFO - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-09-12 00:36:03,668 - logger_file -INFO - User seccessfully entered the email - process passed
+2023-09-12 00:36:03,904 - logger_file -INFO - User seccessfully select the title - process passed
+2023-09-12 00:36:03,952 - logger_file -INFO - User seccessfully entered the first name - process passed
+2023-09-12 00:36:03,999 - logger_file -INFO - User seccessfully entered the last name - process passed
+2023-09-12 00:36:04,243 - logger_file -INFO - User seccessfully select the gender - process passed
+2023-09-12 00:36:04,481 - logger_file -INFO - User seccessfully select the marital status - process passed
+2023-09-12 00:36:04,513 - logger_file -INFO - User seccessfully entered the date of birth - process passed
+2023-09-12 00:36:04,596 - logger_file -INFO - User seccessfully entered the employment status - process passed
+2023-09-12 00:36:04,857 - logger_file -INFO - Use successfully clicked - process passed
+2023-09-12 00:36:04,872 - logger_file -INFO - The fields are not empty
