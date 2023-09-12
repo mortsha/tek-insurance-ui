@@ -1,0 +1,4 @@
+ui:
+   browser: firefox
+   headless: false
+   url: https://dev.insurance.tekschool-students.com
