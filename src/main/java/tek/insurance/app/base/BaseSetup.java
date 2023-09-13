@@ -23,8 +23,8 @@ public class BaseSetup {
 	public BaseSetup() {
 		// need the path of the environment config and log4j and store them as String
 
-		String filePath = System.getProperty("user.dir") + "\\src\\main\\resources\\env_config.yml";
-		String log4jPath = System.getProperty("user.dir") + "\\src\\main\\resources\\log4j.properties";
+		String filePath = System.getProperty("user.dir") + "/src/main/resources/env_config.yml";
+		String log4jPath = System.getProperty("user.dir") + "/src/main/resources/log4j.properties";
 		try {
 			environmentVariables = ReadYamlFiles.getInstance(filePath);
 		} catch (Exception e) {
@@ -65,7 +65,7 @@ public class BaseSetup {
 			throw new RuntimeException("Browser name in config does not matched with any of the cases.");
 
 		}
-		
+
 		webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
 		webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		webDriver.manage().window().maximize();
