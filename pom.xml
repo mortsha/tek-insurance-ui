@@ -13,28 +13,22 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
-	
-  	<dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>7.8.0</version>
+			<version>7.11.0</version>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>7.8.0</version>
+			<version>7.11.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.8.3</version>
-		</dependency>
-		<dependency>
-			<groupId>io.github.bonigarcia</groupId>
-			<artifactId>webdrivermanager</artifactId>
-			<version>5.3.0</version>
+			<version>4.11.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -45,11 +39,6 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.30</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -66,12 +55,7 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
-		<dependency>
-			<groupId>tek.sqa.framework</groupId>
-			<artifactId>testng_framework</artifactId>
-			<version>1.0-SNAPSHOT</version>
-		</dependency>
-  	</dependencies>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
