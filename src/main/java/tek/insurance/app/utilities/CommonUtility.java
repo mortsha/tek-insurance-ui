@@ -18,25 +18,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.asserts.SoftAssert;
 
 import tek.insurance.app.base.BaseSetup;
 
-public class CommonUtility extends BaseSetup{
-	
 
-	public SoftAssert softAssertEquals(String expected, String actual) {
-		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(expected, actual);
-		softAssert.assertAll();
-		return softAssert ;
-	}
-	public SoftAssert softAssertTrue(Boolean True) {
-		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertTrue(True);
-		softAssert.assertAll();
-		return softAssert ;
-	}
+
+public class CommonUtility extends BaseSetup {
 	
 	public WebDriverWait getWait() {
 		return new WebDriverWait(getDriver(), Duration.ofSeconds(20));

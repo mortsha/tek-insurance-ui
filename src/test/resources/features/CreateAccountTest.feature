@@ -1,4 +1,4 @@
-@Regression1
+@Regression
 Feature: Create Primary Account
 
   #Launch to the website and validate that you are in the right website.

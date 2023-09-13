@@ -6,8 +6,7 @@ import io.cucumber.java.en.When;
 import tek.insurance.app.pages.POMFactory;
 import tek.insurance.app.utilities.CommonUtility;
 import tek.insurance.app.utilities.DataGenerator;
-
-import java.util.Iterator;
+import org.junit.Assert;
 import java.util.List;
 import java.util.Map;
 
@@ -19,11 +18,7 @@ public class CreateAccountTestStep extends CommonUtility {
 	@Given("User is on tek insurance app website and validate the website")
 	public void userIsOnTekInsuranceAppWebsiteAndValidateTheWebsite() {
 		waitTillPresence(factory.getMainPage().tekInsuranceLink);
-//		Assert.assertTrue(factory.getMainPage().tekInsuranceLink.isDisplayed());
-
-//		SoftAssert softAssert = new SoftAssert();
-//		softAssert.assertTrue(factory.getMainPage().tekInsuranceLink.isDisplayed());
-		softAssertTrue(factory.getMainPage().tekInsuranceLink.isDisplayed());
+		Assert.assertTrue(factory.getMainPage().tekInsuranceLink.isDisplayed());
 		logger.info("website logo successfully displayed - process passed");
 	}
 
@@ -37,7 +32,7 @@ public class CreateAccountTestStep extends CommonUtility {
 	@Given("the signUp page should be displayed")
 	public void theSignUpPageShouldBeDisplayed() {
 		waitTillPresence(factory.getCreateAccountTest().createPrimaryAccountText);
-		softAssertTrue(factory.getCreateAccountTest().createPrimaryAccountText.isDisplayed());
+		Assert.assertTrue(factory.getCreateAccountTest().createPrimaryAccountText.isDisplayed());
 		logger.info("the create primary account was displayed - process passed");
 	}
 
@@ -46,7 +41,7 @@ public class CreateAccountTestStep extends CommonUtility {
 			String cancelForm) {
 		waitTillPresence(factory.getCreateAccountTest().createPrimaryAccountText);
 		String actual = factory.getCreateAccountTest().createPrimaryAccountText.getText();
-		softAssertEquals(createPrimaryAccountHolder, actual);
+		Assert.assertEquals(createPrimaryAccountHolder, actual);
 		logger.info(
 				"the actual " + actual + " and expected " + createPrimaryAccountHolder + " was same - process passed");
 	}
@@ -79,17 +74,8 @@ public class CreateAccountTestStep extends CommonUtility {
 
 			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
 			logger.info("User seccessfully entered the employment status - process passed");
-			
 
 		}
-
-		// Write code here that turns the phrase above into concrete actions
-		// For automatic transformation, change DataTable to one of
-		// E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-		// Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-		// Double, Byte, Short, Long, BigInteger or BigDecimal.
-		//
-		// For other transformations you can register a DataTableType.
 	}
 
 	@Then("user click on Create Account button")
@@ -116,36 +102,23 @@ public class CreateAccountTestStep extends CommonUtility {
 		waitTillPresence(factory.getCreateAccountTest().emailField);
 		String actualEmailField = factory.getCreateAccountTest().emailField.getText();
 		String expectedEmailField = "";
-		softAssertEquals(actualEmailField, expectedEmailField);
-		
+		Assert.assertEquals(actualEmailField, expectedEmailField);
+
 		waitTillPresence(factory.getCreateAccountTest().firstNameField);
 		String actualFirstName = factory.getCreateAccountTest().firstNameField.getText();
 		String expectedFirstName = "";
-		softAssertEquals(actualFirstName, expectedFirstName);
-		
+		Assert.assertEquals(actualFirstName, expectedFirstName);
+
 		waitTillPresence(factory.getCreateAccountTest().lastNameField);
 		String actualLastNameField = factory.getCreateAccountTest().lastNameField.getText();
 		String expectedLastName = "";
-		softAssertEquals(expectedLastName, actualLastNameField);
-		
+		Assert.assertEquals(expectedLastName, actualLastNameField);
+
 		waitTillPresence(factory.getCreateAccountTest().employmentStatusField);
 		String actualEmpField = factory.getCreateAccountTest().employmentStatusField.getText();
-		String expectedEmpField  = "";
-		softAssertEquals(expectedEmpField, actualEmpField);
-		
+		String expectedEmpField = "";
+		Assert.assertEquals(expectedEmpField, actualEmpField);
 		logger.info("The field are empty");
-//		
-//		if(factory.getCreateAccountTest().emailField.getText() == "") {
-//			logger.info("the email field is empty");
-//		}else if(factory.getCreateAccountTest().firstNameField.getText() =="") {
-//			logger.info("the first name field is empty");
-//		}else if(factory.getCreateAccountTest().lastNameField.getText()== "") {
-//			logger.info("The last name field is empty");
-//		}else {
-//			logger.info("The fields are not empty");
-//		}
-//		
-//	
 	}
 
 }
