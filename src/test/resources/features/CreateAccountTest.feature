@@ -12,7 +12,7 @@ Feature: Create Primary Account
     Given User is on tek insurance app website and validate the website
     And User click on create primary account button
     And the signUp page should be displayed
-    And by the name of 'Create Primary Account Holder' text with 'Create Account' and 'Reset Form' buttons
+    And by the name of 'Create Primary Account Holder' text with 'Create Account' and 'Clear Form' buttons
     When user fill the form with below information
       | email                 | title | firstName | lastName | gender | maritalStatus | employmentStatus | dateOfBirth |
       | userTest@tekschool.us | Mr.   | Test      | User     | Male   | Single         | Software Tester  | 1990-10-10  |
