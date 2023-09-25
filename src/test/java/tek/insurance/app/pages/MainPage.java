@@ -15,7 +15,7 @@ public class MainPage extends BaseSetup {
 	@FindBy(xpath = "//h2[text()='TEK Insurance App']")
 	public WebElement tekInsuranceLink;
 	
-	@FindBy(xpath = "//h2[text()='Lets Get you started']")
+	@FindBy(xpath = "//h2[text()='Lets get you started']")
 	public WebElement letGetStartedText;
 	
 	@FindBy(xpath = "//a[text()='Create Primary Account']")

@@ -38,12 +38,25 @@ public class CreateAccountTestStep extends CommonUtility {
 
 	@Given("by the name of {string} text with {string} and {string} buttons")
 	public void byTheNameOfTextWithAndButtons(String createPrimaryAccountHolder, String createAccount,
-			String cancelForm) {
+			String resetForm) {
 		waitTillPresence(factory.getCreateAccountTest().createPrimaryAccountText);
 		String actual = factory.getCreateAccountTest().createPrimaryAccountText.getText();
 		Assert.assertEquals(createPrimaryAccountHolder, actual);
 		logger.info(
 				"the actual " + actual + " and expected " + createPrimaryAccountHolder + " was same - process passed");
+		
+		waitTillPresence(factory.getCreateAccountTest().createAccountBttn);
+		String actualAccountBttn = factory.getCreateAccountTest().createAccountBttn.getText();
+		Assert.assertEquals(createAccount, actualAccountBttn);
+		logger.info(
+				"the actual " + actualAccountBttn + " and expected " + createAccount + " button was same - process passed");
+		
+		waitTillPresence(factory.getCreateAccountTest().resetFormBttn);
+		String actualResetBttn = factory.getCreateAccountTest().resetFormBttn.getText();
+		Assert.assertEquals(resetForm, actualResetBttn);
+		logger.info(
+				"the actual " + actualResetBttn + " and expected " + resetForm + " button was same - process passed");
+		
 	}
 
 	@When("user fill the form with below information")

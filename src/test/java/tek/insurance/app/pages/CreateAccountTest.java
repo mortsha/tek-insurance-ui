@@ -42,7 +42,7 @@ public class CreateAccountTest extends BaseSetup {
 	@FindBy(xpath = "//button[text()='Create Account']")
 	public WebElement createAccountBttn;
 
-	@FindBy(xpath = "//button[text()='Reset Form']")
+	@FindBy(xpath = "//button[text()='Clear Form']")
 	public WebElement resetFormBttn;
 
 }
