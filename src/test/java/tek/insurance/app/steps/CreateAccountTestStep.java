@@ -7,6 +7,9 @@ import tek.insurance.app.pages.POMFactory;
 import tek.insurance.app.utilities.CommonUtility;
 import tek.insurance.app.utilities.DataGenerator;
 import org.junit.Assert;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
+
 import java.util.List;
 import java.util.Map;
 
@@ -14,6 +17,7 @@ import io.cucumber.datatable.DataTable;
 
 public class CreateAccountTestStep extends CommonUtility {
 	POMFactory factory = new POMFactory();
+	String mainEmail;
 
 	@Given("User is on tek insurance app website and validate the website")
 	public void userIsOnTekInsuranceAppWebsiteAndValidateTheWebsite() {
@@ -44,27 +48,27 @@ public class CreateAccountTestStep extends CommonUtility {
 		Assert.assertEquals(createPrimaryAccountHolder, actual);
 		logger.info(
 				"the actual " + actual + " and expected " + createPrimaryAccountHolder + " was same - process passed");
-		
+
 		waitTillPresence(factory.getCreateAccountTest().createAccountBttn);
 		String actualAccountBttn = factory.getCreateAccountTest().createAccountBttn.getText();
 		Assert.assertEquals(createAccount, actualAccountBttn);
-		logger.info(
-				"the actual " + actualAccountBttn + " and expected " + createAccount + " button was same - process passed");
-		
+		logger.info("the actual " + actualAccountBttn + " and expected " + createAccount
+				+ " button was same - process passed");
+
 		waitTillPresence(factory.getCreateAccountTest().resetFormBttn);
 		String actualResetBttn = factory.getCreateAccountTest().resetFormBttn.getText();
 		Assert.assertEquals(resetForm, actualResetBttn);
 		logger.info(
 				"the actual " + actualResetBttn + " and expected " + resetForm + " button was same - process passed");
-		
+
 	}
 
 	@When("user fill the form with below information")
 	public void userFillTheFormWithBelowInformation(DataTable dataTable) {
-		String email = DataGenerator.getEmail();
+		mainEmail = DataGenerator.getEmail();
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
-			sendText(factory.getCreateAccountTest().emailField, email);
+			sendText(factory.getCreateAccountTest().emailField, mainEmail);
 			logger.info("User seccessfully entered the email - process passed");
 
 			selectByVisibleText(factory.getCreateAccountTest().titleDropdown, row.get("title"));
@@ -82,7 +86,8 @@ public class CreateAccountTestStep extends CommonUtility {
 			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
 			logger.info("User seccessfully select the marital status - process passed");
 
-			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+//			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+//			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
 			logger.info("User seccessfully entered the date of birth - process passed");
 
 			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
@@ -96,11 +101,6 @@ public class CreateAccountTestStep extends CommonUtility {
 		waitTillClickable(factory.getCreateAccountTest().createAccountBttn);
 		click(factory.getCreateAccountTest().createAccountBttn);
 		logger.info("User successfully clicked - process passed");
-	}
-
-	@Then("another page should be displayed")
-	public void anotherPageShouldBeDisplayed() {
-		// next step
 	}
 
 	@Then("user click on Cancel button")
@@ -132,6 +132,56 @@ public class CreateAccountTestStep extends CommonUtility {
 		String expectedEmpField = "";
 		Assert.assertEquals(expectedEmpField, actualEmpField);
 		logger.info("The field are empty");
+	}
+
+	@Then("another page should be displayed and validate the {string} text")
+	public void anotherPageShouldBeDisplayedAndValidateTheText(String signUpYourAccount) {
+		waitTillPresence(factory.getCreateAccountTest().signUpYourAccountLink);
+		String actual = factory.getCreateAccountTest().signUpYourAccountLink.getText();
+		Assert.assertEquals(signUpYourAccount, actual);
+		logger.info("another page displayed successfully and text validated - process passed");
+	}
+
+//	@Then("validate the exact email created before")
+//	public void validateTheExactEmailCreatedBefore() {
+//		List<WebElement> head = (List<WebElement>) factory.getCreateAccountTest().headingEmailText;
+//		for (var heads : head) {
+//			if (heads.getText().equals(mainEmail)) {
+//				Assert.assertTrue(heads.getText().equals(mainEmail));
+//			}
+//		}
+//		try {
+//
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+//
+//		logger.info("the two emails was same - process passed");
+//	}
+
+	@When("fill the from for username and password")
+	public void fillTheFromForUsernameAndPassword(DataTable dataTable) {
+		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> row : data) {
+			waitTillPresence(factory.getCreateAccountTest().userNameField);
+			sendText(factory.getCreateAccountTest().userNameField, mainEmail);
+			logger.info("User successfully entered the username - process passed");
+
+			waitTillPresence(factory.getCreateAccountTest().passwordField);
+			sendText(factory.getCreateAccountTest().passwordField, row.get("password"));
+			logger.info("User successfully entered the password - process passed");
+
+			waitTillPresence(factory.getCreateAccountTest().confirmPassField);
+			sendText(factory.getCreateAccountTest().passwordField, row.get("confirmPassword"));
+			logger.info("User successfully entered the confirm password - process passed");
+		}
+	}
+
+	@Then("sumbit the form")
+	public void sumbitTheForm() {
+		waitTillPresence(factory.getCreateAccountTest().submitBttn);
+		click(factory.getCreateAccountTest().submitBttn);
+		logger.info("User successfully clicked on submit button");
 	}
 
 }

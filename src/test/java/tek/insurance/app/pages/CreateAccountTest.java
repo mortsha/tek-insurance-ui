@@ -1,5 +1,7 @@
 package tek.insurance.app.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -45,4 +47,19 @@ public class CreateAccountTest extends BaseSetup {
 	@FindBy(xpath = "//button[text()='Clear Form']")
 	public WebElement resetFormBttn;
 
+	@FindBy(xpath = "//h2[text()='Sign up your account']")
+	public WebElement signUpYourAccountLink;
+	
+	
+	@FindBy(id = "username")
+	public WebElement userNameField;
+	
+	@FindBy(id = "password")
+	public WebElement passwordField;
+	
+	@FindBy(id = "confirm")
+	public WebElement confirmPassField;
+	
+	@FindBy(xpath = "//button[text()='Submit']")
+	public WebElement submitBttn;
 }
