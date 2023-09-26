@@ -1,5 +1,5 @@
 @Login
-Feature: Login to the account with two different portals with negative testing
+Feature: Login to the account with two different portals
 
   Background: click on the login button
     Given User is on tek insurance app website and validate the website
