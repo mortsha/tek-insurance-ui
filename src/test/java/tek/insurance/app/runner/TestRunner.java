@@ -7,7 +7,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@Regression",
+		tags = "@Negative1PrimaryAccount",
 		features = ("classpath:features"),
 		glue = "tek.insurance.app",
 		dryRun = false,
