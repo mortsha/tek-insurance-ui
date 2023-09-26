@@ -1572,3 +1572,37 @@
 2023-09-26 19:17:13,268 - logger_file -INFO - User successfully entered the username: mori123 -process passed
 2023-09-26 19:17:13,366 - logger_file -INFO - User successfully entered the password - process passed
 2023-09-26 19:17:13,448 - logger_file -INFO - User successfully clicked on sign in button
+2023-09-26 19:27:51,358 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-26 19:27:51,469 - logger_file -INFO - User successfully clicked on login button - process passed
+2023-09-26 19:27:51,508 - logger_file -INFO - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-09-26 19:27:51,626 - logger_file -INFO - User successfully entered the username: mori -process passed
+2023-09-26 19:27:51,728 - logger_file -INFO - User successfully entered the password - process passed
+2023-09-26 19:27:51,821 - logger_file -INFO - User successfully clicked on sign in button
+2023-09-26 19:29:27,039 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-26 19:29:27,149 - logger_file -INFO - User successfully clicked on login button - process passed
+2023-09-26 19:29:27,186 - logger_file -INFO - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-09-26 19:29:27,312 - logger_file -INFO - User successfully entered the username: supervisor -process passed
+2023-09-26 19:29:27,427 - logger_file -INFO - User successfully entered the password. process - passed
+2023-09-26 19:29:27,513 - logger_file -INFO - User successfully clicked on sign in button
+2023-09-26 19:29:27,964 - logger_file -INFO - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-09-26 19:29:27,992 - logger_file -INFO - The actual: Accounts and expected: Accounts was same - process passed
+2023-09-26 19:29:28,005 - logger_file -INFO - The actual: Plans and expected: Plans was same - process passed
+2023-09-26 19:29:28,245 - logger_file -INFO - The actual: CSR and expected: CSR was same - process passed
+2023-09-26 19:29:28,272 - logger_file -INFO - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-09-26 19:29:28,298 - logger_file -INFO - The actual: supervisor and expected: supervisor was same - process passed
+2023-09-26 19:29:28,381 - logger_file -INFO - User successfully clicked on logout button - process passed
+2023-09-26 19:29:30,289 - logger_file -INFO - website logo successfully displayed - process passed
+2023-09-26 19:29:30,391 - logger_file -INFO - User successfully clicked on login button - process passed
+2023-09-26 19:29:30,423 - logger_file -INFO - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-09-26 19:29:30,529 - logger_file -INFO - User successfully entered the username: mori123 -process passed
+2023-09-26 19:29:30,624 - logger_file -INFO - User successfully entered the password. process - passed
+2023-09-26 19:29:30,713 - logger_file -INFO - User successfully clicked on sign in button
+2023-09-26 19:29:31,101 - logger_file -INFO - The actual: Primary Account Portal and expected: Primary Account Portal was same - process passed
+2023-09-26 19:29:31,128 - logger_file -INFO - The actual: Dashboard and expected: Dashboard was same - process passed
+2023-09-26 19:29:31,140 - logger_file -INFO - The actual: Plans and expected: Plans was same - process passed
+2023-09-26 19:29:31,153 - logger_file -INFO - The actual: Payments and expected: Payments was same - process passed
+2023-09-26 19:29:31,168 - logger_file -INFO - The actual: Settings and expected: Settings was same - process passed
+2023-09-26 19:29:31,410 - logger_file -INFO - The actual: CUSTOMER and expected: CUSTOMER was same - process passed
+2023-09-26 19:29:31,435 - logger_file -INFO - The actual: Mroi Shi and expected: Mroi Shi was same - process passed
+2023-09-26 19:29:31,461 - logger_file -INFO - The actual: mori123 and expected: mori123 was same - process passed
+2023-09-26 19:29:31,549 - logger_file -INFO - User successfully clicked on logout button - process passed
