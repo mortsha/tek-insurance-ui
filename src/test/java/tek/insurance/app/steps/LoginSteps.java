@@ -45,6 +45,20 @@ public class LoginSteps extends CommonUtility {
 		logger.info("User successfully clicked on sign in button");
 	}
 
+	@When("User should see the Error message of User not found")
+	public void userShouldSeeTheErrorMessageOfUserNotFound() {
+		waitTillPresence(factory.getLoginPage().errorUserNotFound);
+		Assert.assertTrue(factory.getLoginPage().errorUserNotFound.isDisplayed());
+		logger.info("Error message displayed - process passed");
+	}
+
+	@When("User should see the Error message of Password not matched")
+	public void userShouldSeeTheErrorMessageOfPasswordNotMatched() {
+		waitTillPresence(factory.getLoginPage().errorPassNotMatch);
+		Assert.assertTrue(factory.getLoginPage().errorPassNotMatch.isDisplayed());
+		logger.info("Error message displayed - process passed");
+	}
+
 	@Then("The {string} title should be displayed")
 	public void theTitleShouldBeDisplayed(String customerPortal) {
 		waitTillPresence(factory.getLoginPage().customerServicePortal);
@@ -136,7 +150,8 @@ public class LoginSteps extends CommonUtility {
 	}
 
 	@Then("User click on profile section and user type {string} FullName {string} username {string}")
-	public void userClickOnProfileSectionAndUserTypeFullNameUsername(String userType, String fullName, String username) {
+	public void userClickOnProfileSectionAndUserTypeFullNameUsername(String userType, String fullName,
+			String username) {
 		waitTillClickable(factory.getLoginPage().profileBttn);
 		click(factory.getLoginPage().profileBttn);
 		waitTillPresence(factory.getLoginPage().userTypeInPrimary);
@@ -155,7 +170,6 @@ public class LoginSteps extends CommonUtility {
 		logger.info("The actual: " + actualUsername + " and expected: " + username + " was same - process passed");
 	}
 
-
 	@Then("User click on logout button")
 	public void userClickOnLogoutButton() {
 		waitTillClickable(factory.getLoginPage().logoutBttnInCustomer);
@@ -163,6 +177,16 @@ public class LoginSteps extends CommonUtility {
 		logger.info("User successfully clicked on logout button - process passed");
 	}
 
-	
+	// Negative CSR Testing
+	@Given("User enter the username {string} and password {string}")
+	public void userEnterTheUsernameAndPassword(String username, String password) {
+		waitTillPresence(factory.getLoginPage().usernameField);
+		sendText(factory.getLoginPage().usernameField, username);
+		logger.info("User successfully entered the username: " + username + " -process passed");
+		waitTillPresence(factory.getLoginPage().passwordField);
+		sendText(factory.getLoginPage().passwordField, password);
+		logger.info("User successfully entered the password - process passed");
+
+	}
 
 }

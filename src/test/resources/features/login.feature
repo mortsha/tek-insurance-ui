@@ -23,5 +23,27 @@ Feature: Login to the account with two different portals
     And Validate some options like 'Dashboard' 'Plans' 'Payments' 'Settings'
     And User click on profile section and user type 'CUSTOMER' FullName 'Mroi Shi' username 'mori123'
     And User click on logout button
-    
-    
+
+  @Negative1SCR
+  Scenario: Login with wrong username and correct password to CSR home
+    Given User enter the username 'supervis' and password 'tek_supervisor'
+    When User clicked on	sign in
+    And User should see the Error message of User not found
+
+  @Negative2SCR
+  Scenario: Login with correct username and wrong password to CSR home
+    Given User enter the username 'supervisor' and password 'alaki1234'
+    When User clicked on	sign in
+    And User should see the Error message of Password not matched
+
+  @Negative1PrimaryAccount
+  Scenario: Login with wrong username and correct password to Primary Account home
+    Given User enter the username 'mori' and password 'mori1234'
+    When User clicked on	sign in
+    And User should see the Error message of User not found
+
+  @Negative2PrimaryAccount
+  Scenario: Login with correct username and wrong password to Primary Account home
+    Given User enter the username 'mori123' and password 'mori0000'
+    When User clicked on	sign in
+    And User should see the Error message of Password not matched

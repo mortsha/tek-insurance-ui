@@ -79,4 +79,14 @@ public class LoginPage extends BaseSetup {
 	
 	@FindBy(xpath = "//p[text()='mori123']")
 	public WebElement usernameInPrimary;
+	
+	// negative testing
+	
+	@FindBy(xpath = "//div[text()='User not found']")
+	public WebElement errorUserNotFound;
+	
+	@FindBy(xpath = "//div[text()='Password not matched']")
+	public WebElement errorPassNotMatch;
+	
+
 }

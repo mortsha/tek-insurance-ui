@@ -1,13 +1,6 @@
 @regression	@createAccount
 Feature: Create Primary Account with negative test
 
-  #Launch to the website and validate that you are in the right website.
-  #In the main Page click on the Create Primary Account button.
-  #After that the sign up page should be displayed by the name of 'Create Primary Account Holder'
-  # with 'Create Account' and 'Cancel Form' buttons.
-  #Fill the Sign up form to create an account with valid information
-  #Check for Positive Testing while you create an account the next page should be displayed
-  #Check for Negative Testing while you cancel the form the information in the fields should be removed.
   Background: Launch the website and fill the SignUp form
     Given User is on tek insurance app website and validate the website
     And User click on create primary account button
