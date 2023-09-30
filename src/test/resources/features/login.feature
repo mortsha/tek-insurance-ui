@@ -1,4 +1,4 @@
-@Login
+@smoke @Login
 Feature: Login to the account with two different portals
 
   Background: click on the login button

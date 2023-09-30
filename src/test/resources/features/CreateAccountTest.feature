@@ -1,5 +1,5 @@
-@Regression
-Feature: Create Primary Account
+@regression	@createAccount
+Feature: Create Primary Account with negative test
 
   #Launch to the website and validate that you are in the right website.
   #In the main Page click on the Create Primary Account button.
@@ -36,3 +36,6 @@ Feature: Create Primary Account
       | username | password  | confirmPassword |
       | username | smile7788 | smile7788       |
     Then sumbit the form
+    
+    
+    #Scenario: create account negative test with existing email

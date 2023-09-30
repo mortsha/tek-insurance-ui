@@ -1,4 +1,5 @@
-@LoginNegative
+
+@smoke	@LoginNegative
 Feature: Login to the account and negative testing
 
   Background: click on the login button
@@ -11,6 +12,7 @@ Feature: Login to the account and negative testing
     Scenario: Login with wrong username and correct password to CSR home
     Given User enter the username 'supervis' and password 'tek_supervisor'
     When User clicked on	sign in
+    #And User should see the Error message of User not found
     Then The 'Customer Service Portal' title should be displayed
     
     @Negative2SCR

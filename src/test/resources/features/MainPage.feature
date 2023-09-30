@@ -1,4 +1,4 @@
-@Regression
+@regression	@main
 Feature: Launch to Main Page
 
   @mainPage
