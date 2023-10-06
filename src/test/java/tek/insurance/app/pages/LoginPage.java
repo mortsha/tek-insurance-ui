@@ -71,18 +71,20 @@ public class LoginPage extends BaseSetup {
 	@FindBy(xpath = "//a[text()='Settings']")
 	public WebElement settingsLink;
 	
-	@FindBy(xpath = "//p[text()='CUSTOMER']")
+	@FindBy(xpath = "//p[text()='User Type']//following-sibling::p")
+//	@FindBy(xpath = "//p[text()='CUSTOMER']")
 	public WebElement userTypeInPrimary;
 	
-	@FindBy(xpath = "//p[text()='Mroi Shi']")
+	@FindBy(xpath = "//p[text()='Full Name']//following-sibling::p")
 	public WebElement fullNameInPrimary;
 	
-	@FindBy(xpath = "//p[text()='mori123']")
+	@FindBy(xpath = "//p[text()='Username']//following-sibling::p")
 	public WebElement usernameInPrimary;
 	
 	// negative testing
 	
-	@FindBy(xpath = "//div[text()='User not found']")
+//	@FindBy(xpath = "//div[text()='User not found']")
+	@FindBy(xpath = "//div[contains(text(),'not found')]")
 	public WebElement errorUserNotFound;
 	
 	@FindBy(xpath = "//div[text()='Password not matched']")

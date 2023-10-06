@@ -17,11 +17,11 @@ Feature: Login to the account with two different portals
 
   @PrimaryAccountLogin
   Scenario: Login to the Customer home
-    Given User entered the username 'mori123' password 'mori1234'
+    Given User entered the username 'mori1234@gmail.com' password 'mori1234'
     When User clicked on sign in button
     Then The 'Primary Account Portal' should be displayed
     And Validate some options like 'Dashboard' 'Plans' 'Payments' 'Settings'
-    And User click on profile section and user type 'CUSTOMER' FullName 'Mroi Shi' username 'mori123'
+    And User click on profile section and user type 'CUSTOMER' FullName 'Mori Sharifi' username 'mori1234@gmail.com'
     And User click on logout button
 
   @Negative1SCR
@@ -44,6 +44,6 @@ Feature: Login to the account with two different portals
 
   @Negative2PrimaryAccount
   Scenario: Login with correct username and wrong password to Primary Account home
-    Given User enter the username 'mori123' and password 'mori0000'
+    Given User enter the username 'mori1234@gmail.com' and password 'mori0000'
     When User clicked on	sign in
     And User should see the Error message of Password not matched
