@@ -184,4 +184,42 @@ public class CreateAccountTestStep extends CommonUtility {
 		logger.info("User successfully clicked on submit button");
 	}
 
+	@When("user fill form with below information")
+	public void userFillFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
+		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> row : data) {
+			sendText(factory.getCreateAccountTest().emailField, row.get("email"));
+			logger.info("User seccessfully entered the email - process passed");
+
+			selectByVisibleText(factory.getCreateAccountTest().titleDropdown, row.get("title"));
+			logger.info("User seccessfully select the title - process passed");
+
+			sendText(factory.getCreateAccountTest().firstNameField, row.get("firstName"));
+			logger.info("User seccessfully entered the first name - process passed");
+
+			sendText(factory.getCreateAccountTest().lastNameField, row.get("lastName"));
+			logger.info("User seccessfully entered the last name - process passed");
+
+			selectByVisibleText(factory.getCreateAccountTest().genderDropdown, row.get("gender"));
+			logger.info("User seccessfully select the gender - process passed");
+
+			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
+			logger.info("User seccessfully select the marital status - process passed");
+
+//			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+//			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+			logger.info("User seccessfully entered the date of birth - process passed");
+
+			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
+			logger.info("User seccessfully entered the employment status - process passed");
+		}
+	}
+	// negative user account exist
+
+	@Then("the error should be display and say the account with this email is exist")
+	public void theErrorShouldBeDisplayAndSayTheAccountWithThisEmailIsExist() {
+		waitTillPresence(factory.getCreateAccountTest().errorAccountExist);
+		Assert.assertTrue(factory.getCreateAccountTest().errorAccountExist.isDisplayed());
+		logger.info("The error message succesffully displayed - process passed");
+	}
 }

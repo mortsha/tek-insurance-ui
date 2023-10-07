@@ -62,4 +62,9 @@ public class CreateAccountTest extends BaseSetup {
 	
 	@FindBy(xpath = "//button[text()='Submit']")
 	public WebElement submitBttn;
+	
+	@FindBy(xpath = "//div[contains(text(),'is exist')]")
+	public WebElement errorAccountExist;
+	
+	
 }

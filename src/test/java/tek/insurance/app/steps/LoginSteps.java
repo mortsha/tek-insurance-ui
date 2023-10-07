@@ -188,5 +188,4 @@ public class LoginSteps extends CommonUtility {
 		logger.info("User successfully entered the password - process passed");
 
 	}
-
 }

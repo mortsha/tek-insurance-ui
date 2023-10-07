@@ -2940,3 +2940,175 @@
 2023-10-06 16:10:31,181 [main] INFO logger_file - User successfully entered the password - process passed
 2023-10-06 16:10:31,260 [main] INFO logger_file - User successfully clicked on sign in button
 2023-10-06 16:10:31,610 [main] INFO logger_file - Error message displayed - process passed
+2023-10-07 14:14:48,966 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:14:49,080 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:14:49,115 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-10-07 14:14:49,145 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-10-07 14:14:49,178 [main] INFO logger_file - the actual Create Account and expected Create Account button was same - process passed
+2023-10-07 14:14:49,203 [main] INFO logger_file - the actual Clear Form and expected Clear Form button was same - process passed
+2023-10-07 14:14:49,375 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-10-07 14:14:49,461 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-10-07 14:14:49,537 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-10-07 14:14:49,611 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-10-07 14:14:49,678 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-10-07 14:14:49,748 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-10-07 14:14:49,749 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-10-07 14:14:49,873 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-10-07 14:15:57,492 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:15:57,607 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:15:57,641 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-10-07 14:15:57,671 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-10-07 14:15:57,703 [main] INFO logger_file - the actual Create Account and expected Create Account button was same - process passed
+2023-10-07 14:15:57,732 [main] INFO logger_file - the actual Clear Form and expected Clear Form button was same - process passed
+2023-10-07 14:15:57,904 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-10-07 14:15:57,987 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-10-07 14:15:58,060 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-10-07 14:15:58,134 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-10-07 14:15:58,204 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-10-07 14:15:58,272 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-10-07 14:15:58,273 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-10-07 14:15:58,397 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-10-07 14:15:58,480 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:03,276 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:03,386 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:03,419 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-10-07 14:19:03,449 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-10-07 14:19:03,482 [main] INFO logger_file - the actual Create Account and expected Create Account button was same - process passed
+2023-10-07 14:19:03,508 [main] INFO logger_file - the actual Clear Form and expected Clear Form button was same - process passed
+2023-10-07 14:19:03,681 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-10-07 14:19:03,763 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-10-07 14:19:03,840 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-10-07 14:19:03,914 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-10-07 14:19:03,983 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-10-07 14:19:04,052 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-10-07 14:19:04,052 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-10-07 14:19:04,176 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-10-07 14:19:04,257 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:04,652 [main] INFO logger_file - The error message succesffully displayed - process passed
+2023-10-07 14:19:30,930 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:31,040 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:31,073 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-10-07 14:19:31,107 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-10-07 14:19:31,141 [main] INFO logger_file - the actual Create Account and expected Create Account button was same - process passed
+2023-10-07 14:19:31,169 [main] INFO logger_file - the actual Clear Form and expected Clear Form button was same - process passed
+2023-10-07 14:19:31,332 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-10-07 14:19:31,415 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-10-07 14:19:31,490 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-10-07 14:19:31,561 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-10-07 14:19:31,628 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-10-07 14:19:31,696 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-10-07 14:19:31,697 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-10-07 14:19:31,820 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-10-07 14:19:31,901 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:32,244 [main] INFO logger_file - another page displayed successfully and text validated - process passed
+2023-10-07 14:19:34,035 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:34,135 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:34,164 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-10-07 14:19:34,191 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-10-07 14:19:34,216 [main] INFO logger_file - the actual Create Account and expected Create Account button was same - process passed
+2023-10-07 14:19:34,246 [main] INFO logger_file - the actual Clear Form and expected Clear Form button was same - process passed
+2023-10-07 14:19:34,398 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-10-07 14:19:34,470 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-10-07 14:19:34,546 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-10-07 14:19:34,620 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-10-07 14:19:34,687 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-10-07 14:19:34,752 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-10-07 14:19:34,752 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-10-07 14:19:34,871 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-10-07 14:19:34,945 [main] INFO logger_file - Use successfully clicked - process passed
+2023-10-07 14:19:35,038 [main] INFO logger_file - The field are empty
+2023-10-07 14:19:36,771 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:36,876 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:36,906 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-10-07 14:19:36,933 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-10-07 14:19:36,959 [main] INFO logger_file - the actual Create Account and expected Create Account button was same - process passed
+2023-10-07 14:19:36,990 [main] INFO logger_file - the actual Clear Form and expected Clear Form button was same - process passed
+2023-10-07 14:19:37,142 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-10-07 14:19:37,212 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-10-07 14:19:37,292 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-10-07 14:19:37,364 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-10-07 14:19:37,426 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-10-07 14:19:37,486 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-10-07 14:19:37,487 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-10-07 14:19:37,608 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-10-07 14:19:37,689 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:38,019 [main] INFO logger_file - another page displayed successfully and text validated - process passed
+2023-10-07 14:19:38,128 [main] INFO logger_file - User successfully entered the username - process passed
+2023-10-07 14:19:38,218 [main] INFO logger_file - User successfully entered the password - process passed
+2023-10-07 14:19:38,296 [main] INFO logger_file - User successfully entered the confirm password - process passed
+2023-10-07 14:19:38,363 [main] INFO logger_file - User successfully clicked on submit button
+2023-10-07 14:19:40,217 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:40,319 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:40,345 [main] INFO logger_file - the create primary account was displayed - process passed
+2023-10-07 14:19:40,370 [main] INFO logger_file - the actual Create Primary Account Holder and expected Create Primary Account Holder was same - process passed
+2023-10-07 14:19:40,392 [main] INFO logger_file - the actual Create Account and expected Create Account button was same - process passed
+2023-10-07 14:19:40,419 [main] INFO logger_file - the actual Clear Form and expected Clear Form button was same - process passed
+2023-10-07 14:19:40,587 [main] INFO logger_file - User seccessfully entered the email - process passed
+2023-10-07 14:19:40,657 [main] INFO logger_file - User seccessfully select the title - process passed
+2023-10-07 14:19:40,729 [main] INFO logger_file - User seccessfully entered the first name - process passed
+2023-10-07 14:19:40,798 [main] INFO logger_file - User seccessfully entered the last name - process passed
+2023-10-07 14:19:40,860 [main] INFO logger_file - User seccessfully select the gender - process passed
+2023-10-07 14:19:40,919 [main] INFO logger_file - User seccessfully select the marital status - process passed
+2023-10-07 14:19:40,919 [main] INFO logger_file - User seccessfully entered the date of birth - process passed
+2023-10-07 14:19:41,040 [main] INFO logger_file - User seccessfully entered the employment status - process passed
+2023-10-07 14:19:41,116 [main] INFO logger_file - User successfully clicked - process passed
+2023-10-07 14:19:41,385 [main] INFO logger_file - The error message succesffully displayed - process passed
+2023-10-07 14:19:43,074 [main] INFO logger_file - User was able to log in to the main page and the tek insurance title was displayed - process passed
+2023-10-07 14:19:43,097 [main] INFO logger_file - The Actual and expected text was same - process passed
+2023-10-07 14:19:43,123 [main] INFO logger_file - The actual and expected text button was same - process passed
+2023-10-07 14:19:44,787 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:44,882 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 14:19:44,911 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 14:19:45,028 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-07 14:19:45,134 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-07 14:19:45,209 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 14:19:45,665 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-07 14:19:45,687 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-07 14:19:45,699 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-07 14:19:45,934 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-07 14:19:45,957 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-07 14:19:45,980 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-07 14:19:46,063 [main] INFO logger_file - User successfully clicked on logout button - process passed
+2023-10-07 14:19:47,871 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:47,966 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 14:19:47,993 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 14:19:48,137 [main] INFO logger_file - User successfully entered the username: mori1234@gmail.com -process passed
+2023-10-07 14:19:48,222 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-07 14:19:48,300 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 14:19:48,638 [main] INFO logger_file - The actual: Primary Account Portal and expected: Primary Account Portal was same - process passed
+2023-10-07 14:19:48,660 [main] INFO logger_file - The actual: Dashboard and expected: Dashboard was same - process passed
+2023-10-07 14:19:48,672 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-07 14:19:48,684 [main] INFO logger_file - The actual: Payments and expected: Payments was same - process passed
+2023-10-07 14:19:48,696 [main] INFO logger_file - The actual: Settings and expected: Settings was same - process passed
+2023-10-07 14:19:49,323 [main] INFO logger_file - The actual: CUSTOMER and expected: CUSTOMER was same - process passed
+2023-10-07 14:19:49,346 [main] INFO logger_file - The actual: Mori Sharifi and expected: Mori Sharifi was same - process passed
+2023-10-07 14:19:49,368 [main] INFO logger_file - The actual: mori1234@gmail.com and expected: mori1234@gmail.com was same - process passed
+2023-10-07 14:19:49,444 [main] INFO logger_file - User successfully clicked on logout button - process passed
+2023-10-07 14:19:51,152 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:51,243 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 14:19:51,271 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 14:19:51,376 [main] INFO logger_file - User successfully entered the username: supervis -process passed
+2023-10-07 14:19:51,483 [main] INFO logger_file - User successfully entered the password - process passed
+2023-10-07 14:19:51,562 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 14:19:51,837 [main] INFO logger_file - Error message displayed - process passed
+2023-10-07 14:19:53,587 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:53,681 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 14:19:53,710 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 14:19:53,825 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-07 14:19:53,921 [main] INFO logger_file - User successfully entered the password - process passed
+2023-10-07 14:19:54,002 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 14:19:54,335 [main] INFO logger_file - Error message displayed - process passed
+2023-10-07 14:19:56,091 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:56,188 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 14:19:56,217 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 14:19:56,307 [main] INFO logger_file - User successfully entered the username: mori -process passed
+2023-10-07 14:19:56,396 [main] INFO logger_file - User successfully entered the password - process passed
+2023-10-07 14:19:56,478 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 14:19:56,757 [main] INFO logger_file - Error message displayed - process passed
+2023-10-07 14:19:58,505 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 14:19:58,600 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 14:19:58,628 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 14:19:58,765 [main] INFO logger_file - User successfully entered the username: mori1234@gmail.com -process passed
+2023-10-07 14:19:58,851 [main] INFO logger_file - User successfully entered the password - process passed
+2023-10-07 14:19:58,929 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 14:19:59,263 [main] INFO logger_file - Error message displayed - process passed
