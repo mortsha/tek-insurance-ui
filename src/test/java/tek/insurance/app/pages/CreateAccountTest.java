@@ -66,5 +66,32 @@ public class CreateAccountTest extends BaseSetup {
 	@FindBy(xpath = "//div[contains(text(),'is exist')]")
 	public WebElement errorAccountExist;
 	
+	@FindBy(linkText = "register here")
+	public WebElement registerHereBttn;
 	
+	// lookup
+	
+	@FindBy(id = "email")
+	public WebElement emailLookup;
+	
+	@FindBy(id = "firstName")
+	public WebElement firstnameLookup;
+	
+	@FindBy(id = "lastName")
+	public WebElement lastNameLookup;
+	
+	@FindBy(id = "dateOfBirth")
+	public WebElement dateOfBirthLookup;
+	
+	@FindBy(xpath = "//button[text()='Submit']")
+	public WebElement submitLookup;
+	
+	@FindBy(id = "username")
+	public WebElement userNameLookup;
+	
+	@FindBy(id = "password")
+	public WebElement passowrdLookup;
+	
+	@FindBy(id = "confirm")
+	public WebElement confirmPassLookup;
 }

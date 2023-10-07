@@ -18,6 +18,7 @@ import io.cucumber.datatable.DataTable;
 public class CreateAccountTestStep extends CommonUtility {
 	POMFactory factory = new POMFactory();
 	String mainEmail;
+	String emailLookup1;
 
 	@Given("User is on tek insurance app website and validate the website")
 	public void userIsOnTekInsuranceAppWebsiteAndValidateTheWebsite() {
@@ -86,8 +87,8 @@ public class CreateAccountTestStep extends CommonUtility {
 			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
 			logger.info("User seccessfully select the marital status - process passed");
 
-//			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
-//			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
 			logger.info("User seccessfully entered the date of birth - process passed");
 
 			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
@@ -206,8 +207,8 @@ public class CreateAccountTestStep extends CommonUtility {
 			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
 			logger.info("User seccessfully select the marital status - process passed");
 
-//			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
-//			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
 			logger.info("User seccessfully entered the date of birth - process passed");
 
 			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
@@ -222,4 +223,97 @@ public class CreateAccountTestStep extends CommonUtility {
 		Assert.assertTrue(factory.getCreateAccountTest().errorAccountExist.isDisplayed());
 		logger.info("The error message succesffully displayed - process passed");
 	}
+
+	// lookup
+	@When("user fill form with the below information")
+	public void userFillFormWithTheBelowInformation(DataTable dataTable) {
+		emailLookup1 = DataGenerator.getEmail();
+		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> row : data) {
+			sendText(factory.getCreateAccountTest().emailField, emailLookup1);
+			logger.info("User seccessfully entered the email - process passed");
+
+			selectByVisibleText(factory.getCreateAccountTest().titleDropdown, row.get("title"));
+			logger.info("User seccessfully select the title - process passed");
+
+			sendText(factory.getCreateAccountTest().firstNameField, row.get("firstName"));
+			logger.info("User seccessfully entered the first name - process passed");
+
+			sendText(factory.getCreateAccountTest().lastNameField, row.get("lastName"));
+			logger.info("User seccessfully entered the last name - process passed");
+
+			selectByVisibleText(factory.getCreateAccountTest().genderDropdown, row.get("gender"));
+			logger.info("User seccessfully select the gender - process passed");
+
+			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
+			logger.info("User seccessfully select the marital status - process passed");
+
+			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+			logger.info("User seccessfully entered the date of birth - process passed");
+
+			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
+			logger.info("User seccessfully entered the employment status - process passed");
+		}
+	}
+
+	@Then("user click on Login button")
+	public void userClickOnLoginButton() throws InterruptedException {
+		Thread.sleep(1000);
+		waitTillPresence(factory.getLoginPage().loginLink);
+		click(factory.getLoginPage().loginLink);
+		logger.info("User successfully cliked - process passed");
+		
+	}
+
+	@Then("click on register here")
+	public void clickOnRegisterHere() {
+		waitTillClickable(factory.getCreateAccountTest().registerHereBttn);
+		click(factory.getCreateAccountTest().registerHereBttn);
+		logger.info("User successfully registered - process passed");
+	}
+
+	@Then("fill the form with existing information provided before")
+	public void fillTheFormWithExistingInformationProvidedBefore(DataTable dataTable)  {
+		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> row : data) {
+			
+			sendText(factory.getCreateAccountTest().emailLookup, emailLookup1);
+			logger.info("User seccessfully entered the email - process passed");
+
+			sendText(factory.getCreateAccountTest().firstnameLookup, row.get("FirstName"));
+			logger.info("User seccessfully entered the fistname - process passed");
+
+			sendText(factory.getCreateAccountTest().lastNameLookup, row.get("LastName"));
+			logger.info("User seccessfully entered the lastName - process passed");
+
+			sendText(factory.getCreateAccountTest().dateOfBirthLookup, row.get("DateOfBirth"));
+			logger.info("User seccessfully entered the dateOfBirth - process passed");
+			// matched data message display
+		}
+	}
+
+	@Then("click on submit")
+	public void clickOnSubmit() throws InterruptedException {
+		waitTillClickable(factory.getCreateAccountTest().submitLookup);
+		click(factory.getCreateAccountTest().submitLookup);
+		logger.info("User successfully clicked on submit - process passed");
+
+	}
+
+	@Then("fill from for username and password")
+	public void fillFromForUsernameAndPassword(DataTable dataTable)  {
+		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+		for (Map<String, String> row : data) {
+			sendText(factory.getCreateAccountTest().userNameLookup, emailLookup1);
+			logger.info("User successfully entered username - process passed");
+
+			sendText(factory.getCreateAccountTest().passowrdLookup, row.get("password"));
+			logger.info("User successfully entered password - process passed");
+
+			sendText(factory.getCreateAccountTest().confirmPassLookup, row.get("confirmPassword"));
+			logger.info("User successfully entered confirmPassword - process passed");
+		}
+	}
+
 }
