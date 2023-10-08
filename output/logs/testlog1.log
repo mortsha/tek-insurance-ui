@@ -3878,3 +3878,71 @@
 2023-10-07 21:56:36,291 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
 2023-10-07 21:56:36,316 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
 2023-10-07 21:56:36,342 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:02:29,642 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 22:02:29,747 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 22:02:29,777 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 22:02:29,885 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-07 22:02:29,990 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-07 22:02:30,074 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 22:02:30,534 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-07 22:02:30,608 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-07 22:02:30,767 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-07 22:02:30,794 [main] INFO logger_file - The text motorcycle was displayed - process passed
+2023-10-07 22:02:30,820 [main] INFO logger_file - The text boat was displayed - process passed
+2023-10-07 22:02:30,845 [main] INFO logger_file - The text renters was displayed - process passed
+2023-10-07 22:02:30,870 [main] INFO logger_file - The text auto was displayed - process passed
+2023-10-07 22:02:30,901 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:02:30,927 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:02:30,951 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:02:30,974 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:02:30,999 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:02:31,023 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:02:31,046 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:02:31,070 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:10:31,047 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 22:10:31,152 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 22:10:31,187 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 22:10:31,316 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-07 22:10:31,429 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-07 22:10:31,512 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 22:10:31,981 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-07 22:10:32,052 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-07 22:10:32,198 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-07 22:10:32,223 [main] INFO logger_file - The text motorcycle was displayed - process passed
+2023-10-07 22:10:32,249 [main] INFO logger_file - The text boat was displayed - process passed
+2023-10-07 22:10:32,275 [main] INFO logger_file - The text renters was displayed - process passed
+2023-10-07 22:10:32,301 [main] INFO logger_file - The text auto was displayed - process passed
+2023-10-07 22:10:32,330 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:10:32,354 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:10:32,380 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:10:32,404 [main] INFO logger_file - the actual date created October 8, 2023 and expected October 8, 2023 was same - process passed
+2023-10-07 22:10:32,429 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:10:32,454 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:10:32,478 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:10:32,502 [main] INFO logger_file - the actual expired date  October 9, 2023 and expected October 9, 2023 was same - process passed
+2023-10-07 22:11:39,880 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 22:11:39,993 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 22:11:40,026 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 22:11:40,137 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-07 22:11:40,245 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-07 22:11:40,331 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 22:11:40,733 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-07 22:11:40,808 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-07 22:11:40,955 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-07 22:11:40,983 [main] INFO logger_file - The text motorcycle was displayed - process passed
+2023-10-07 22:11:41,010 [main] INFO logger_file - The text boat was displayed - process passed
+2023-10-07 22:11:41,037 [main] INFO logger_file - The text renters was displayed - process passed
+2023-10-07 22:11:41,063 [main] INFO logger_file - The text auto was displayed - process passed
+2023-10-07 22:12:20,508 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-07 22:12:20,626 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-07 22:12:20,661 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-07 22:12:20,784 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-07 22:12:20,904 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-07 22:12:20,991 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-07 22:12:21,388 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-07 22:12:21,464 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-07 22:12:21,625 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-07 22:12:21,652 [main] INFO logger_file - The text motorcycle was displayed - process passed
+2023-10-07 22:12:21,678 [main] INFO logger_file - The text boat was displayed - process passed
+2023-10-07 22:12:21,703 [main] INFO logger_file - The text renters was displayed - process passed
+2023-10-07 22:12:21,730 [main] INFO logger_file - The text auto was displayed - process passed

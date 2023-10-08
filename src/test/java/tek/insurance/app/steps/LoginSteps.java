@@ -227,31 +227,31 @@ public class LoginSteps extends CommonUtility {
 
 	}
 
-	@Then("Date created should be tomorrows date")
-	public void dateCreatedShouldBeTomorrowsDate() {
+	@Then("Date created should be todays date")
+	public void dateCreatedShouldBeTodaysDate() {
 
-		LocalDate tomDate = LocalDate.now().plusDays(1);
+		LocalDate todaysDate = LocalDate.now();
 		DateTimeFormatter formatterTodayDate = DateTimeFormatter.ofPattern("MMMM d, yyyy");
-		String actualCreatedDate = tomDate.format(formatterTodayDate);
+		String actualCreatedDate = todaysDate.format(formatterTodayDate);
 
 		waitTillPresence(factory.getLoginPage().motorCreatedDate);
 		String motorDate = factory.getLoginPage().motorCreatedDate.getText();
 		Assert.assertEquals(actualCreatedDate, motorDate);
 		logger.info("the actual date created " + actualCreatedDate + " and expected " + motorDate
 				+ " was same - process passed");
-		
+
 		waitTillPresence(factory.getLoginPage().boatCreatedDate);
 		String boatDate = factory.getLoginPage().boatCreatedDate.getText();
 		Assert.assertEquals(actualCreatedDate, boatDate);
 		logger.info("the actual date created " + actualCreatedDate + " and expected " + boatDate
 				+ " was same - process passed");
-		
+
 		waitTillPresence(factory.getLoginPage().rentersCreatedDate);
 		String rentersDate = factory.getLoginPage().rentersCreatedDate.getText();
 		Assert.assertEquals(actualCreatedDate, rentersDate);
 		logger.info("the actual date created " + actualCreatedDate + " and expected " + rentersDate
 				+ " was same - process passed");
-		
+
 		waitTillPresence(factory.getLoginPage().autoCreatedDate);
 		String autoDate = factory.getLoginPage().autoCreatedDate.getText();
 		Assert.assertEquals(actualCreatedDate, autoDate);
@@ -259,9 +259,9 @@ public class LoginSteps extends CommonUtility {
 				+ " was same - process passed");
 	}
 
-	@Then("Date expired should be one day after tomorrows date")
-	public void dateExpiredShouldBeOneDayAfterTomorrowsDate() {
-		LocalDate tomorrowDate = LocalDate.now().plusDays(2);
+	@Then("Date expired should be one day after that date")
+	public void dateExpiredShouldBeOneDayAfterThatDate() {
+		LocalDate tomorrowDate = LocalDate.now().plusDays(1);
 		DateTimeFormatter formatterTodayDate = DateTimeFormatter.ofPattern("MMMM d, yyyy");
 		String actualExpiredDate = tomorrowDate.format(formatterTodayDate);
 
@@ -270,19 +270,19 @@ public class LoginSteps extends CommonUtility {
 		Assert.assertEquals(actualExpiredDate, motorExpireDate);
 		logger.info("the actual expired date  " + actualExpiredDate + " and expected " + motorExpireDate
 				+ " was same - process passed");
-		
+
 		waitTillPresence(factory.getLoginPage().boatExpiredDate);
 		String boatExpireDate = factory.getLoginPage().boatExpiredDate.getText();
 		Assert.assertEquals(actualExpiredDate, boatExpireDate);
 		logger.info("the actual expired date  " + actualExpiredDate + " and expected " + boatExpireDate
 				+ " was same - process passed");
-		
+
 		waitTillPresence(factory.getLoginPage().rentersExpiredDate);
 		String rentersExpireDate = factory.getLoginPage().rentersExpiredDate.getText();
 		Assert.assertEquals(actualExpiredDate, rentersExpireDate);
 		logger.info("the actual expired date  " + actualExpiredDate + " and expected " + rentersExpireDate
 				+ " was same - process passed");
-		
+
 		waitTillPresence(factory.getLoginPage().autoExpiredDate);
 		String autoExpireDate = factory.getLoginPage().autoExpiredDate.getText();
 		Assert.assertEquals(actualExpiredDate, autoExpireDate);
