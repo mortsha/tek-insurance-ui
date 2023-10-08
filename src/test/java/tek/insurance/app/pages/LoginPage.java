@@ -91,4 +91,46 @@ public class LoginPage extends BaseSetup {
 	public WebElement errorPassNotMatch;
 	
 
+	// Plans
+	@FindBy(xpath = "//h2[contains(text(),'Plans Price')]")
+	public WebElement todaysPlansPriceText;
+	
+	@FindBy(xpath = "//td[text()='Motorcycle']")
+	public WebElement motorcyleText;
+	
+	@FindBy(xpath = "//td[text()='Boat']")
+	public WebElement boatText;
+	
+	@FindBy(xpath = "//td[text()='Renters']")
+	public WebElement rentersText;
+	
+	@FindBy(xpath = "//td[text()='Auto']")
+	public WebElement autoText;
+	
+	@FindBy(xpath = "//td[text()='Motorcycle']//following-sibling::td[2]")
+	public WebElement motorCreatedDate;
+	
+	@FindBy(xpath = "//td[text()='Motorcycle']//following-sibling::td[3]")
+	public WebElement motorExpiredDate;
+	
+	@FindBy(xpath = "//td[text()='Boat']//following-sibling::td[2]")
+	public WebElement boatCreatedDate;
+	
+	@FindBy(xpath = "//td[text()='Boat']//following-sibling::td[3]")
+	public WebElement boatExpiredDate;
+	
+	@FindBy(xpath = "//td[text()='Renters']//following-sibling::td[2]")
+	public WebElement rentersCreatedDate;
+	
+	@FindBy(xpath = "//td[text()='Renters']//following-sibling::td[3]")
+	public WebElement rentersExpiredDate;
+	
+	@FindBy(xpath = "//td[text()='Auto']//following-sibling::td[2]")
+	public WebElement autoCreatedDate;
+	
+	@FindBy(xpath = "//td[text()='Auto']//following-sibling::td[3]")
+	public WebElement autoExpiredDate;
+	
+	
+	
 }

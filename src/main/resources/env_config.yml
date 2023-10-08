@@ -1,4 +1,4 @@
 ui:
    browser: chrome
-   headless: false
+   headless: true
    url: https://dev.insurance.tekschool-students.com

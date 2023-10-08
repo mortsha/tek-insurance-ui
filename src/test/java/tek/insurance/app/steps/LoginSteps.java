@@ -1,5 +1,8 @@
 package tek.insurance.app.steps;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 import org.junit.Assert;
 
 import io.cucumber.java.en.Given;
@@ -186,6 +189,105 @@ public class LoginSteps extends CommonUtility {
 		waitTillPresence(factory.getLoginPage().passwordField);
 		sendText(factory.getLoginPage().passwordField, password);
 		logger.info("User successfully entered the password - process passed");
+	}
+
+	// Plans
+
+	@When("The User click on Plans")
+	public void theUserClickOnPlans() {
+		waitTillClickable(factory.getLoginPage().plansLink);
+		click(factory.getLoginPage().plansLink);
+		logger.info("User succussfully clicked on Plans - process passed");
+	}
+
+	@When("The text Todays Plans Price should be display")
+	public void theTextTodaysPlansPriceShouldBeDisplay() {
+		waitTillPresence(factory.getLoginPage().todaysPlansPriceText);
+		Assert.assertTrue(factory.getLoginPage().todaysPlansPriceText.isDisplayed());
+		logger.info("The text was displayed successfully - process passed");
+	}
+
+	@Then("The plan types {string} {string} {string} {string} should be there")
+	public void thePlanTypesShouldBeThere(String motorcycle, String boat, String renters, String auto) {
+		waitTillPresence(factory.getLoginPage().motorcyleText);
+		Assert.assertTrue(factory.getLoginPage().motorcyleText.isDisplayed());
+		logger.info("The text motorcycle was displayed - process passed");
+
+		waitTillPresence(factory.getLoginPage().boatText);
+		Assert.assertTrue(factory.getLoginPage().boatText.isDisplayed());
+		logger.info("The text boat was displayed - process passed");
+
+		waitTillPresence(factory.getLoginPage().rentersText);
+		Assert.assertTrue(factory.getLoginPage().rentersText.isDisplayed());
+		logger.info("The text renters was displayed - process passed");
+
+		waitTillPresence(factory.getLoginPage().autoText);
+		Assert.assertTrue(factory.getLoginPage().autoText.isDisplayed());
+		logger.info("The text auto was displayed - process passed");
 
 	}
+
+	@Then("Date created should be tomorrows date")
+	public void dateCreatedShouldBeTomorrowsDate() {
+
+		LocalDate tomDate = LocalDate.now().plusDays(1);
+		DateTimeFormatter formatterTodayDate = DateTimeFormatter.ofPattern("MMMM d, yyyy");
+		String actualCreatedDate = tomDate.format(formatterTodayDate);
+
+		waitTillPresence(factory.getLoginPage().motorCreatedDate);
+		String motorDate = factory.getLoginPage().motorCreatedDate.getText();
+		Assert.assertEquals(actualCreatedDate, motorDate);
+		logger.info("the actual date created " + actualCreatedDate + " and expected " + motorDate
+				+ " was same - process passed");
+		
+		waitTillPresence(factory.getLoginPage().boatCreatedDate);
+		String boatDate = factory.getLoginPage().boatCreatedDate.getText();
+		Assert.assertEquals(actualCreatedDate, boatDate);
+		logger.info("the actual date created " + actualCreatedDate + " and expected " + boatDate
+				+ " was same - process passed");
+		
+		waitTillPresence(factory.getLoginPage().rentersCreatedDate);
+		String rentersDate = factory.getLoginPage().rentersCreatedDate.getText();
+		Assert.assertEquals(actualCreatedDate, rentersDate);
+		logger.info("the actual date created " + actualCreatedDate + " and expected " + rentersDate
+				+ " was same - process passed");
+		
+		waitTillPresence(factory.getLoginPage().autoCreatedDate);
+		String autoDate = factory.getLoginPage().autoCreatedDate.getText();
+		Assert.assertEquals(actualCreatedDate, autoDate);
+		logger.info("the actual date created " + actualCreatedDate + " and expected " + autoDate
+				+ " was same - process passed");
+	}
+
+	@Then("Date expired should be one day after tomorrows date")
+	public void dateExpiredShouldBeOneDayAfterTomorrowsDate() {
+		LocalDate tomorrowDate = LocalDate.now().plusDays(2);
+		DateTimeFormatter formatterTodayDate = DateTimeFormatter.ofPattern("MMMM d, yyyy");
+		String actualExpiredDate = tomorrowDate.format(formatterTodayDate);
+
+		waitTillPresence(factory.getLoginPage().motorExpiredDate);
+		String motorExpireDate = factory.getLoginPage().motorExpiredDate.getText();
+		Assert.assertEquals(actualExpiredDate, motorExpireDate);
+		logger.info("the actual expired date  " + actualExpiredDate + " and expected " + motorExpireDate
+				+ " was same - process passed");
+		
+		waitTillPresence(factory.getLoginPage().boatExpiredDate);
+		String boatExpireDate = factory.getLoginPage().boatExpiredDate.getText();
+		Assert.assertEquals(actualExpiredDate, boatExpireDate);
+		logger.info("the actual expired date  " + actualExpiredDate + " and expected " + boatExpireDate
+				+ " was same - process passed");
+		
+		waitTillPresence(factory.getLoginPage().rentersExpiredDate);
+		String rentersExpireDate = factory.getLoginPage().rentersExpiredDate.getText();
+		Assert.assertEquals(actualExpiredDate, rentersExpireDate);
+		logger.info("the actual expired date  " + actualExpiredDate + " and expected " + rentersExpireDate
+				+ " was same - process passed");
+		
+		waitTillPresence(factory.getLoginPage().autoExpiredDate);
+		String autoExpireDate = factory.getLoginPage().autoExpiredDate.getText();
+		Assert.assertEquals(actualExpiredDate, autoExpireDate);
+		logger.info("the actual expired date  " + actualExpiredDate + " and expected " + autoExpireDate
+				+ " was same - process passed");
+	}
+
 }
