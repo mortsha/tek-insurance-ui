@@ -50,6 +50,7 @@ Feature: Create Primary Account with negative test
       | email              | title | firstName | lastName | gender | maritalStatus | employmentStatus | dateOfBirth |
       | mori1234@gmail.com | Mr.   | Test      | User     | Male   | Single        | Software Tester  | 12-12-1990  |
     Then user click on Create Account button
+    And user navigate to sign up
     And user click on Login button
     And click on register here
     And fill the form with existing information provided before
@@ -60,3 +61,4 @@ Feature: Create Primary Account with negative test
       | userName | password  | confirmPassword |
       | mori1234@gmail.com | smile7788 | smile7788       |
     Then sumbit the form
+    #message success display

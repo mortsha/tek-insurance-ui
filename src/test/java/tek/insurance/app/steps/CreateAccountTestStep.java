@@ -257,13 +257,20 @@ public class CreateAccountTestStep extends CommonUtility {
 		}
 	}
 
+	@Then("user navigate to sign up")
+	public void userNavigateToSignUp() {
+		String actualSignUpText = getElementText(factory.getCreateAccountTest().signupFormText);
+		Assert.assertEquals("Sign up your account", actualSignUpText);
+		logger.info("signup your account text was displayed - process passed");
+
+	}
+
 	@Then("user click on Login button")
 	public void userClickOnLoginButton() throws InterruptedException {
-		Thread.sleep(1000);
-		waitTillPresence(factory.getLoginPage().loginLink);
+
 		click(factory.getLoginPage().loginLink);
 		logger.info("User successfully cliked - process passed");
-		
+
 	}
 
 	@Then("click on register here")
@@ -274,15 +281,16 @@ public class CreateAccountTestStep extends CommonUtility {
 	}
 
 	@Then("fill the form with existing information provided before")
-	public void fillTheFormWithExistingInformationProvidedBefore(DataTable dataTable)  {
+	public void fillTheFormWithExistingInformationProvidedBefore(DataTable dataTable) throws InterruptedException {
+		Thread.sleep(1000);
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
-			
+
 			sendText(factory.getCreateAccountTest().emailLookup, emailLookup1);
 			logger.info("User seccessfully entered the email - process passed");
 
 			sendText(factory.getCreateAccountTest().firstnameLookup, row.get("FirstName"));
-			logger.info("User seccessfully entered the fistname - process passed");
+			logger.info("User seccessfully entered the firstname - process passed");
 
 			sendText(factory.getCreateAccountTest().lastNameLookup, row.get("LastName"));
 			logger.info("User seccessfully entered the lastName - process passed");
@@ -302,7 +310,7 @@ public class CreateAccountTestStep extends CommonUtility {
 	}
 
 	@Then("fill from for username and password")
-	public void fillFromForUsernameAndPassword(DataTable dataTable)  {
+	public void fillFromForUsernameAndPassword(DataTable dataTable) {
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
 			sendText(factory.getCreateAccountTest().userNameLookup, emailLookup1);

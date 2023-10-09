@@ -1,5 +1,7 @@
 package tek.insurance.app.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,7 +14,7 @@ public class LoginPage extends BaseSetup {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	@FindBy(xpath = "//a[text()='Login']")
+	@FindBy(linkText = "Login")
 	public WebElement loginLink;
 	
 	@FindBy(xpath = "//h2[text()='Sign in to your Account']")
@@ -106,6 +108,9 @@ public class LoginPage extends BaseSetup {
 	
 	@FindBy(xpath = "//td[text()='Auto']")
 	public WebElement autoText;
+	
+	@FindBy(xpath = "//table/tbody/tr/td[4]")
+	public List<WebElement> createdDateList;
 	
 	@FindBy(xpath = "//td[text()='Motorcycle']//following-sibling::td[2]")
 	public WebElement motorCreatedDate;

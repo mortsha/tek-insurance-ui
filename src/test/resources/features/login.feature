@@ -35,6 +35,7 @@ Feature: Login to the account with two different portals
     Given User enter the username 'supervisor' and password 'alaki1234'
     When User clicked on	sign in
     And User should see the Error message of Password not matched
+    #validate the error message 'password' or 'user not found'
 
   @Negative1PrimaryAccount
   Scenario: Login with wrong username and correct password to Primary Account home

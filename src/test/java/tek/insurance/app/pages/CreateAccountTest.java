@@ -66,6 +66,9 @@ public class CreateAccountTest extends BaseSetup {
 	@FindBy(xpath = "//div[contains(text(),'is exist')]")
 	public WebElement errorAccountExist;
 	
+	@FindBy(xpath = "//h2[text()='Sign up your account']")
+	public WebElement signupFormText;
+	
 	@FindBy(linkText = "register here")
 	public WebElement registerHereBttn;
 	
