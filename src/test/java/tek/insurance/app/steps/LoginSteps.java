@@ -88,7 +88,6 @@ public class LoginSteps extends CommonUtility {
 
 	@Then("User click on profile and user type {string} Full name {string} username {string}")
 	public void userClickOnProfileAndUserTypeFullNameUsername(String userType, String fullName, String username) {
-		waitTillClickable(factory.getLoginPage().profileBttn);
 		click(factory.getLoginPage().profileBttn);
 
 		waitTillPresence(factory.getLoginPage().userTypeInCustomer);
@@ -122,7 +121,6 @@ public class LoginSteps extends CommonUtility {
 
 	@When("User clicked on sign in button")
 	public void userClickedOnSignInButton() {
-		waitTillClickable(factory.getLoginPage().singInBttn);
 		click(factory.getLoginPage().singInBttn);
 		logger.info("User successfully clicked on sign in button");
 	}
@@ -193,88 +191,6 @@ public class LoginSteps extends CommonUtility {
 		waitTillPresence(factory.getLoginPage().passwordField);
 		sendText(factory.getLoginPage().passwordField, password);
 		logger.info("User successfully entered the password - process passed");
-	}
-
-	// Plans
-
-	@When("The User click on Plans")
-	public void theUserClickOnPlans() {
-		waitTillClickable(factory.getLoginPage().plansLink);
-		click(factory.getLoginPage().plansLink);
-		logger.info("User succussfully clicked on Plans - process passed");
-	}
-
-	@When("The text Todays Plans Price should be display")
-	public void theTextTodaysPlansPriceShouldBeDisplay() {
-		waitTillPresence(factory.getLoginPage().todaysPlansPriceText);
-		Assert.assertTrue(factory.getLoginPage().todaysPlansPriceText.isDisplayed());
-		logger.info("The text was displayed successfully - process passed");
-	}
-
-	@Then("The plan types {string} {string} {string} {string} should be there")
-	public void thePlanTypesShouldBeThere(String motorcycle, String boat, String renters, String auto) {
-		waitTillPresence(factory.getLoginPage().motorcyleText);
-		Assert.assertTrue(factory.getLoginPage().motorcyleText.isDisplayed());
-		logger.info("The text motorcycle was displayed - process passed");
-
-		waitTillPresence(factory.getLoginPage().boatText);
-		Assert.assertTrue(factory.getLoginPage().boatText.isDisplayed());
-		logger.info("The text boat was displayed - process passed");
-
-		waitTillPresence(factory.getLoginPage().rentersText);
-		Assert.assertTrue(factory.getLoginPage().rentersText.isDisplayed());
-		logger.info("The text renters was displayed - process passed");
-
-		waitTillPresence(factory.getLoginPage().autoText);
-		Assert.assertTrue(factory.getLoginPage().autoText.isDisplayed());
-		logger.info("The text auto was displayed - process passed");
-
-	}
-
-	@Then("Date created should be todays date")
-	public void dateCreatedShouldBeTodaysDate() {
-
-		
-		String expectedCreatedDate = DateUtility.todaysDate();
-
-		for(WebElement element :factory.getLoginPage().createdDateList ) {
-			String actualCreatedDate = getElementText(element);
-			Assert.assertEquals(expectedCreatedDate, actualCreatedDate);
-			logger.info("the expected date created " + expectedCreatedDate + " and actual " + actualCreatedDate
-					+ " was same - process passed");
-
-		}
-		
-	}
-
-	@Then("Date expired should be one day after that date")
-	public void dateExpiredShouldBeOneDayAfterThatDate() {
-		
-		String expectedExpiredDate = DateUtility.incrementDate(1);
-
-		waitTillPresence(factory.getLoginPage().motorExpiredDate);
-		String actualmotorExpireDate = factory.getLoginPage().motorExpiredDate.getText();
-		Assert.assertEquals(expectedExpiredDate, actualmotorExpireDate);
-		logger.info("the actual expired date  " + expectedExpiredDate + " and expected " + actualmotorExpireDate
-				+ " was same - process passed");
-
-		waitTillPresence(factory.getLoginPage().boatExpiredDate);
-		String boatExpireDate = factory.getLoginPage().boatExpiredDate.getText();
-		Assert.assertEquals(expectedExpiredDate, boatExpireDate);
-		logger.info("the actual expired date  " + expectedExpiredDate + " and expected " + boatExpireDate
-				+ " was same - process passed");
-
-		waitTillPresence(factory.getLoginPage().rentersExpiredDate);
-		String rentersExpireDate = factory.getLoginPage().rentersExpiredDate.getText();
-		Assert.assertEquals(expectedExpiredDate, rentersExpireDate);
-		logger.info("the actual expired date  " + expectedExpiredDate + " and expected " + rentersExpireDate
-				+ " was same - process passed");
-
-		waitTillPresence(factory.getLoginPage().autoExpiredDate);
-		String autoExpireDate = factory.getLoginPage().autoExpiredDate.getText();
-		Assert.assertEquals(expectedExpiredDate, autoExpireDate);
-		logger.info("the actual expired date  " + expectedExpiredDate + " and expected " + autoExpireDate
-				+ " was same - process passed");
 	}
 
 }

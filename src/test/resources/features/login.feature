@@ -48,14 +48,3 @@ Feature: Login to the account with two different portals
     Given User enter the username 'mori1234@gmail.com' and password 'mori0000'
     When User clicked on	sign in
     And User should see the Error message of Password not matched
-
-  @Plans
-  Scenario: Login with CSR and verify the plans
-    Given User entered the username 'supervisor' and password 'tek_supervisor'
-    And User clicked on	sign in
-    And The 'Customer Service Portal' title should be displayed
-    When The User click on Plans
-    And The text Todays Plans Price should be display
-    Then The plan types 'Motorcycle' 'Boat' 'Renters' 'Auto' should be there
-    And Date created should be todays date
-    And Date expired should be one day after that date

@@ -1,6 +1,7 @@
 package tek.insurance.app.utilities;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
@@ -37,10 +38,10 @@ public class CommonUtility extends BaseSetup {
 		return this.getWait().until(ExpectedConditions.elementToBeClickable(by));
 	}
 
-	
 	public WebElement waitTillPresence(WebElement element) {
 		return this.getWait().until(ExpectedConditions.visibilityOf(element));
 	}
+	
 
 	public WebElement waitTillPresence(By by) {
 		return this.getWait().until(ExpectedConditions.visibilityOfElementLocated(by));
@@ -137,6 +138,12 @@ public class CommonUtility extends BaseSetup {
 
 	public String getText(WebElement ele) {
 		String text = ele.getText();
+		return text;
+	}
+	
+	public String getText(By by) {
+		WebElement element = getDriver().findElement(by);
+		String text = element.getText();
 		return text;
 	}
 

@@ -4405,3 +4405,1512 @@
 2023-10-09 15:46:28,113 [main] INFO logger_file - the actual expired date  October 10, 2023 and expected October 10, 2023 was same - process passed
 2023-10-09 15:46:28,136 [main] INFO logger_file - the actual expired date  October 10, 2023 and expected October 10, 2023 was same - process passed
 2023-10-09 15:46:28,158 [main] INFO logger_file - the actual expired date  October 10, 2023 and expected October 10, 2023 was same - process passed
+2023-10-12 12:23:48,583 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:23:48,746 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:23:48,792 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:23:48,939 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:23:49,084 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:23:49,209 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:23:49,679 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:23:49,793 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:23:49,960 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:24:12,006 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:24:12,144 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:24:12,180 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:24:12,308 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:24:12,435 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:24:12,537 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:24:12,941 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:24:13,033 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:24:13,189 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:26:56,138 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:26:56,287 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:26:56,329 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:26:56,473 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:26:56,612 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:26:56,725 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:26:57,190 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:26:57,290 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:26:57,454 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:26:57,490 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:26:57,507 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:26:57,523 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:26:57,540 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:26:57,577 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:26:57,596 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:26:57,613 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:26:57,630 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:26:57,660 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:26:57,676 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:26:57,693 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:26:57,709 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:33:22,473 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:33:22,592 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:33:22,626 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:33:22,745 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:33:22,859 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:33:22,945 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:33:23,413 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:33:23,486 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:33:23,644 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:33:23,676 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:33:23,700 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:33:23,712 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:33:23,724 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:33:23,737 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:33:23,757 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:33:23,771 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:33:23,783 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:33:23,796 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:34:55,885 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:34:56,011 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:34:56,046 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:34:56,173 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:34:56,286 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:34:56,375 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:34:56,774 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:34:56,851 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:34:57,006 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:36:00,124 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:36:00,244 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:36:00,278 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:36:00,398 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:36:00,515 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:36:00,604 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:36:01,013 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:36:01,088 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:36:01,239 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:36:01,299 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:36:01,324 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:36:01,336 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:36:01,348 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:36:01,360 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:36:01,381 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:36:01,394 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:36:01,406 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:36:01,421 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:37:20,230 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:37:20,351 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:37:20,382 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:37:20,502 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:37:20,619 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:37:20,710 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:37:21,351 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:37:21,425 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:37:21,571 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:37:21,630 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:37:21,655 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:37:21,667 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:37:21,679 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:37:21,692 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:37:21,712 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:37:21,724 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:37:21,737 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:37:21,750 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:44,101 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:46:44,224 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:46:44,258 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:46:44,380 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:46:44,493 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:46:44,582 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:46:45,047 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:46:45,136 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:46:45,285 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:46:45,342 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:46:45,367 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:45,380 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:45,392 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:45,403 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:45,423 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:45,435 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:45,447 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:45,459 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:47,295 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:46:47,412 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:46:47,444 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:46:47,559 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:46:47,672 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:46:47,754 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:46:48,151 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:46:48,235 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:46:48,385 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:46:48,440 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:46:48,460 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:48,473 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:48,485 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:48,497 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:46:48,516 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:48,527 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:48,540 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:46:48,553 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:47:11,590 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 12:47:11,715 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 12:47:11,749 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 12:47:11,873 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 12:47:11,987 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 12:47:12,073 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 12:47:12,413 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 12:47:12,504 [main] INFO logger_file - User succussfully clicked on Plans - process passed
+2023-10-12 12:47:12,661 [main] INFO logger_file - The text was displayed successfully - process passed
+2023-10-12 12:47:12,718 [main] INFO logger_file - Plan type was displayed successfully - process passed
+2023-10-12 12:47:12,743 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:47:12,755 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:47:12,768 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:47:12,779 [main] INFO logger_file - the expected date created October 12, 2023 and actual October 12, 2023 was same - process passed
+2023-10-12 12:47:12,801 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:47:12,811 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:47:12,824 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 12:47:12,836 [main] INFO logger_file - the expected date created October 13, 2023 and actual October 13, 2023 was same - process passed
+2023-10-12 21:11:42,327 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:11:42,451 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:11:42,485 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:11:42,608 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:11:42,723 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:11:42,812 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:11:43,277 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:11:43,304 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:11:43,317 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:11:43,556 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:11:43,580 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:11:43,604 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:11:46,723 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:11:46,840 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:11:46,873 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:11:46,986 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:11:47,100 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:11:47,186 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:11:47,581 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:11:47,606 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:11:47,618 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:11:47,859 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:11:47,882 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:11:47,908 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:19:19,090 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:19:19,218 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:19:19,251 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:19:19,371 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:19:19,484 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:19:19,573 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:19:19,982 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:19:20,008 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:19:20,021 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:19:20,242 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:19:20,270 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:19:20,295 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:19:20,382 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:19:20,560 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:19:22,591 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:19:22,705 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:19:22,737 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:19:22,857 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:19:22,972 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:19:23,062 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:19:23,403 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:19:23,429 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:19:23,440 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:19:23,666 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:19:23,693 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:19:23,718 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:19:24,303 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:19:24,423 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:20:32,691 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:20:32,812 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:20:32,846 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:20:32,966 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:20:33,080 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:20:33,166 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:20:33,622 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:20:33,646 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:20:33,659 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:20:33,876 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:20:33,900 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:20:33,926 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:20:34,013 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:20:34,192 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:21:42,198 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:21:42,318 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:21:42,354 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:21:42,477 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:21:42,590 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:21:42,678 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:21:43,145 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:21:43,171 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:21:43,185 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:21:43,402 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:21:43,428 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:21:43,456 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:21:43,540 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:21:43,722 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:24:05,205 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:24:05,329 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:24:05,363 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:24:05,487 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:24:05,605 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:24:05,696 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:24:06,218 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:24:06,244 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:24:06,256 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:24:06,483 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:24:06,508 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:24:06,534 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:24:06,619 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:24:06,798 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:24:16,854 [main] INFO logger_file - User successfully find the email and clicked on details - process passed 
+2023-10-12 21:25:53,282 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:25:53,407 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:25:53,441 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:25:53,566 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:25:53,682 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:25:53,766 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:25:54,234 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:25:54,261 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:25:54,274 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:25:54,491 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:25:54,515 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:25:54,542 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:25:54,625 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:25:54,801 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:38:48,938 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:38:49,060 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:38:49,094 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:38:49,214 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:38:49,328 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:38:49,417 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:38:49,940 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:38:49,965 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:38:49,978 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:38:50,207 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:38:50,232 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:38:50,259 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:38:50,342 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:38:50,523 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:39:16,682 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:39:16,804 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:39:16,838 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:39:16,959 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:39:17,072 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:39:17,161 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:39:17,494 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:39:17,522 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:39:17,535 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:39:17,704 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:39:17,731 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:39:17,756 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:39:18,365 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:39:18,482 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:44:44,965 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:44:45,084 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:44:45,117 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:44:45,237 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:44:45,351 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:44:45,435 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:44:45,901 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:44:45,926 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:44:45,939 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:44:46,165 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:44:46,191 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:44:46,218 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:44:46,303 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:44:46,481 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:45:35,815 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:45:35,936 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:45:35,971 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:45:36,095 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:45:36,205 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:45:36,294 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:45:36,686 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:45:36,711 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:45:36,725 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:45:36,952 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:45:36,978 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:45:37,003 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:45:37,088 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:45:37,267 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:46:29,914 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:46:30,038 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:46:30,072 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:46:30,194 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:46:30,308 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:46:30,398 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:46:30,803 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:46:30,830 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:46:30,844 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:46:31,067 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:46:31,094 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:46:31,121 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:46:31,205 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:46:31,396 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 21:48:10,593 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 21:48:10,716 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 21:48:10,749 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 21:48:10,869 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 21:48:10,982 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 21:48:11,070 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 21:48:11,531 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 21:48:11,557 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 21:48:11,570 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 21:48:11,797 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 21:48:11,824 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 21:48:11,850 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 21:48:11,933 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 21:48:12,116 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 22:29:56,737 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 22:29:56,860 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 22:29:56,894 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 22:29:57,012 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 22:29:57,127 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 22:29:57,215 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 22:29:57,621 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 22:29:57,646 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 22:29:57,659 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 22:29:57,876 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 22:29:57,902 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 22:29:57,927 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 22:29:58,013 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 22:29:58,207 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 22:30:33,473 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 22:30:33,595 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 22:30:33,628 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 22:30:33,750 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 22:30:33,865 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 22:30:33,952 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 22:30:34,352 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 22:30:34,378 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 22:30:34,391 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 22:30:34,612 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 22:30:34,636 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 22:30:34,662 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 22:30:34,750 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 22:30:34,944 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 22:31:57,458 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 22:31:57,584 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 22:31:57,617 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 22:31:57,740 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 22:31:57,852 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 22:31:57,938 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 22:31:58,390 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 22:31:58,418 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 22:31:58,431 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 22:31:58,593 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 22:31:58,619 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 22:31:58,645 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 22:31:59,249 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 22:31:59,369 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:01:59,755 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:01:59,877 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:01:59,909 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:02:00,030 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:02:00,144 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:02:00,236 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:02:01,009 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:02:01,034 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:02:01,047 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:02:01,270 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:02:01,294 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:02:01,320 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:02:01,406 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:02:01,587 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:02:09,987 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:02:10,011 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:03:02,870 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:03:02,996 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:03:03,030 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:03:03,154 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:03:03,266 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:03:03,351 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:03:03,755 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:03:03,781 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:03:03,795 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:03:04,018 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:03:04,043 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:03:04,068 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:03:04,154 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:03:04,333 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:03:12,776 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:03:12,803 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:04:24,890 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:04:25,012 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:04:25,045 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:04:25,168 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:04:25,286 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:04:25,377 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:04:25,791 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:04:25,817 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:04:25,830 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:04:26,003 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:04:26,030 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:04:26,055 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:04:26,661 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:04:26,785 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:04:35,239 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:04:35,264 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:05:27,007 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:05:27,135 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:05:27,170 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:05:27,294 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:05:27,409 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:05:27,500 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:05:27,979 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:05:28,006 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:05:28,019 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:05:28,247 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:05:28,270 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:05:28,297 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:05:28,384 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:05:28,572 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:05:37,075 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:05:37,101 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:07:12,700 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:07:12,828 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:07:12,860 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:07:12,980 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:07:13,092 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:07:13,180 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:07:13,697 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:07:13,723 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:07:13,736 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:07:13,960 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:07:13,987 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:07:14,014 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:07:14,102 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:07:14,294 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:07:22,769 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:07:22,797 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:07:26,457 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-12 23:07:26,529 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-12 23:17:33,576 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:17:33,694 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:17:33,728 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:17:33,848 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:17:33,961 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:17:34,048 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:17:34,452 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:17:34,478 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:17:34,491 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:17:34,703 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:17:34,727 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:17:34,752 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:17:34,837 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:17:35,021 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:17:41,653 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:17:41,678 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:17:49,312 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-12 23:17:49,390 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-12 23:25:50,810 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:25:50,929 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:25:50,965 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:25:51,089 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:25:51,202 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:25:51,292 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:25:51,809 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:25:51,834 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:25:51,848 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:25:52,074 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:25:52,100 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:25:52,126 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:25:52,213 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:25:52,392 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:25:59,081 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:25:59,106 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:26:06,763 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-12 23:26:06,834 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-12 23:26:08,866 [main] INFO logger_file - The address added successfully
+2023-10-12 23:26:57,414 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:26:57,544 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:26:57,580 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:26:57,706 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:26:57,821 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:26:57,910 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:26:58,304 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:26:58,329 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:26:58,342 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:26:58,564 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:26:58,590 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:26:58,616 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:26:58,701 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:26:58,899 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:27:05,607 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:27:05,635 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:27:13,387 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-12 23:27:13,459 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-12 23:27:15,479 [main] INFO logger_file - The address added successfully
+2023-10-12 23:27:58,071 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:27:58,198 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:27:58,231 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:27:58,356 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:27:58,476 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:27:58,569 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:27:58,973 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:27:59,005 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:27:59,019 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:27:59,251 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:27:59,278 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:27:59,305 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:27:59,398 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:27:59,587 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:28:06,336 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:28:06,883 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:28:07,547 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-12 23:28:07,622 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-12 23:29:50,438 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:29:50,560 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:29:50,594 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:29:50,719 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:29:50,836 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:29:50,926 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:29:51,383 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:29:51,410 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:29:51,424 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:29:51,592 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:29:51,620 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:29:51,645 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:29:52,249 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:29:52,369 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:29:59,023 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:29:59,048 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:29:59,731 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-12 23:29:59,800 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-12 23:29:59,947 [main] INFO logger_file - The address added successfully
+2023-10-12 23:55:37,154 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-12 23:55:37,286 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-12 23:55:37,320 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-12 23:55:37,447 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-12 23:55:37,566 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-12 23:55:37,657 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-12 23:55:38,178 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-12 23:55:38,203 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-12 23:55:38,216 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-12 23:55:38,441 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-12 23:55:38,468 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-12 23:55:38,493 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-12 23:55:38,580 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-12 23:55:38,708 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-12 23:55:41,634 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-12 23:55:41,660 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-12 23:55:42,399 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-12 23:55:42,475 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-13 00:24:57,175 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-13 00:24:57,298 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-13 00:24:57,333 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-13 00:24:57,455 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-13 00:24:57,569 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-13 00:24:57,658 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-13 00:24:58,127 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-13 00:24:58,152 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-13 00:24:58,166 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-13 00:24:58,392 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-13 00:24:58,418 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-13 00:24:58,446 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-13 00:24:58,532 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-13 00:24:58,721 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-13 00:25:01,549 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-13 00:25:01,576 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-13 00:25:02,265 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-13 00:25:02,338 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-13 00:28:12,754 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-13 00:28:12,887 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-13 00:28:12,922 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-13 00:28:13,048 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-13 00:28:13,162 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-13 00:28:13,254 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-13 00:28:13,715 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-13 00:28:13,745 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-13 00:28:13,759 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-13 00:28:13,981 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-13 00:28:14,007 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-13 00:28:14,033 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-13 00:28:14,119 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-13 00:28:14,310 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-13 00:28:17,195 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-13 00:28:17,223 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-13 00:28:17,944 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-13 00:28:18,017 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 14:33:01,885 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 14:33:02,025 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 14:33:02,061 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 14:33:02,196 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 14:33:02,330 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 14:33:02,430 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 14:33:02,899 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 14:33:02,931 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 14:33:02,945 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 14:33:03,195 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 14:33:03,225 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 14:33:03,255 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 14:33:03,356 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 14:33:03,556 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 14:33:07,944 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-14 14:33:07,977 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 14:33:08,859 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-14 14:33:08,950 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 14:36:55,295 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 14:36:55,417 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 14:36:55,452 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 14:36:55,572 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 14:36:55,685 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 14:36:55,777 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 14:36:56,304 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 14:36:56,331 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 14:36:56,345 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 14:36:56,570 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 14:36:56,599 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 14:36:56,625 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 14:36:56,715 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 14:36:56,911 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 14:37:00,781 [main] INFO logger_file - User successfully clicked on Add Mailing Adress - process passed
+2023-10-14 14:37:00,805 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 14:37:01,508 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-14 14:37:01,574 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 15:57:01,535 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 15:57:01,661 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 15:57:01,696 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 15:57:01,829 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 15:57:01,949 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 15:57:02,038 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 15:57:02,437 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 15:57:02,464 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 15:57:02,478 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 15:57:02,703 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 15:57:02,728 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 15:57:02,753 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 15:57:02,836 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 15:57:03,036 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 15:57:07,033 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 15:57:07,145 [main] INFO logger_file - User successfully clicked on Add mailing address section - process passed
+2023-10-14 15:57:07,171 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 15:57:07,853 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-14 15:57:07,925 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:07:51,520 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:07:51,641 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:07:51,677 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:07:51,801 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:07:51,914 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:07:52,002 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:07:52,458 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:07:52,483 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:07:52,496 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:07:52,721 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:07:52,747 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:07:52,772 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:07:52,855 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:07:53,032 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:07:56,862 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 16:07:56,980 [main] INFO logger_file - User successfully clicked on Add mailing address section - process passed
+2023-10-14 16:08:32,743 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:08:32,864 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:08:32,900 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:08:33,022 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:08:33,137 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:08:33,225 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:08:33,617 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:08:33,644 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:08:33,658 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:08:33,880 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:08:33,906 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:08:33,931 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:08:34,016 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:08:34,195 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:08:37,997 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 16:08:38,114 [main] INFO logger_file - User successfully clicked on Add mailing address section - process passed
+2023-10-14 16:08:38,130 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 16:08:38,785 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-14 16:08:38,852 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:09:54,233 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:09:54,357 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:09:54,390 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:09:54,514 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:09:54,630 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:09:54,718 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:09:55,126 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:09:55,152 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:09:55,165 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:09:55,393 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:09:55,418 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:09:55,445 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:09:55,531 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:09:55,724 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:09:59,604 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 16:09:59,732 [main] INFO logger_file - User successfully clicked on Add mailing address section - process passed
+2023-10-14 16:09:59,750 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 16:10:00,386 [main] INFO logger_file - User fill the form successfully - process passed
+2023-10-14 16:10:00,456 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:52:47,813 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:52:47,936 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:52:47,970 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:52:48,093 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:52:48,207 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:52:48,296 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:52:48,755 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:52:48,780 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:52:48,793 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:52:49,014 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:52:49,039 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:52:49,066 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:52:49,152 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:52:49,331 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:52:53,127 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 16:52:53,252 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 16:52:53,274 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:52:53,746 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 16:52:53,812 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:55:07,266 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:55:07,390 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:55:07,424 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:55:07,543 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:55:07,657 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:55:07,743 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:55:08,201 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:55:08,227 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:55:08,240 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:55:08,465 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:55:08,491 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:55:08,517 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:55:08,601 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:55:08,779 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:55:12,585 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 16:55:12,714 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 16:55:12,733 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:55:13,191 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 16:55:13,210 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:55:13,269 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:55:54,666 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:55:54,792 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:55:54,825 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:55:54,952 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:55:55,067 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:55:55,157 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:55:55,503 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:55:55,530 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:55:55,543 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:55:55,770 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:55:55,796 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:55:55,825 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:55:55,914 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:55:56,104 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:55:59,951 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 16:56:00,082 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 16:56:00,102 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:56:00,569 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 16:56:00,586 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:56:02,644 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:57:15,123 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:57:15,246 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:57:15,278 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:57:15,397 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:57:15,510 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:57:15,596 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:57:16,119 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:57:16,157 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:57:16,170 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:57:16,395 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:57:16,421 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:57:16,448 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:57:16,536 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:57:16,724 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:57:20,591 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 16:57:20,724 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 16:57:20,741 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:57:21,231 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 16:57:21,249 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:57:23,320 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:57:59,793 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:57:59,920 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:57:59,954 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:58:00,080 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:58:00,191 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:58:00,276 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:58:00,678 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:58:00,705 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:58:00,718 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:58:00,938 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:58:00,965 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:58:00,989 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:58:01,079 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:58:01,256 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:58:05,049 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 16:58:05,173 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 16:58:05,191 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:58:05,650 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 16:58:08,672 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:58:10,755 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 16:58:42,872 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 16:58:43,016 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 16:58:43,051 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 16:58:43,200 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 16:58:43,325 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 16:58:43,442 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 16:58:43,844 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 16:58:43,870 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 16:58:43,883 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 16:58:44,109 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 16:58:44,135 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 16:58:44,162 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 16:58:44,249 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 16:58:44,435 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 16:58:48,362 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 16:58:48,489 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 16:58:48,509 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:58:48,996 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 16:58:52,019 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 16:58:54,103 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 17:20:23,348 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 17:20:23,472 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 17:20:23,506 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 17:20:23,631 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 17:20:23,749 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 17:20:23,836 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 17:20:24,359 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 17:20:24,385 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 17:20:24,398 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 17:20:24,623 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 17:20:24,648 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 17:20:24,673 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 17:20:24,761 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 17:20:24,939 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 17:20:28,787 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 17:20:28,914 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 17:20:28,931 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:20:29,369 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 17:20:32,400 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:20:34,481 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 17:22:04,778 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 17:22:04,902 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 17:22:04,935 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 17:22:05,056 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 17:22:05,167 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 17:22:05,253 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 17:22:05,896 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 17:22:05,921 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 17:22:05,934 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 17:22:06,103 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 17:22:06,129 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 17:22:06,155 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 17:22:06,760 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 17:22:06,879 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 17:22:10,755 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 17:22:10,903 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 17:22:10,920 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:22:11,378 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 17:22:11,396 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:22:13,466 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 17:22:57,848 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 17:22:57,970 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 17:22:58,002 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 17:22:58,125 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 17:22:58,240 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 17:22:58,325 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 17:22:58,661 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 17:22:58,687 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 17:22:58,699 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 17:22:58,864 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 17:22:58,892 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 17:22:58,917 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 17:22:59,528 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 17:22:59,644 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 17:23:03,441 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 17:23:03,583 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 17:23:03,599 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:23:04,075 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 17:23:04,094 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:23:06,179 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 17:23:09,287 [main] INFO logger_file - Validated the phone - process passed
+2023-10-14 17:25:23,856 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 17:25:23,976 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 17:25:24,010 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 17:25:24,132 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 17:25:24,247 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 17:25:24,336 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 17:25:24,852 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 17:25:24,877 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 17:25:24,890 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 17:25:25,115 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 17:25:25,140 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 17:25:25,168 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 17:25:25,253 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 17:25:25,431 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 17:25:29,311 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 17:25:29,458 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 17:25:29,477 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:25:29,910 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 17:25:29,968 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 17:25:33,081 [main] INFO logger_file - Validated the phone - process passed
+2023-10-14 17:31:08,205 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 17:31:08,329 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 17:31:08,363 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 17:31:08,484 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 17:31:08,597 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 17:31:08,682 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 17:31:09,141 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 17:31:09,167 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 17:31:09,180 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 17:31:09,400 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 17:31:09,426 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 17:31:09,450 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 17:31:09,537 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 17:31:09,714 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 17:31:13,533 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 17:31:13,687 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 17:31:13,705 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 17:31:14,157 [main] INFO logger_file - User successfully fill the form - process passed
+2023-10-14 17:31:14,222 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:19:03,205 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:19:03,326 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:19:03,362 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:19:03,482 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:19:03,600 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:19:03,690 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:19:04,152 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:19:04,177 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:19:04,192 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:19:04,361 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:19:04,388 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:19:04,415 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:19:05,021 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:19:05,139 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:19:09,017 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 18:19:09,185 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 18:19:09,205 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 18:19:09,669 [main] INFO logger_file - User successfully fill the Phone form - process passed
+2023-10-14 18:19:10,756 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:20:22,677 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:20:22,801 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:20:22,836 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:20:22,957 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:20:23,070 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:20:23,155 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:20:23,563 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:20:23,587 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:20:23,601 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:20:23,823 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:20:23,850 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:20:23,875 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:20:23,965 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:20:24,093 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:20:27,909 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 18:20:27,994 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 18:20:28,014 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 18:20:28,493 [main] INFO logger_file - User successfully fill the Phone form - process passed
+2023-10-14 18:20:29,560 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:24:52,506 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:24:52,628 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:24:52,662 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:24:52,787 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:24:52,902 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:24:52,990 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:24:53,455 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:24:53,483 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:24:53,497 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:24:53,719 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:24:53,744 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:24:53,770 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:24:53,857 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:24:54,047 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:24:57,925 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:24:58,016 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:24:58,033 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:24:58,721 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:24:59,799 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:24:59,955 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 18:25:01,768 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:25:01,869 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:25:01,896 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:25:02,004 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:25:02,109 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:25:02,189 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:25:02,584 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:25:02,605 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:25:02,617 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:25:02,833 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:25:02,854 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:25:02,876 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:25:03,448 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:25:03,621 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:25:07,170 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:25:07,207 [main] INFO logger_file - User successfully clicked on Add mailing address section - process passed
+2023-10-14 18:29:34,860 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:29:34,985 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:29:35,019 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:29:35,142 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:29:35,255 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:29:35,346 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:29:35,998 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:29:36,025 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:29:36,039 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:29:36,207 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:29:36,231 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:29:36,259 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:29:36,863 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:29:36,984 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:29:40,813 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:29:40,900 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:29:40,917 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:29:41,572 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:29:42,644 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:29:42,789 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 18:29:58,661 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:29:58,784 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:29:58,816 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:29:58,938 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:29:59,051 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:29:59,137 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:29:59,530 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:29:59,558 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:29:59,571 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:29:59,734 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:29:59,762 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:29:59,787 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:30:00,390 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:30:00,513 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:30:04,266 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:30:04,302 [main] INFO logger_file - User successfully clicked on Add mailing address section - process passed
+2023-10-14 18:31:18,097 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:31:18,218 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:31:18,251 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:31:18,373 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:31:18,486 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:31:18,573 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:31:19,025 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:31:19,051 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:31:19,064 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:31:19,276 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:31:19,302 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:31:19,327 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:31:19,410 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:31:19,591 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:31:23,286 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:31:23,375 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:31:23,393 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:31:24,011 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:31:25,085 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:31:59,435 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:31:59,558 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:31:59,590 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:31:59,710 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:31:59,823 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:31:59,911 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:32:00,307 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:32:00,335 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:32:00,348 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:32:00,571 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:32:00,596 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:32:00,623 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:32:00,708 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:32:00,889 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:32:04,722 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:32:04,817 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:32:04,833 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:32:05,480 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:32:07,551 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:34:37,446 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:34:37,568 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:34:37,601 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:34:37,726 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:34:37,842 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:34:37,930 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:34:38,382 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:34:38,411 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:34:38,423 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:34:38,646 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:34:38,671 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:34:38,696 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:34:38,779 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:34:38,961 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:34:42,795 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:34:42,898 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:34:42,915 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:34:43,608 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:34:46,681 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:35:27,195 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:35:27,322 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:35:27,354 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:35:27,475 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:35:27,589 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:35:27,679 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:35:28,083 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:35:28,108 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:35:28,122 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:35:28,345 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:35:28,370 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:35:28,397 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:35:28,482 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:35:28,663 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:35:32,442 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:35:32,552 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:35:32,568 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:35:33,245 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:35:33,317 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:35:36,358 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 18:37:29,246 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:37:29,366 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:37:29,400 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:37:29,521 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:37:29,635 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:37:29,723 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:37:30,061 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:37:30,090 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:37:30,103 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:37:30,325 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:37:30,352 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:37:30,379 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:37:30,466 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:37:30,660 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:37:34,502 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:37:34,593 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:37:34,612 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:37:35,274 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:37:35,346 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:37:38,378 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 18:43:50,575 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:43:50,702 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:43:50,737 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:43:50,864 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:43:50,982 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:43:51,073 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:43:51,486 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:43:51,513 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:43:51,527 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:43:51,754 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:43:51,783 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:43:51,811 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:43:51,899 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:43:52,085 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:43:55,914 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:43:55,995 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:43:56,017 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:43:56,691 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:43:56,763 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:43:59,797 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 18:46:31,677 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 18:46:31,804 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 18:46:31,840 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 18:46:31,961 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 18:46:32,078 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 18:46:32,165 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 18:46:32,566 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 18:46:32,593 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 18:46:32,606 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 18:46:32,831 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 18:46:32,855 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 18:46:32,882 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 18:46:32,969 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 18:46:33,102 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 18:46:36,968 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 18:46:37,057 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 18:46:37,077 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 18:46:37,712 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 18:46:37,780 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 18:46:40,819 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 18:46:40,944 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 21:58:40,260 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 21:58:40,392 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 21:58:40,426 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 21:58:40,552 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 21:58:40,668 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 21:58:40,756 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 21:58:41,162 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 21:58:41,188 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 21:58:41,202 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 21:58:41,428 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 21:58:41,454 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 21:58:41,483 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 21:58:41,571 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 21:58:41,755 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 21:58:45,616 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 21:58:45,690 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 21:58:45,710 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 21:58:46,398 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 21:58:46,466 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 21:58:49,503 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 21:58:49,632 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:01:58,916 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:01:59,040 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:01:59,077 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:01:59,201 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:01:59,319 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:01:59,408 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:01:59,871 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:01:59,899 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:01:59,912 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:02:00,135 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:02:00,161 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:02:00,188 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:02:00,797 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:02:00,975 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:02:04,854 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:02:04,933 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:02:04,954 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:02:05,623 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:02:05,694 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:02:08,729 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:02:08,864 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:02:49,654 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:02:49,779 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:02:49,812 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:02:49,939 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:02:50,054 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:02:50,141 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:02:50,542 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:02:50,570 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:02:50,582 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:02:50,806 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:02:50,832 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:02:50,855 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:02:50,942 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:02:51,076 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:02:54,881 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:02:54,960 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:02:54,978 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:02:55,700 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:02:55,771 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:02:58,806 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:02:58,937 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:03:29,931 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:03:30,057 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:03:30,091 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:03:30,214 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:03:30,329 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:03:30,415 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:03:30,820 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:03:30,846 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:03:30,859 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:03:31,082 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:03:31,109 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:03:31,137 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:03:31,226 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:03:31,415 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:03:35,206 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:03:35,284 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:03:35,305 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:03:35,969 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:03:36,042 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:03:37,068 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:03:37,193 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:04:00,379 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:04:00,507 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:04:00,543 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:04:00,666 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:04:00,781 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:04:00,871 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:04:01,263 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:04:01,291 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:04:01,306 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:04:01,528 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:04:01,554 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:04:01,581 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:04:01,669 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:04:01,857 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:04:05,805 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:04:05,884 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:04:05,902 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:04:06,574 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:04:06,646 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:04:07,678 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:04:07,808 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:04:33,700 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:04:33,822 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:04:33,856 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:04:33,979 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:04:34,095 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:04:34,187 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:04:34,650 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:04:34,676 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:04:34,690 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:04:34,854 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:04:34,880 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:04:34,906 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:04:35,513 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:04:35,643 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:04:39,695 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:04:39,773 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:04:39,793 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:04:40,538 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:04:40,612 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:04:41,646 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:04:41,781 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:05:24,191 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:05:24,320 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:05:24,356 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:05:24,481 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:05:24,593 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:05:24,689 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:05:25,032 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:05:25,059 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:05:25,073 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:05:25,293 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:05:25,320 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:05:25,346 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:05:25,434 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:05:25,613 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:05:29,499 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:05:29,580 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:05:29,599 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:05:30,338 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:05:30,412 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:05:31,449 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:05:31,573 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:33:44,047 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:33:44,179 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:33:44,214 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:33:44,339 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:33:44,457 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:33:44,544 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:33:44,889 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:33:44,914 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:33:44,927 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:33:45,093 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:33:45,121 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:33:45,147 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:33:45,752 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:33:45,871 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:33:49,612 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:33:49,694 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:33:49,713 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:33:50,397 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:33:50,465 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:33:51,510 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:34:14,427 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:36:11,859 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:36:11,985 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:36:12,020 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:36:12,141 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:36:12,257 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:36:12,346 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:36:12,816 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:36:12,843 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:36:12,857 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:36:13,077 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:36:13,102 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:36:13,127 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:36:13,216 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:36:13,407 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:36:17,256 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:36:17,346 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:36:17,366 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:36:17,989 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:36:18,058 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:36:19,095 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:36:33,141 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:37:00,545 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:37:00,668 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:37:00,701 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:37:00,825 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:37:00,942 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:37:01,029 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:37:01,495 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:37:01,520 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:37:01,533 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:37:01,757 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:37:01,784 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:37:01,808 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:37:01,898 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:37:02,075 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:37:05,834 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-14 22:37:05,924 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-14 22:37:05,941 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-14 22:37:06,617 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-14 22:37:06,687 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:37:07,725 [main] INFO logger_file - Validate the address - process passed
+2023-10-14 22:37:07,851 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-14 22:43:22,981 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:43:23,105 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:43:23,139 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:43:23,257 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:43:23,372 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:43:23,456 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:43:23,920 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:43:23,944 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:43:23,957 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:43:24,181 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:43:24,208 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:43:24,233 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:43:24,320 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:43:24,510 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:43:28,251 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 22:43:28,334 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 22:43:28,352 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 22:43:28,810 [main] INFO logger_file - User successfully fill the Phone form - process passed
+2023-10-14 22:43:28,871 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:48:20,485 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-14 22:48:20,611 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-14 22:48:20,644 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-14 22:48:20,767 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-14 22:48:20,881 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-14 22:48:20,969 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-14 22:48:21,430 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-14 22:48:21,457 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-14 22:48:21,470 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-14 22:48:21,694 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-14 22:48:21,720 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-14 22:48:21,746 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-14 22:48:21,834 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-14 22:48:21,958 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-14 22:48:25,869 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-14 22:48:25,957 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-14 22:48:25,976 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-14 22:48:26,463 [main] INFO logger_file - User successfully fill the Phone form - process passed
+2023-10-14 22:48:26,550 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-14 22:48:27,605 [main] INFO logger_file - Validated the phone - process passed
+2023-10-15 00:17:39,412 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-15 00:17:39,536 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-15 00:17:39,569 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-15 00:17:39,693 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-15 00:17:39,806 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-15 00:17:39,896 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-15 00:17:40,357 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-15 00:17:40,382 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-15 00:17:40,396 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-15 00:17:40,620 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-15 00:17:40,647 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-15 00:17:40,674 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-15 00:17:40,760 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-15 00:17:40,955 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-15 00:17:44,747 [main] INFO logger_file - User successfully clicked on Mailing Address section - process passed
+2023-10-15 00:17:44,847 [main] INFO logger_file - User successfully clicked on Add Mailing Address section - process passed
+2023-10-15 00:17:44,864 [main] INFO logger_file - The actual: Add Address and expected: Add Address is same - process passed
+2023-10-15 00:17:45,535 [main] INFO logger_file - User fill the Address form successfully - process passed
+2023-10-15 00:17:45,602 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-15 00:17:46,643 [main] INFO logger_file - Validate the address - process passed
+2023-10-15 00:17:46,696 [main] INFO logger_file - User clicked on delete address successfully - process passed
+2023-10-15 00:17:46,763 [main] INFO logger_file - User clicked on confirm button successfully - process passed
+2023-10-15 00:17:57,767 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-15 00:17:57,888 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-15 00:17:57,921 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-15 00:17:58,038 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-15 00:17:58,151 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-15 00:17:58,237 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-15 00:17:58,694 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-15 00:17:58,720 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-15 00:17:58,733 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-15 00:17:58,898 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-15 00:17:58,924 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-15 00:17:58,949 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-15 00:17:59,556 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-15 00:17:59,741 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-15 00:18:03,524 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-15 00:18:03,618 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-15 00:18:03,640 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-15 00:18:04,105 [main] INFO logger_file - User successfully fill the Phone form - process passed
+2023-10-15 00:18:04,166 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-15 00:18:05,232 [main] INFO logger_file - Validated the phone - process passed
+2023-10-15 00:18:05,308 [main] INFO logger_file - User clicked on delete phone successfully - process passed
+2023-10-15 00:22:38,518 [main] INFO logger_file - website logo successfully displayed - process passed
+2023-10-15 00:22:38,641 [main] INFO logger_file - User successfully clicked on login button - process passed
+2023-10-15 00:22:38,674 [main] INFO logger_file - The actual: Sign in to your Account and expectd: Sign in to your Account was same - process passed
+2023-10-15 00:22:38,800 [main] INFO logger_file - User successfully entered the username: supervisor -process passed
+2023-10-15 00:22:38,915 [main] INFO logger_file - User successfully entered the password. process - passed
+2023-10-15 00:22:38,999 [main] INFO logger_file - User successfully clicked on sign in button
+2023-10-15 00:22:39,465 [main] INFO logger_file - The actual: Customer Service Portal and expected: Customer Service Portal was same - process passed
+2023-10-15 00:22:39,492 [main] INFO logger_file - The actual: Accounts and expected: Accounts was same - process passed
+2023-10-15 00:22:39,506 [main] INFO logger_file - The actual: Plans and expected: Plans was same - process passed
+2023-10-15 00:22:39,729 [main] INFO logger_file - The actual: CSR and expected: CSR was same - process passed
+2023-10-15 00:22:39,754 [main] INFO logger_file - The actual: Supervisor and expected: Supervisor was same - process passed
+2023-10-15 00:22:39,779 [main] INFO logger_file - The actual: supervisor and expected: supervisor was same - process passed
+2023-10-15 00:22:39,868 [main] INFO logger_file - User seccessfully clicked on close button - process passed
+2023-10-15 00:22:40,046 [main] INFO logger_file - User successfully clicked on Accounts - process passed
+2023-10-15 00:22:43,856 [main] INFO logger_file - User successfully clicked on Phones section - process passed
+2023-10-15 00:22:43,961 [main] INFO logger_file - User successfully clicked on Add Phone section - process passed
+2023-10-15 00:22:43,979 [main] INFO logger_file - The actual: Add Phone and expected: Add Phone is same - process passed
+2023-10-15 00:22:44,445 [main] INFO logger_file - User successfully fill the Phone form - process passed
+2023-10-15 00:22:44,514 [main] INFO logger_file - User successfully clicked on submit button - process passed
+2023-10-15 00:22:45,582 [main] INFO logger_file - Validated the phone - process passed
+2023-10-15 00:22:45,662 [main] INFO logger_file - User clicked on delete phone successfully - process passed
