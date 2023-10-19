@@ -45,11 +45,16 @@ public class CreateAccountTest extends BaseSetup {
 	public WebElement createAccountBttn;
 
 	@FindBy(xpath = "//button[text()='Clear Form']")
-	public WebElement resetFormBttn;
+	public WebElement clearFormBttn;
 
 	@FindBy(xpath = "//h2[text()='Sign up your account']")
 	public WebElement signUpYourAccountLink;
 	
+	@FindBy(xpath = "//div[contains(@class,'chakra-stack ')]//following::h2")
+	public List<WebElement> validateSingupOptions;
+	
+	@FindBy(xpath = "//div[@data-status='success' and @role='alert']")
+	public WebElement successMessage; 
 	
 	@FindBy(id = "username")
 	public WebElement userNameField;

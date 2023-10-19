@@ -25,7 +25,7 @@ public class DataGenerator {
 		String name = "smile";
 		String provider = "@msh.ca";
 		String num = "";
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 4; i++) {
 			num += (int) (Math.random() * 10);
 		}
 		return name + num + provider;

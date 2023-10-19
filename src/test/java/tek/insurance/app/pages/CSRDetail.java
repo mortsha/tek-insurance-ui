@@ -20,15 +20,15 @@ public class CSRDetail extends BaseSetup {
 	@FindBy(xpath = "//button[contains(@class,'chakra-modal__close-btn')]")
 	public WebElement closeBttn;
 	
+	@FindBy(xpath = "//select[contains(@class,'chakra-select')]")
+	public WebElement dropdownShow;
+	
 	@FindBy(xpath = "//table/tbody/tr/td[2]")
 	public List<WebElement> emailAddressList;
 	
 	@FindBy(xpath = "//div[contains(@class,'chakra-stack')]//child::button[3]")
 	public WebElement nextPageBttn;
 
-	@FindBy(xpath = "//td[text()='mori1234@gmail.com']//following-sibling::td[5]//child::button")
-	public WebElement detailBttn;
-	
 	@FindBy(xpath = "//button[text()='Mailing Address']")
 	public WebElement mailingAddressSection;
 	
@@ -37,6 +37,9 @@ public class CSRDetail extends BaseSetup {
 	
 	@FindBy(xpath = "//header[text()='Add Address']")
 	public WebElement addAddressTitle;
+	
+	@FindBy(css = "label[data-checked]")
+	public WebElement currentAddressCheckBox;
 	
 	@FindBy(id = "addressType")
 	public WebElement addressTypeDropdown;
@@ -82,8 +85,14 @@ public class CSRDetail extends BaseSetup {
 	@FindBy(xpath = "//div[contains(text(),'Delete')]")
 	public List<WebElement> deleteMessageList;
 	
+	@FindBy(xpath = "//div[contains(text(),'Delete')]")
+	public WebElement deleteMessage;
+	
 	@FindBy(xpath = "//div[contains(text(),'Delete')]//following::div[1]")
 	public List<WebElement> descriptionDeleteMessageList;
+	
+	@FindBy(xpath = "//div[@data-status='success' and contains(@class,'chakra-alert')]")
+	public List<WebElement> successDeleteMessageList;
 	// Phones
 	
 	// following delete message

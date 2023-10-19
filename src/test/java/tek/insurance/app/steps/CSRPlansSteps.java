@@ -15,8 +15,7 @@ public class CSRPlansSteps extends CommonUtility {
 
 	@When("The User click on Plans")
 	public void theUserClickOnPlans() {
-		waitTillClickable(factory.getLoginPage().plansLink);
-		click(factory.getLoginPage().plansLink);
+		click(factory.getLoginPage().plansSection);
 		logger.info("User succussfully clicked on Plans - process passed");
 	}
 

@@ -6,6 +6,7 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import io.cucumber.java.en.Given;
@@ -17,104 +18,93 @@ import tek.insurance.app.utilities.DateUtility;
 
 public class LoginSteps extends CommonUtility {
 	POMFactory factory = new POMFactory();
+	private String pPassed = " - Process Passed";
 
 	@Given("User clicked on login button")
 	public void userClickedOnLoginButton() {
-		waitTillClickable(factory.getLoginPage().loginLink);
 		click(factory.getLoginPage().loginLink);
-		logger.info("User successfully clicked on login button - process passed");
+		logger.info("User successfully clicked on login button " + pPassed);
 	}
 
 	@Given("User should be see the {string} title")
-	public void userShouldBeSeeTheTitle(String signInToYourAccount) {
-		waitTillPresence(factory.getLoginPage().signInTitle);
-		String actual = factory.getLoginPage().signInTitle.getText();
-		Assert.assertEquals(actual, signInToYourAccount);
-		logger.info("The actual: " + actual + " and expectd: " + signInToYourAccount + " was same - process passed");
+	public void userShouldBeSeeTheTitle(String expectedsignInToYourAccount) {
+		String actualTitle = getElementText(factory.getLoginPage().signInTitle);
+		Assert.assertEquals(actualTitle, expectedsignInToYourAccount);
+		loggerActualAndExpected(actualTitle, expectedsignInToYourAccount);
 	}
 
 	@Given("User entered the username {string} and password {string}")
 	public void userEnteredTheUsernameAndPassword(String username, String password) {
-		waitTillPresence(factory.getLoginPage().usernameField);
 		sendText(factory.getLoginPage().usernameField, username);
-		logger.info("User successfully entered the username: " + username + " -process passed");
-
-		waitTillPresence(factory.getLoginPage().passwordField);
+		logger.info("User successfully entered the username: " + username + pPassed);
 		sendText(factory.getLoginPage().passwordField, password);
-		logger.info("User successfully entered the password. process - passed");
+		logger.info("User successfully entered the password. process" + pPassed);
 
 	}
 
-	@When("User clicked on	sign in")
+	@When("User clicked on sign in")
 	public void userClickedOnSignIn() {
-		waitTillClickable(factory.getLoginPage().singInBttn);
 		click(factory.getLoginPage().singInBttn);
-		logger.info("User successfully clicked on sign in button");
-	}
-
-	@When("User should see the Error message of User not found")
-	public void userShouldSeeTheErrorMessageOfUserNotFound() {
-		waitTillPresence(factory.getLoginPage().errorUserNotFound);
-		Assert.assertTrue(factory.getLoginPage().errorUserNotFound.isDisplayed());
-		logger.info("Error message displayed - process passed");
-	}
-
-	@When("User should see the Error message of Password not matched")
-	public void userShouldSeeTheErrorMessageOfPasswordNotMatched() {
-		waitTillPresence(factory.getLoginPage().errorPassNotMatch);
-		Assert.assertTrue(factory.getLoginPage().errorPassNotMatch.isDisplayed());
-		logger.info("Error message displayed - process passed");
+		logger.info("User successfully clicked on sign in button" + pPassed);
 	}
 
 	@Then("The {string} title should be displayed")
-	public void theTitleShouldBeDisplayed(String customerPortal) {
-		waitTillPresence(factory.getLoginPage().customerServicePortal);
-		String actual = factory.getLoginPage().customerServicePortal.getText();
-		Assert.assertEquals(actual, customerPortal);
-		logger.info("The actual: " + actual + " and expected: " + customerPortal + " was same - process passed");
+	public void theTitleShouldBeDisplayed(String expectedCustomerPortal) {
+		switch (expectedCustomerPortal) {
+		case "Customer Service Portal":
+			String actual = getElementText(factory.getLoginPage().cSRTitle);
+			Assert.assertEquals(actual, expectedCustomerPortal);
+			loggerActualAndExpected(actual, expectedCustomerPortal);
+			break;
+		case "Primary Account Portal":
+			String actualTitle = getElementText(factory.getLoginPage().primaryAccountPortal);
+			Assert.assertEquals(actualTitle, expectedCustomerPortal);
+			loggerActualAndExpected(actualTitle, expectedCustomerPortal);
+			break;
+
+		default:
+			System.out.println("None of the titles was displayed - Sign in to Accounts Part");
+			break;
+		}
+		
 	}
 
-	@Then("User should be see the {string} and {string}")
-	public void userShouldBeSeeTheAnd(String accounts, String plans) {
-		waitTillPresence(factory.getLoginPage().accountsLinkInCustomerPortal);
-		String actualAccounts = factory.getLoginPage().accountsLinkInCustomerPortal.getText();
-		Assert.assertEquals(actualAccounts, accounts);
-		logger.info("The actual: " + actualAccounts + " and expected: " + accounts + " was same - process passed");
+	@Then("User should be see the sections {string}  {string}")
+	public void userShouldBeSeeTheSections(String expectedAccounts, String expectedPlans) {
+		String actualAccounts = getElementText(factory.getLoginPage().accountsSection);
+		Assert.assertEquals(actualAccounts, expectedAccounts);
+		loggerActualAndExpected(actualAccounts, expectedAccounts);
 
-		String actualPlans = factory.getLoginPage().plansLink.getText();
-		Assert.assertEquals(actualPlans, plans);
-		logger.info("The actual: " + actualPlans + " and expected: " + plans + " was same - process passed");
+		String actualPlans = getElementText(factory.getLoginPage().plansSection);
+		Assert.assertEquals(actualPlans, expectedPlans);
+		loggerActualAndExpected(actualPlans, expectedPlans);
 	}
+
 
 	@Then("User click on profile and user type {string} Full name {string} username {string}")
 	public void userClickOnProfileAndUserTypeFullNameUsername(String userType, String fullName, String username) {
 		click(factory.getLoginPage().profileBttn);
 
-		waitTillPresence(factory.getLoginPage().userTypeInCustomer);
-		String actualUserType = factory.getLoginPage().userTypeInCustomer.getText();
+		String actualUserType = getElementText(factory.getLoginPage().profileUserType);
 		Assert.assertEquals(actualUserType, userType);
-		logger.info("The actual: " + actualUserType + " and expected: " + userType + " was same - process passed");
+		loggerActualAndExpected(actualUserType, userType);
 
-		waitTillPresence(factory.getLoginPage().fullNameInCustomer);
-		String actualfullName = factory.getLoginPage().fullNameInCustomer.getText();
+		String actualfullName = getElementText(factory.getLoginPage().profileFullName);
 		Assert.assertEquals(actualfullName, fullName);
-		logger.info("The actual: " + actualfullName + " and expected: " + fullName + " was same - process passed");
+		loggerActualAndExpected(actualfullName, fullName);
 
-		waitTillPresence(factory.getLoginPage().usernameInCustomer);
-		String actualUsername = factory.getLoginPage().usernameInCustomer.getText();
+		String actualUsername = getElementText(factory.getLoginPage().profileUsername);
 		Assert.assertEquals(actualUsername, username);
-		logger.info("The actual: " + actualUsername + " and expected: " + username + " was same - process passed");
+		loggerActualAndExpected(actualUsername, username);
 	}
 
 	// next scenario:
 
 	@Given("User entered the username {string} password {string}")
 	public void userEnteredTheUsernamePassword(String username, String password) {
-		waitTillPresence(factory.getLoginPage().usernameField);
 		sendText(factory.getLoginPage().usernameField, username);
 		logger.info("User successfully entered the username: " + username + " -process passed");
 
-		waitTillPresence(factory.getLoginPage().passwordField);
 		sendText(factory.getLoginPage().passwordField, password);
 		logger.info("User successfully entered the password. process - passed");
 	}
@@ -130,67 +120,74 @@ public class LoginSteps extends CommonUtility {
 		waitTillPresence(factory.getLoginPage().primaryAccountPortal);
 		String actual = factory.getLoginPage().primaryAccountPortal.getText();
 		Assert.assertEquals(actual, primaryPortal);
-		logger.info("The actual: " + actual + " and expected: " + primaryPortal + " was same - process passed");
+		loggerActualAndExpected(actual, primaryPortal);
 	}
 
 	@Then("Validate some options like {string} {string} {string} {string}")
 	public void validateSomeOptionsLike(String dashboard, String plans, String payments, String settings) {
-		waitTillPresence(factory.getLoginPage().dashboardLink);
-		String actualDashboard = factory.getLoginPage().dashboardLink.getText();
+		String actualDashboard = getElementText(factory.getLoginPage().dashboardSection);
 		Assert.assertEquals(actualDashboard, dashboard);
-		logger.info("The actual: " + actualDashboard + " and expected: " + dashboard + " was same - process passed");
+		loggerActualAndExpected(actualDashboard, dashboard);
 
-		String actualPlans = factory.getLoginPage().plansLink.getText();
+		String actualPlans = getElementText(factory.getLoginPage().plansSection);
 		Assert.assertEquals(actualPlans, plans);
-		logger.info("The actual: " + actualPlans + " and expected: " + plans + " was same - process passed");
+		loggerActualAndExpected(actualPlans, plans);
 
-		String actualPayments = factory.getLoginPage().paymentsLink.getText();
+		String actualPayments = getElementText(factory.getLoginPage().paymentsSection);
 		Assert.assertEquals(actualPayments, payments);
-		logger.info("The actual: " + actualPayments + " and expected: " + payments + " was same - process passed");
+		loggerActualAndExpected(actualPayments, payments);
 
-		String actualsettings = factory.getLoginPage().settingsLink.getText();
+		String actualsettings = getElementText(factory.getLoginPage().settingsSection);
 		Assert.assertEquals(actualsettings, settings);
-		logger.info("The actual: " + actualsettings + " and expected: " + settings + " was same - process passed");
-
+		loggerActualAndExpected(actualsettings, settings);
 	}
 
 	@Then("User click on profile section and user type {string} FullName {string} username {string}")
 	public void userClickOnProfileSectionAndUserTypeFullNameUsername(String userType, String fullName,
 			String username) {
-		waitTillClickable(factory.getLoginPage().profileBttn);
 		click(factory.getLoginPage().profileBttn);
-		waitTillPresence(factory.getLoginPage().userTypeInPrimary);
-		String actualUserType = factory.getLoginPage().userTypeInPrimary.getText();
+		String actualUserType = getElementText(factory.getLoginPage().profileUserType);
 		Assert.assertEquals(actualUserType, userType);
-		logger.info("The actual: " + actualUserType + " and expected: " + userType + " was same - process passed");
+		loggerActualAndExpected(actualUserType, userType);
 
-		waitTillPresence(factory.getLoginPage().fullNameInPrimary);
-		String actualfullName = factory.getLoginPage().fullNameInPrimary.getText();
+		String actualfullName = getElementText(factory.getLoginPage().profileFullName);
 		Assert.assertEquals(actualfullName, fullName);
-		logger.info("The actual: " + actualfullName + " and expected: " + fullName + " was same - process passed");
+		loggerActualAndExpected(actualfullName, fullName);
 
-		waitTillPresence(factory.getLoginPage().usernameInPrimary);
-		String actualUsername = factory.getLoginPage().usernameInPrimary.getText();
+		String actualUsername = getElementText(factory.getLoginPage().profileUsername);
 		Assert.assertEquals(actualUsername, username);
-		logger.info("The actual: " + actualUsername + " and expected: " + username + " was same - process passed");
+		loggerActualAndExpected(actualUsername, username);
 	}
 
 	@Then("User click on logout button")
 	public void userClickOnLogoutButton() {
-		waitTillClickable(factory.getLoginPage().logoutBttnInCustomer);
-		click(factory.getLoginPage().logoutBttnInCustomer);
+		click(factory.getLoginPage().profileLogoutBttn);
 		logger.info("User successfully clicked on logout button - process passed");
 	}
 
-	// Negative CSR Testing
+	@Then("Validate the home page")
+	public void validateTheHomePage() {
+		waitTillPresence(factory.getMainPage().tekInsuranceLink);
+		Assert.assertTrue(isElementDisplayed(factory.getMainPage().tekInsuranceLink));
+		logger.info("website logo successfully displayed - process passed");
+	}
+
+	// Negative with scenario outline
+	@Then("User should see the Error message of {string}")
+	public void userShouldSeeTheErrorMessageOf(String expectedError) {
+		String errorMessage = getElementText(factory.getLoginPage().errorMessage);
+		String actualErrorMessage = errorMessage.replaceAll("ERROR\n", "");
+		Assert.assertEquals(actualErrorMessage, expectedError);
+		loggerActualAndExpected(actualErrorMessage, expectedError);
+	}
+
+//	 Negative CSR Testing
 	@Given("User enter the username {string} and password {string}")
 	public void userEnterTheUsernameAndPassword(String username, String password) {
-		waitTillPresence(factory.getLoginPage().usernameField);
 		sendText(factory.getLoginPage().usernameField, username);
-		logger.info("User successfully entered the username: " + username + " -process passed");
-		waitTillPresence(factory.getLoginPage().passwordField);
+		logger.info("User successfully entered the username: " + username + pPassed);
 		sendText(factory.getLoginPage().passwordField, password);
-		logger.info("User successfully entered the password - process passed");
+		logger.info("User successfully entered the password" + pPassed);
 	}
 
 }

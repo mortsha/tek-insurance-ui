@@ -23,6 +23,7 @@ public class CSRDetailAddress extends CommonUtility {
 	private String city;
 	private String phoneNumber;
 	private String licensePlate;
+	private String validateAddress;
 
 	@Then("User click on close button to close the profile section")
 	public void userClickOnCloseButtonToCloseTheProfileSection() {
@@ -32,24 +33,34 @@ public class CSRDetailAddress extends CommonUtility {
 
 	@Given("The user click on Accounts")
 	public void theUserClickOnAccounts() {
-		click(factory.getLoginPage().accountsLinkInCustomerPortal);
+		click(factory.getLoginPage().accountsSection);
 		logger.info("User successfully clicked on Accounts - process passed");
 	}
 
 	@Given("find the account with email {string} and click on details")
 	public void findTheAccountWithEmailAndClickOnDetails(String email) throws InterruptedException {
-		while (true) {
+		click(factory.getCSRDetail().dropdownShow);
+		selectByValue(factory.getCSRDetail().dropdownShow, "50");
+
+		boolean emailFound = false;
+		while (!emailFound) {
 			for (WebElement element : factory.getCSRDetail().emailAddressList) {
 				if (element.getText().equalsIgnoreCase(email)) {
 //					click(factory.getCSRDetail().detailBttn);
 					click(By.xpath("//td[text()='" + email + "']//following-sibling::td[5]//child::button"));
+					emailFound = true;
 					return;
 				}
 			}
-			click(factory.getCSRDetail().nextPageBttn);
-			waitTillPresence(By.xpath("//table/tbody/tr/td[2]"));
+			if (!emailFound) {
+				click(factory.getCSRDetail().nextPageBttn);
+				waitTillPresence(By.xpath("//table/tbody/tr/td[2]"));
+			}
+			if (emailFound) {
+				break;
+			}
 		}
-//		logger.info("User successfully find the email and clicked on details - process passed ");
+		logger.info("User successfully find the email and clicked on details - process passed ");
 	}
 
 	@Given("User click on {string} section")
@@ -62,12 +73,6 @@ public class CSRDetailAddress extends CommonUtility {
 		logger.info("User successfully clicked on " + section + " section - process passed");
 
 	}
-
-//	@Given("User click on Mailing Address section")
-//	public void userClickOnMailingAddressSection() {
-//		click(factory.getCSRDetail().mailingAddressSection);
-//		logger.info("User successfully clicked on Mailing section - process passed");
-//	}
 
 	@When("User click on {string} section button")
 	public void userClickOnSectionButton(String addSection) {
@@ -98,15 +103,22 @@ public class CSRDetailAddress extends CommonUtility {
 		}
 
 	}
-//
-//	@When("validate the add address text")
-//	public void validateTheAddAddressText() {
-//		waitTillPresence(factory.getCSRDetail().addAddressTitle);
-//		String actualTitle = factory.getCSRDetail().addAddressTitle.getText();
-//		String expectedTitle = "Add Address";
-//		Assert.assertEquals(actualTitle, expectedTitle);
-//		logger.info("The actual: " + actualTitle + " and expected: " + expectedTitle + " is same - process passed");
-//	}
+
+	@When("The Your current address checkbox is {string} selected")
+	public void theYourCurrentAddressCheckboxIsSelected(String checkBox) {
+		if(checkBox.equals("off")) {
+			click(factory.getCSRDetail().currentAddressCheckBox);
+			logger.info("The checkbox is off now - process passed");
+		}else if(checkBox.equals("on")) {
+			if(!isElementDisplayed(factory.getCSRDetail().currentAddressCheckBox)) {
+				click(factory.getCSRDetail().currentAddressCheckBox);
+			}else {
+				Assert.assertTrue(isElementDisplayed(factory.getCSRDetail().currentAddressCheckBox));
+				logger.info("The checkbox is alreadey on - process passed");
+			}
+		}
+		
+	}
 
 	@Then("The user fill the form with the below information")
 	public void theUserFillTheFormWithTheBelowInformation(DataTable dataTable) throws InterruptedException {
@@ -162,9 +174,9 @@ public class CSRDetailAddress extends CommonUtility {
 
 	@Then("validate the address is present")
 	public void validateTheAddressIsPresent() {
-		String validateAddressCity = addressLine + ", " + city;
+		validateAddress = addressLine;
 		for (WebElement element : factory.getCSRDetail().addressValidateList) {
-			if (element.getText().equalsIgnoreCase(validateAddressCity)) {
+			if (element.getText().equalsIgnoreCase(validateAddress)) {
 				Assert.assertTrue(element.isDisplayed());
 				System.out.println(element.getText());
 				logger.info("Validate the address - process passed");
@@ -176,20 +188,23 @@ public class CSRDetailAddress extends CommonUtility {
 	public void theUserClickOnDeleteButtonOf(String deleteSection) {
 		switch (deleteSection.toLowerCase()) {
 		case "address":
-			click(factory.getCSRDetail().deleteAdress);
+			click(By.xpath("//p[text()='" + validateAddress + "']//preceding::div[1]//child::button"));
+//			click(factory.getCSRDetail().deleteAdress);
 			logger.info("User clicked on delete address successfully - process passed");
 			break;
-			
+
 		case "phone":
-			click(factory.getCSRDetail().deletePhoneBttn);
+			String phoneFormatted = dataGenerator.formatPhoneNumber(phoneNumber);
+			click(By.xpath("//p[text()='" + phoneFormatted + "']//preceding::div[2]//child::button"));
+//			click(factory.getCSRDetail().deletePhoneBttn);
 			logger.info("User clicked on delete phone successfully - process passed");
 			break;
-			
+
 		case "car":
-			click(factory.getCSRDetail().deleteCarBttn);
+			click(By.xpath("//p[text()='" + licensePlate + "']//preceding::div[2]//child::button"));
+//			click(factory.getCSRDetail().deleteCarBttn);
 			logger.info("User clicked on delete car successfully - process passed");
 			break;
-
 
 		default:
 			break;
@@ -218,21 +233,17 @@ public class CSRDetailAddress extends CommonUtility {
 		logger.info("User clicked on confirm button successfully - process passed");
 	}
 
-	@Then("the delete message should be display")
-	public void theDeleteMessageShouldBeDisplay() throws InterruptedException {
-		for (WebElement element : factory.getCSRDetail().deleteMessageList) {
-			if (element.getText().equalsIgnoreCase("Delete address")) {
+	@Then("The message {string} should be displayed")
+	public void theMessageShouldBeDisplayed(String deleteMessage) throws InterruptedException {
+		System.out.println("Printing to make sure");
+		waitTillPrecenseElements(factory.getCSRDetail().successDeleteMessageList);
+		for (WebElement element : factory.getCSRDetail().successDeleteMessageList) {
+			if (element.getText().equals(deleteMessage)) {
 				Assert.assertTrue(element.isDisplayed());
-				logger.info("The address is deleted - process passed");
-			} else if (element.getText().equalsIgnoreCase("Delete phone")) {
-				Assert.assertTrue(element.isDisplayed());
-				logger.info("The phone is deleted - process passed");
-			} else if (element.getText().equalsIgnoreCase("Deleted car")) {
-				Assert.assertTrue(element.isDisplayed());
-				logger.info("The car is deleted - process passed");
+				logger.info("The message: " + element.getText() + " is present - process passed");
 			}
 		}
-		Thread.sleep(1000);
+
 	}
 
 	@Then("the address should be deleted from account detail")

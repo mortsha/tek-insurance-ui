@@ -15,6 +15,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
@@ -22,9 +23,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import tek.insurance.app.base.BaseSetup;
 
-
-
 public class CommonUtility extends BaseSetup {
+
+	
+	public void loggerActualAndExpected(String actual,String expected) {
+		logger.info("The actual: " + actual + " and expected: " + expected + " was same - process passed");
+
+	}
 	
 	public WebDriverWait getWait() {
 		return new WebDriverWait(getDriver(), Duration.ofSeconds(20));
@@ -41,8 +46,9 @@ public class CommonUtility extends BaseSetup {
 	public WebElement waitTillPresence(WebElement element) {
 		return this.getWait().until(ExpectedConditions.visibilityOf(element));
 	}
-	
-
+	public List<WebElement> waitTillPrecenseElements(List<WebElement> elements){
+		return this.getWait().until(ExpectedConditions.visibilityOfAllElements(elements));
+	}
 	public WebElement waitTillPresence(By by) {
 		return this.getWait().until(ExpectedConditions.visibilityOfElementLocated(by));
 	}
@@ -56,12 +62,9 @@ public class CommonUtility extends BaseSetup {
 	}
 
 	public void sendText(WebElement element, String value) {
-		
 		JavascriptExecutor js = (JavascriptExecutor) getDriver();
 		js.executeScript("arguments[0].value=''", element);
-		
 		this.waitTillPresence(element).sendKeys(value);
-		
 	}
 
 	public String getElementText(WebElement element) {
@@ -141,6 +144,8 @@ public class CommonUtility extends BaseSetup {
 		return text;
 	}
 	
+
+	
 	public String getText(By by) {
 		WebElement element = getDriver().findElement(by);
 		String text = element.getText();
@@ -164,6 +169,18 @@ public class CommonUtility extends BaseSetup {
 		} else {
 			return false;
 		}
+	}
+
+	public boolean isElementDisplayed(By by) {
+		try {
+			return getDriver().findElement(by).isDisplayed();
+		} catch (org.openqa.selenium.NoSuchElementException e) {
+			return false;
+		}
+	}
+
+	public boolean isElementDisplayed(String xpathExpression) {
+		return isElementDisplayed(By.xpath(xpathExpression));
 	}
 
 	public boolean isElementEnabled(WebElement ele) {
@@ -240,6 +257,5 @@ public class CommonUtility extends BaseSetup {
 			e.printStackTrace();
 		}
 	}
-
 
 }

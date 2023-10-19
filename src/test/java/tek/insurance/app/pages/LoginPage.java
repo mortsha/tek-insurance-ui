@@ -30,67 +30,48 @@ public class LoginPage extends BaseSetup {
 	public WebElement singInBttn;
 	
 	@FindBy(xpath = "//h2[text()='Customer Service Portal']")
-	public WebElement customerServicePortal;
+	public WebElement cSRTitle;
 	
 	@FindBy(xpath = "//a[text()='Accounts']")
-	public WebElement accountsLinkInCustomerPortal;
+	public WebElement accountsSection;
+	
+	@FindBy(xpath = "//a[text()='Dashboard']")
+	public WebElement dashboardSection;
 	
 	@FindBy(xpath = "//a[text()='Plans']")
-	public WebElement plansLinkInCustomerPortal;
+	public WebElement plansSection;
+	
+	@FindBy(xpath = "//a[text()='Payments']")
+	public WebElement paymentsSection;
+	
+	@FindBy(xpath = "//a[text()='Settings']")
+	public WebElement settingsSection;
 	
 	@FindBy(xpath = "//button[@type='button']")
 	public WebElement profileBttn;
-	
-	@FindBy(xpath = "//p[text()='CSR']")
-	public WebElement userTypeInCustomer;
-	
-	@FindBy(xpath = "//p[text()='Supervisor']")
-	public WebElement fullNameInCustomer;
-	
 
-	@FindBy(xpath = "//p[text()='supervisor']")
-	public WebElement usernameInCustomer;
-	
 	@FindBy(xpath = "//button[text()='Logout']")
-	public WebElement logoutBttnInCustomer;
+	public WebElement profileLogoutBttn;
 	
 	// scenario second: login to primary account portal
 	
 	@FindBy(xpath = "//h2[text()='Primary Account Portal']")
 	public WebElement primaryAccountPortal;
 	
-
-	
-	@FindBy(xpath = "//a[text()='Dashboard']")
-	public WebElement dashboardLink;
-	
-	@FindBy(xpath = "//a[text()='Plans']")
-	public WebElement plansLink;
-	
-	@FindBy(xpath = "//a[text()='Payments']")
-	public WebElement paymentsLink;
-	
-	@FindBy(xpath = "//a[text()='Settings']")
-	public WebElement settingsLink;
-	
 	@FindBy(xpath = "//p[text()='User Type']//following-sibling::p")
-//	@FindBy(xpath = "//p[text()='CUSTOMER']")
-	public WebElement userTypeInPrimary;
+	public WebElement profileUserType;
 	
-	@FindBy(xpath = "//p[text()='Full Name']//following-sibling::p")
-	public WebElement fullNameInPrimary;
+	@FindBy(xpath = "//p[text()='Name']//following-sibling::p")
+	public WebElement profileFullName;
 	
 	@FindBy(xpath = "//p[text()='Username']//following-sibling::p")
-	public WebElement usernameInPrimary;
+	public WebElement profileUsername;
 	
 	// negative testing
 	
-//	@FindBy(xpath = "//div[text()='User not found']")
-	@FindBy(xpath = "//div[contains(text(),'not found')]")
-	public WebElement errorUserNotFound;
+	@FindBy(xpath = "//div[@data-status='error' and @role='alert']")
+	public WebElement errorMessage;
 	
-	@FindBy(xpath = "//div[text()='Password not matched']")
-	public WebElement errorPassNotMatch;
 	
 	
 }

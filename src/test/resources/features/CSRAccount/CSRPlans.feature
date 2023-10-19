@@ -8,7 +8,7 @@ Feature: Launch the website and login to CSR and validate the Plans
     
   Scenario: Login with CSR and verify the plans
     Given User entered the username 'supervisor' and password 'tek_supervisor'
-    And User clicked on	sign in
+    And User clicked on sign in
     And The 'Customer Service Portal' title should be displayed
     When The User click on Plans
     And The text Todays Plans Price should be display

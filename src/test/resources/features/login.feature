@@ -6,45 +6,43 @@ Feature: Login to the account with two different portals
     And User clicked on login button
     And User should be see the 'Sign in to your Account' title
 
-  @CSRLogin
-  Scenario: Login to the CSR home
-    Given User entered the username 'supervisor' and password 'tek_supervisor'
-    When User clicked on	sign in
-    Then The 'Customer Service Portal' title should be displayed
-    And User should be see the 'Accounts' and 'Plans'
-    And User click on profile and user type 'CSR' Full name 'Supervisor' username 'supervisor'
+  @Login123
+  Scenario Outline: Login to the CSR Home
+    Given User entered the username '<Username>' and password '<Password>'
+    When User clicked on sign in
+    Then The '<Title>' title should be displayed
+    And User should be see the sections 'Accounts'  'Plans'
+    And User click on profile and user type '<UserType>' Full name '<FullName>' username '<username>'
     And User click on logout button
+    And Validate the home page
 
-  @PrimaryAccountLogin
-  Scenario: Login to the Customer home
-    Given User entered the username 'mori1234@gmail.com' password 'mori1234'
-    When User clicked on sign in button
-    Then The 'Primary Account Portal' should be displayed
+    Examples: 
+      | Username   | Password       | Title                   | UserType | FullName   | username   |
+      | supervisor | tek_supervisor | Customer Service Portal | CSR      | Supervisor | supervisor |
+
+  @Login456
+  Scenario Outline: Login to the Customer home
+    Given User entered the username '<Username>' and password '<Password>'
+    When User clicked on sign in
+    Then The '<Title>' title should be displayed
     And Validate some options like 'Dashboard' 'Plans' 'Payments' 'Settings'
-    And User click on profile section and user type 'CUSTOMER' FullName 'Mori Sharifi' username 'mori1234@gmail.com'
+    And User click on profile and user type '<UserType>' Full name '<FullName>' username '<username>'
     And User click on logout button
+    And Validate the home page
 
-  @Negative1SCR
-  Scenario: Login with wrong username and correct password to CSR home
-    Given User enter the username 'supervis' and password 'tek_supervisor'
-    When User clicked on	sign in
-    And User should see the Error message of User not found
+    Examples: 
+      | Username           | Password | Title                  | UserType | FullName     | username           |
+      | mori1234@gmail.com | mori1234 | Primary Account Portal | CUSTOMER | Mori Sharifi | mori1234@gmail.com |
 
-  @Negative2SCR
-  Scenario: Login with correct username and wrong password to CSR home
-    Given User enter the username 'supervisor' and password 'alaki1234'
-    When User clicked on	sign in
-    And User should see the Error message of Password not matched
-    #validate the error message 'password' or 'user not found'
+  @NegativeLogin
+  Scenario Outline: Negative Login Scenarios
+    Given User entered the username '<username>' and password '<password>'
+    When User clicked on sign in
+    Then User should see the Error message of '<error_message>'
 
-  @Negative1PrimaryAccount
-  Scenario: Login with wrong username and correct password to Primary Account home
-    Given User enter the username 'mori' and password 'mori1234'
-    When User clicked on	sign in
-    And User should see the Error message of User not found
-
-  @Negative2PrimaryAccount
-  Scenario: Login with correct username and wrong password to Primary Account home
-    Given User enter the username 'mori1234@gmail.com' and password 'mori0000'
-    When User clicked on	sign in
-    And User should see the Error message of Password not matched
+    Examples: 
+      | username           | password       | error_message           |
+      | supervis           | tek_supervisor | User supervis not found |
+      | supervisor         | tek_suppeeeer  | Password not matched    |
+      | mori               | mori1234       | User mori not found     |
+      | mori1234@gmail.com | ppppp8777      | Password not matched    |
