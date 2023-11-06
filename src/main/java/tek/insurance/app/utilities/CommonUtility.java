@@ -1,6 +1,7 @@
 package tek.insurance.app.utilities;
 
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Set;
@@ -14,6 +15,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -25,12 +27,26 @@ import tek.insurance.app.base.BaseSetup;
 
 public class CommonUtility extends BaseSetup {
 
-	
-	public void loggerActualAndExpected(String actual,String expected) {
+	public void loggerActualAndExpected(String actual, String expected) {
 		logger.info("The actual: " + actual + " and expected: " + expected + " was same - process passed");
 
 	}
-	
+
+	public WebElement findElementByCustomXPath(String customXPath) {
+		return getDriver().findElement(By.xpath(customXPath));
+	}
+
+	public void refresh() {
+		getDriver().navigate().refresh();
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+		getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+	}
+
+	public static void implicitlyAndPageWait(WebDriver driver) {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
+	}
+
 	public WebDriverWait getWait() {
 		return new WebDriverWait(getDriver(), Duration.ofSeconds(20));
 	}
@@ -46,9 +62,11 @@ public class CommonUtility extends BaseSetup {
 	public WebElement waitTillPresence(WebElement element) {
 		return this.getWait().until(ExpectedConditions.visibilityOf(element));
 	}
-	public List<WebElement> waitTillPrecenseElements(List<WebElement> elements){
+
+	public List<WebElement> waitTillPrecenseElements(List<WebElement> elements) {
 		return this.getWait().until(ExpectedConditions.visibilityOfAllElements(elements));
 	}
+
 	public WebElement waitTillPresence(By by) {
 		return this.getWait().until(ExpectedConditions.visibilityOfElementLocated(by));
 	}
@@ -143,9 +161,7 @@ public class CommonUtility extends BaseSetup {
 		String text = ele.getText();
 		return text;
 	}
-	
 
-	
 	public String getText(By by) {
 		WebElement element = getDriver().findElement(by);
 		String text = element.getText();

@@ -23,17 +23,17 @@ public class POMFactory {
 	public MainPage getMainPage() {
 		return this.mainPage;
 	}
-	
+
 	public LoginPage getLoginPage() {
 		return this.loginPage;
 	}
-	
+
 	public CSRDetail getCSRDetail() {
 		return this.csrDetail;
 	}
+
 	public CSRPlans getCSRPlans() {
 		return this.csrPlans;
 	}
-	
 
 }

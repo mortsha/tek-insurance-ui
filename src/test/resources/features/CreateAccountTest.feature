@@ -19,7 +19,7 @@ Feature: Create Primary Account with positive and negative tests
       | username | password  | confirmPassword |
       | username | smile7788 | smile7788       |
     Then The user submits the form
-    And User should see the Success message of 'You account Successfully register'
+    And User should see the Success message of 'Your account successfully register'
 
   @CANegative
   Scenario: Creation of a Primary Account negative test with existing email

@@ -60,13 +60,18 @@
 			<artifactId>javafaker</artifactId>
 			<version>1.0.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.30</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M7</version>
-				
 				<configuration>
 					<!--
 					<systemPropertyVariables>
@@ -75,7 +80,6 @@
 					-->
 					<includes>*/TestRunner.java</includes>
 					<testFailureIgnore>true</testFailureIgnore>
-						
 				</configuration>
 			</plugin>
 			<plugin>

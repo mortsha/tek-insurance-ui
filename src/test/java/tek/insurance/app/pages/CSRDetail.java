@@ -26,6 +26,9 @@ public class CSRDetail extends BaseSetup {
 	@FindBy(xpath = "//table/tbody/tr/td[2]")
 	public List<WebElement> emailAddressList;
 	
+	@FindBy(xpath = "//table/tbody/tr/td[7]//child::button")
+	public WebElement detailAccountBttn;
+	
 	@FindBy(xpath = "//div[contains(@class,'chakra-stack')]//child::button[3]")
 	public WebElement nextPageBttn;
 
@@ -65,6 +68,12 @@ public class CSRDetail extends BaseSetup {
 	@FindBy(xpath = "//p[text()='Address:']//following-sibling::p[1]")
 	public List<WebElement> addressValidateList;
 	
+	@FindBy(xpath = "//h2[contains(@class,'chakra-heading')]")
+	public List<WebElement> titleList;
+	
+	@FindBy(xpath = "//th[text()='Email Address']//div//child::input")
+	public WebElement emailFieldPrimaryAccount;
+	
 //	@FindBy(xpath = "//button[@aria-label='delete address']")
 	@FindBy(css = "button[aria-label='delete address']")
 	public List<WebElement> deleteAdressList;
@@ -82,16 +91,16 @@ public class CSRDetail extends BaseSetup {
 	public WebElement deleteCurrentBttn;
 	
 //	@FindBy(xpath = "//div[text()='Delete address']")
-	@FindBy(xpath = "//div[contains(text(),'Delete')]")
-	public List<WebElement> deleteMessageList;
+//	@FindBy(xpath = "//div[contains(text(),'Delete')]")
+//	public List<WebElement> deleteMessageList;
 	
-	@FindBy(xpath = "//div[contains(text(),'Delete')]")
+	@FindBy(xpath = "//div[contains(@class,'banner-warning')]")
 	public WebElement deleteMessage;
 	
 	@FindBy(xpath = "//div[contains(text(),'Delete')]//following::div[1]")
 	public List<WebElement> descriptionDeleteMessageList;
 	
-	@FindBy(xpath = "//div[@data-status='success' and contains(@class,'chakra-alert')]")
+	@FindBy(xpath = "//div[@data-status='success' and contains(@class,'chakra-alert ')]")
 	public List<WebElement> successDeleteMessageList;
 	// Phones
 	
@@ -126,7 +135,11 @@ public class CSRDetail extends BaseSetup {
 	public WebElement timeDropdown;
 	
 	@FindBy(xpath = "//div[contains(@class,'chakra-stack')]//child::p[1]")
+//	@FindBy(xpath = "//p[contains(text(),'-')]")
 	public List<WebElement> ValidateSectionList;
+	
+	@FindBy(xpath = "//p[contains(text(),'-')]")
+	public List<WebElement> phoneList;
 	
 	@FindBy(xpath = "//button[contains(@aria-label,'delete phone')]")
 	public WebElement deletePhoneBttn;
