@@ -21,14 +21,14 @@ public class CSRPlansSteps extends CommonUtility {
 
 	@When("The text Todays Plans Price should be display")
 	public void theTextTodaysPlansPriceShouldBeDisplay() {
-		waitTillPresence(factory.getCSRPlans().todaysPlansPriceText);
-		Assert.assertTrue(factory.getCSRPlans().todaysPlansPriceText.isDisplayed());
+		waitTillPresence(factory.getCSRAccountPlansPage().todaysPlansPriceText);
+		Assert.assertTrue(factory.getCSRAccountPlansPage().todaysPlansPriceText.isDisplayed());
 		logger.info("The text was displayed successfully - process passed");
 	}
 
 	@Then("The plan types {string} {string} {string} {string} should be there")
 	public void thePlanTypesShouldBeThere(String motorcycle, String boat, String renters, String auto) {
-		for (WebElement element : factory.getCSRPlans().planTypeDateList) {
+		for (WebElement element : factory.getCSRAccountPlansPage().planTypeDateList) {
 			String expected = element.getText();
 			if (expected.contains(motorcycle) || expected.contains(boat) || expected.contains(renters)
 					|| expected.contains(auto)) {
@@ -42,7 +42,7 @@ public class CSRPlansSteps extends CommonUtility {
 	@Then("Date created should be todays date")
 	public void dateCreatedShouldBeTodaysDate() {
 		String expectedCreatedDate = DateUtility.todaysDate();
-		for (WebElement element : factory.getCSRPlans().createdDateList) {
+		for (WebElement element : factory.getCSRAccountPlansPage().createdDateList) {
 			String actualCreatedDate = getElementText(element);
 			Assert.assertEquals(expectedCreatedDate, actualCreatedDate);
 			logger.info("the expected date created " + expectedCreatedDate + " and actual " + actualCreatedDate
@@ -53,7 +53,7 @@ public class CSRPlansSteps extends CommonUtility {
 	@Then("Date expired should be one day after that date")
 	public void dateExpiredShouldBeOneDayAfterThatDate() {
 		String expectedExpiredDate = DateUtility.incrementDate(1);
-		for (WebElement element : factory.getCSRPlans().expiredDateList) {
+		for (WebElement element : factory.getCSRAccountPlansPage().expiredDateList) {
 			String actualExpiredDate = getElementText(element);
 			Assert.assertEquals(expectedExpiredDate, actualExpiredDate);
 			logger.info("the expected date created " + expectedExpiredDate + " and actual " + actualExpiredDate

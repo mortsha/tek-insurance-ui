@@ -2,22 +2,22 @@ package tek.insurance.app.pages;
 
 public class POMFactory {
 
-	private CreateAccountTest createAccountTest;
+	private CreateAccountPage createAccountPage;
 	private MainPage mainPage;
 	private LoginPage loginPage;
-	private CSRDetail csrDetail;
-	private CSRPlans csrPlans;
+	private CSRAccountDetailsPage cSRAccountDetailsPage;
+	private CSRAccountPlansPage cSRAccountPlansPage;
 
 	public POMFactory() {
-		this.createAccountTest = new CreateAccountTest();
+		this.createAccountPage = new CreateAccountPage();
 		this.mainPage = new MainPage();
 		this.loginPage = new LoginPage();
-		this.csrDetail = new CSRDetail();
-		this.csrPlans = new CSRPlans();
+		this.cSRAccountDetailsPage = new CSRAccountDetailsPage();
+		this.cSRAccountPlansPage = new CSRAccountPlansPage();
 	}
 
-	public CreateAccountTest getCreateAccountTest() {
-		return createAccountTest;
+	public CreateAccountPage getCreateAccountPage() {
+		return createAccountPage;
 	}
 
 	public MainPage getMainPage() {
@@ -28,12 +28,12 @@ public class POMFactory {
 		return this.loginPage;
 	}
 
-	public CSRDetail getCSRDetail() {
-		return this.csrDetail;
+	public CSRAccountDetailsPage getCSRAccountDetailsPage() {
+		return this.cSRAccountDetailsPage;
 	}
 
-	public CSRPlans getCSRPlans() {
-		return this.csrPlans;
+	public CSRAccountPlansPage getCSRAccountPlansPage() {
+		return this.cSRAccountPlansPage;
 	}
 
 }

@@ -11622,3 +11622,392 @@
 2023-11-06 14:41:26,962 - logger_file -INFO - User successfully entered the password. process - Process Passed
 2023-11-06 14:41:27,023 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
 2023-11-06 14:41:27,360 - logger_file -INFO - The actual: Password not matched and expected: Password not matched was same - process passed
+2023-11-08 14:00:55,878 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 14:00:55,992 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 14:00:56,116 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 14:00:56,233 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 14:00:56,316 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 14:00:56,929 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 14:00:57,493 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 14:00:57,554 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 14:00:57,708 - logger_file -INFO - User successfully clicked on Mailing Address section - process passed
+2023-11-08 14:00:57,953 - logger_file -INFO - User successfully clicked on Add Mailing Address section - process passed
+2023-11-08 14:00:57,974 - logger_file -INFO - The actual: Add Address and expected: Add Address is same - process passed
+2023-11-08 14:00:58,698 - logger_file -INFO - User fill the Address form successfully - process passed
+2023-11-08 14:00:58,779 - logger_file -INFO - User successfully clicked on submit button - process passed
+2023-11-08 14:00:59,288 - logger_file -INFO - The actual and expected addresses match - process passed
+2023-11-08 14:01:01,240 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 14:01:01,358 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 14:01:01,485 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 14:01:01,603 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 14:01:01,677 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 14:01:02,190 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 14:01:02,754 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 14:01:02,813 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 14:01:02,966 - logger_file -INFO - User successfully clicked on Mailing Address section - process passed
+2023-11-08 14:01:03,216 - logger_file -INFO - User successfully clicked on Add Mailing Address section - process passed
+2023-11-08 14:01:03,239 - logger_file -INFO - The actual: Add Address and expected: Add Address is same - process passed
+2023-11-08 14:01:03,311 - logger_file -INFO - The checkbox is off now - process passed
+2023-11-08 14:01:03,985 - logger_file -INFO - User fill the Address form successfully - process passed
+2023-11-08 14:01:04,068 - logger_file -INFO - User successfully clicked on submit button - process passed
+2023-11-08 14:01:04,525 - logger_file -INFO - The actual and expected addresses match - process passed
+2023-11-08 14:01:04,605 - logger_file -INFO - User clicked on delete address successfully - process passed
+2023-11-08 14:01:04,638 - logger_file -INFO - The actual: Confirm Delete and expected: Confirm Delete was same - process passed
+2023-11-08 14:01:04,701 - logger_file -INFO - User clicked on confirm button successfully - process passed
+2023-11-08 16:07:28,436 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 16:07:28,534 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 16:07:28,647 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 16:07:28,745 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 16:07:28,811 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 16:07:29,386 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 16:07:29,913 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 16:07:32,064 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 16:07:32,155 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 16:07:32,264 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 16:07:32,363 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 16:07:32,429 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 16:07:32,993 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 16:07:33,528 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 16:08:03,297 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 16:08:03,396 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 16:08:03,511 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 16:08:03,613 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 16:08:03,683 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 16:08:04,160 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 16:08:04,701 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 16:08:04,753 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 16:08:04,888 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 16:08:04,955 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 16:08:47,269 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 16:08:47,361 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 16:08:47,470 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 16:08:47,567 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 16:08:47,633 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 16:08:48,261 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 16:08:48,785 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 16:08:48,831 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 16:08:48,965 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 16:08:48,992 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 16:08:49,009 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 16:08:49,056 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 16:10:37,454 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 16:10:37,555 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 16:10:37,673 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 16:10:37,772 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 16:10:37,841 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 16:10:38,429 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 16:10:38,974 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 16:10:39,026 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 16:10:39,160 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 16:10:39,187 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 16:10:39,204 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 16:10:39,255 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 16:10:41,567 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 16:10:41,661 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 16:10:41,776 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 16:10:41,876 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 16:10:41,943 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 16:10:42,444 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 16:10:42,978 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 16:10:43,024 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 16:10:43,161 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 16:10:43,186 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 16:10:43,205 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 16:10:43,253 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:42:03,469 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:42:03,582 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:42:03,707 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:42:03,812 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:42:03,882 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:42:04,793 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:42:05,431 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:42:05,486 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:42:05,643 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:42:05,672 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:42:05,692 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:42:05,746 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:42:08,791 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:42:08,889 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:42:09,011 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:42:09,115 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:42:09,183 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:42:10,057 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:42:10,790 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:42:10,838 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:42:11,036 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:42:11,065 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:42:11,083 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:42:11,136 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:44:21,412 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:44:21,519 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:44:21,641 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:44:21,749 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:44:21,815 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:44:22,403 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:44:22,973 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:44:23,024 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:44:23,185 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:44:23,213 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:44:23,230 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:44:23,283 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:44:25,842 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:44:25,940 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:44:26,056 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:44:26,161 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:44:26,229 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:44:26,784 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:44:27,376 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:44:27,420 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:44:27,608 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:44:27,634 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:44:27,654 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:44:27,704 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:52:03,467 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:52:03,564 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:52:03,677 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:52:03,782 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:52:03,848 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:52:04,438 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:52:04,980 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:52:05,028 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:52:05,212 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:52:05,239 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:52:05,257 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:52:05,307 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:52:07,750 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:52:07,838 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:52:07,951 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:52:08,052 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:52:08,118 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:52:08,676 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:52:09,202 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:52:09,246 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:52:09,500 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:52:09,527 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:52:09,544 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:52:09,592 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:52:09,923 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:52:09,949 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:53:14,747 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:53:14,845 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:53:14,958 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:53:15,058 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:53:15,127 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:53:15,715 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:53:16,282 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:53:16,331 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:53:16,477 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:53:16,502 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:53:16,521 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:53:16,569 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:53:16,854 - logger_file -INFO - Matched found: User successfully Deactivated
+2023-11-08 23:53:16,883 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:53:18,774 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:53:18,866 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:53:18,975 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:53:19,070 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:53:19,133 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:53:19,693 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:53:20,224 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:53:20,267 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:53:20,451 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:53:20,476 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:53:20,494 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:53:20,541 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:54:00,617 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:54:00,719 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:54:00,835 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:54:00,936 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:54:01,009 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:54:01,589 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:54:02,185 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:54:02,237 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:54:02,421 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:54:02,447 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:02,465 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:02,515 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:54:04,959 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:54:05,050 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:54:05,160 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:54:05,260 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:54:05,326 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:54:05,889 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:54:06,418 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:54:06,463 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:54:06,617 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:54:06,643 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:54:06,661 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:54:06,709 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:54:07,055 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:54:07,079 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:07,095 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:18,711 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:54:18,810 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:54:18,922 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:54:19,026 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:54:19,094 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:54:19,748 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:54:20,295 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:54:20,345 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:54:20,475 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:54:20,501 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:20,519 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:20,569 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:54:20,850 - logger_file -INFO - Matched found: User successfully Deactivated
+2023-11-08 23:54:20,880 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:54:22,714 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:54:22,808 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:54:22,916 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:54:23,015 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:54:23,079 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:54:23,637 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:54:24,220 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:54:24,266 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:54:24,424 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:54:24,450 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:54:24,467 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:54:24,513 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:54:24,852 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:54:24,890 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:35,231 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:54:35,334 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:54:35,447 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:54:35,544 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:54:35,613 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:54:36,134 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:54:36,675 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:54:36,725 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:54:36,864 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:54:36,890 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:36,909 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:54:36,958 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:54:39,320 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:54:39,413 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:54:39,526 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:54:39,627 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:54:39,695 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:54:40,268 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:54:40,851 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:54:40,896 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:54:41,043 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:54:41,071 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:54:41,088 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:54:41,137 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:54:41,417 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:54:41,447 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:23,708 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:55:23,809 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:55:23,919 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:55:24,020 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:55:24,086 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:55:24,674 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:55:25,232 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:55:25,282 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:55:25,426 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:55:25,453 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:25,471 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:25,523 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:55:25,821 - logger_file -INFO - Matched found: User successfully Deactivated
+2023-11-08 23:55:25,854 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:25,872 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:27,714 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:55:27,808 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:55:27,916 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:55:28,012 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:55:28,077 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:55:28,646 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:55:29,178 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:55:29,220 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:55:29,378 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:55:29,403 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:29,420 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:29,471 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:55:29,773 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:55:29,802 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:29,820 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:38,263 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:55:38,359 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:55:38,477 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:55:38,583 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:55:38,653 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:55:39,178 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:55:39,716 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:55:39,767 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:55:39,959 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:55:39,984 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:40,000 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:40,052 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:55:40,354 - logger_file -INFO - Matched found: User successfully Deactivated
+2023-11-08 23:55:40,392 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:42,270 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:55:42,366 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:55:42,482 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:55:42,582 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:55:42,646 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:55:44,206 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:55:44,749 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:55:44,792 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:55:44,979 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:55:45,005 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:45,022 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:45,071 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:55:45,373 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:55:45,407 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:45,422 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:53,234 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:55:53,334 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:55:53,451 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:55:53,550 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:55:53,615 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:55:54,147 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:55:54,686 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:55:54,737 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:55:54,876 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:55:54,902 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:54,921 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:54,974 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:55:55,280 - logger_file -INFO - Matched found: User successfully Deactivated
+2023-11-08 23:55:55,316 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:57,174 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:55:57,269 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:55:57,382 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:55:57,488 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:55:57,552 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:55:58,120 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:55:58,653 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:55:58,698 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:55:58,847 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:55:58,873 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:58,891 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:55:58,942 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:55:59,242 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:55:59,272 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:55:59,289 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:57:40,896 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:57:40,990 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:57:41,104 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:57:41,201 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:57:41,265 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:57:41,839 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:57:42,382 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:57:42,432 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:57:42,567 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:57:42,594 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:57:42,610 - logger_file -INFO - The account is: Active - process passed
+2023-11-08 23:57:42,656 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:57:42,950 - logger_file -INFO - Matched found: User successfully Deactivated
+2023-11-08 23:57:42,984 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:57:44,812 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-08 23:57:44,905 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-08 23:57:45,016 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-08 23:57:45,112 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-08 23:57:45,176 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-08 23:57:45,671 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-08 23:57:46,198 - logger_file -INFO - User successfully clicked on detail button
+2023-11-08 23:57:46,243 - logger_file -INFO - Match found: Primary Account detail
+2023-11-08 23:57:46,385 - logger_file -INFO - User successfully clicked on Profile section - process passed
+2023-11-08 23:57:46,412 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:57:46,430 - logger_file -INFO - The account is: Deactive - process passed
+2023-11-08 23:57:46,478 - logger_file -INFO - the full name and username was present - process passed
+2023-11-08 23:57:46,776 - logger_file -INFO - Matched found: User successfully Activated
+2023-11-08 23:57:46,806 - logger_file -INFO - The account is: Active - process passed

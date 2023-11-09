@@ -12,7 +12,7 @@ Feature: Launch the website, Login to account and add address
     #And User click on close button to close the profile section
     And The user click on Accounts
     And find the account with email 'mori1234@gmail.com' and click on details
-    And validate the title 'Primary Account detail' should be present 
+    And validate the title 'Primary Account Detail' should be present 
 
   @AddAddress
   Scenario: Adding address to the account

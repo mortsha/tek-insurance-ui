@@ -8,7 +8,7 @@ Feature: Launch the website, Login to account and add car
     And User clicked on sign in
     And The user click on Accounts
     And find the account with email 'mori1234@gmail.com' and click on details
-    And validate the title 'Primary Account detail' should be present
+    And validate the title 'Primary Account Detail' should be present
 
   @AddCar
   Scenario: Adding Car to the account

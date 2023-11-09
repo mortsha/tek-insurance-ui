@@ -36,23 +36,23 @@ public class CreateAccountTestStep extends CommonUtility {
 
 	@Given("the signUp page should be displayed")
 	public void theSignUpPageShouldBeDisplayed() {
-		waitTillPresence(factory.getCreateAccountTest().createPrimaryAccountText);
-		Assert.assertTrue(factory.getCreateAccountTest().createPrimaryAccountText.isDisplayed());
+		waitTillPresence(factory.getCreateAccountPage().createPrimaryAccountText);
+		Assert.assertTrue(factory.getCreateAccountPage().createPrimaryAccountText.isDisplayed());
 		logger.info("the create primary account was displayed - process passed");
 	}
 
 	@Given("Validate the header {string} and buttons {string} {string}")
 	public void validateTheHeaderAndButtons(String createPrimaryAccountHolder, String createAccount, String resetForm) {
-		String actual = getElementText(factory.getCreateAccountTest().createPrimaryAccountText);
+		String actual = getElementText(factory.getCreateAccountPage().createPrimaryAccountText);
 		Assert.assertEquals(actual, createPrimaryAccountHolder);
 		loggerActualAndExpected(actual, createPrimaryAccountHolder);
 
-		String actualAccountBttn = getElementText(factory.getCreateAccountTest().createAccountBttn);
+		String actualAccountBttn = getElementText(factory.getCreateAccountPage().createAccountBttn);
 		Assert.assertEquals(actualAccountBttn, createAccount);
 		loggerActualAndExpected(actualAccountBttn, createAccount);
 
-		waitTillPresence(factory.getCreateAccountTest().clearFormBttn);
-		String actualResetBttn = getElementText(factory.getCreateAccountTest().clearFormBttn);
+		waitTillPresence(factory.getCreateAccountPage().clearFormBttn);
+		String actualResetBttn = getElementText(factory.getCreateAccountPage().clearFormBttn);
 		Assert.assertEquals(actualResetBttn, resetForm);
 		loggerActualAndExpected(actualResetBttn, resetForm);
 	}
@@ -62,30 +62,30 @@ public class CreateAccountTestStep extends CommonUtility {
 		mainEmail = DataGenerator.getEmail();
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
-			sendText(factory.getCreateAccountTest().emailField, mainEmail);
+			sendText(factory.getCreateAccountPage().emailField, mainEmail);
 			logger.info("User seccessfully entered the email - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().titleDropdown, row.get("title"));
+			selectByVisibleText(factory.getCreateAccountPage().titleDropdown, row.get("title"));
 			logger.info("User seccessfully select the title - process passed");
 
-			String mainFirstName = factory.getCreateAccountTest().firstNameField.getText();
-			sendText(factory.getCreateAccountTest().firstNameField, row.get("firstName"));
+			String mainFirstName = factory.getCreateAccountPage().firstNameField.getText();
+			sendText(factory.getCreateAccountPage().firstNameField, row.get("firstName"));
 			logger.info("User seccessfully entered the first name - process passed");
 
-			sendText(factory.getCreateAccountTest().lastNameField, row.get("lastName"));
+			sendText(factory.getCreateAccountPage().lastNameField, row.get("lastName"));
 			logger.info("User seccessfully entered the last name - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().genderDropdown, row.get("gender"));
+			selectByVisibleText(factory.getCreateAccountPage().genderDropdown, row.get("gender"));
 			logger.info("User seccessfully select the gender - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
+			selectByVisibleText(factory.getCreateAccountPage().maritalStatusDropdown, row.get("maritalStatus"));
 			logger.info("User seccessfully select the marital status - process passed");
 
-			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
-			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+			factory.getCreateAccountPage().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+			sendText(factory.getCreateAccountPage().dateOfBirthField, row.get("dateOfBirth"));
 			logger.info("User seccessfully entered the date of birth - process passed");
 
-			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
+			sendText(factory.getCreateAccountPage().employmentStatusField, row.get("employmentStatus"));
 			logger.info("User seccessfully entered the employment status - process passed");
 
 		}
@@ -94,23 +94,23 @@ public class CreateAccountTestStep extends CommonUtility {
 	// &
 	@Then("user click on Create Account button")
 	public void userClickOnCreateAccountButton() {
-		click(factory.getCreateAccountTest().createAccountBttn);
+		click(factory.getCreateAccountPage().createAccountBttn);
 		logger.info("User successfully clicked - process passed");
 	}
 
 	@Then("User click on Reset button")
 	public void userClickOnResetButton() {
-		click(factory.getCreateAccountTest().clearFormBttn);
+		click(factory.getCreateAccountPage().clearFormBttn);
 		logger.info("Use successfully clicked - process passed");
 	}
 
 	@Then("the fields should be removed")
 	public void theFieldsShouldBeRemoved() {
 
-		String[] fieldNames = { getElementText(factory.getCreateAccountTest().emailField),
-				getElementText(factory.getCreateAccountTest().firstNameField),
-				getElementText(factory.getCreateAccountTest().lastNameField),
-				getElementText(factory.getCreateAccountTest().employmentStatusField) };
+		String[] fieldNames = { getElementText(factory.getCreateAccountPage().emailField),
+				getElementText(factory.getCreateAccountPage().firstNameField),
+				getElementText(factory.getCreateAccountPage().lastNameField),
+				getElementText(factory.getCreateAccountPage().employmentStatusField) };
 
 		for (String fields : fieldNames) {
 			String expected = "";
@@ -138,7 +138,7 @@ public class CreateAccountTestStep extends CommonUtility {
 
 	@Then("another page is displayed with the text {string}")
 	public void anotherPageIsDisplayedWithTheText(String signUpYourAccount) {
-		String actual = getElementText(factory.getCreateAccountTest().signUpYourAccountLink);
+		String actual = getElementText(factory.getCreateAccountPage().signUpYourAccountLink);
 		Assert.assertEquals(actual, signUpYourAccount);
 		logger.info("another page displayed successfully and text validated - process passed");
 	}
@@ -147,7 +147,7 @@ public class CreateAccountTestStep extends CommonUtility {
 	public void validateTheFirstNameLastNameAndEmailShouldBeTheSame(String expectedFirstName, String expectedLastName,
 			String expectedEmail) {
 		String expectedFullName = expectedFirstName + " " + expectedLastName;
-		for (WebElement element : factory.getCreateAccountTest().validateSingupOptions) {
+		for (WebElement element : factory.getCreateAccountPage().validateSingupOptions) {
 			if (element.getText().equals(expectedFullName)) {
 				Assert.assertTrue(isElementDisplayed(element));
 				logger.info("The fullname: " + element.getText() + " was displayed - process passed");
@@ -163,24 +163,24 @@ public class CreateAccountTestStep extends CommonUtility {
 	public void fillTheFromForUsernameAndPassword(DataTable dataTable) {
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
-			sendText(factory.getCreateAccountTest().userNameField, mainEmail);
+			sendText(factory.getCreateAccountPage().userNameField, mainEmail);
 			logger.info("User successfully entered the username - process passed");
-			sendText(factory.getCreateAccountTest().passwordField, row.get("password"));
+			sendText(factory.getCreateAccountPage().passwordField, row.get("password"));
 			logger.info("User successfully entered the password - process passed");
-			sendText(factory.getCreateAccountTest().confirmPassField, row.get("confirmPassword"));
+			sendText(factory.getCreateAccountPage().confirmPassField, row.get("confirmPassword"));
 			logger.info("User successfully entered the confirm password - process passed");
 		}
 	}
 
 	@Then("The user submits the form")
 	public void theUserSubmitsTheForm() {
-		click(factory.getCreateAccountTest().submitBttn);
+		click(factory.getCreateAccountPage().submitBttn);
 		logger.info("User successfully clicked on submit button");
 	}
 
 	@Then("User should see the Success message of {string}")
 	public void userShouldSeeTheSuccessMessageOf(String expectedSuccessMessage) {
-		String successMessage = getElementText(factory.getCreateAccountTest().successMessage);
+		String successMessage = getElementText(factory.getCreateAccountPage().successMessage);
 		String actualSuccessMessage = successMessage.replaceAll("SUCCESS\n", "");
 		Assert.assertEquals(actualSuccessMessage, expectedSuccessMessage);
 		loggerActualAndExpected(actualSuccessMessage, expectedSuccessMessage);
@@ -196,29 +196,29 @@ public class CreateAccountTestStep extends CommonUtility {
 	public void userFillFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
-			sendText(factory.getCreateAccountTest().emailField, row.get("email"));
+			sendText(factory.getCreateAccountPage().emailField, row.get("email"));
 			logger.info("User seccessfully entered the email - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().titleDropdown, row.get("title"));
+			selectByVisibleText(factory.getCreateAccountPage().titleDropdown, row.get("title"));
 			logger.info("User seccessfully select the title - process passed");
 
-			sendText(factory.getCreateAccountTest().firstNameField, row.get("firstName"));
+			sendText(factory.getCreateAccountPage().firstNameField, row.get("firstName"));
 			logger.info("User seccessfully entered the first name - process passed");
 
-			sendText(factory.getCreateAccountTest().lastNameField, row.get("lastName"));
+			sendText(factory.getCreateAccountPage().lastNameField, row.get("lastName"));
 			logger.info("User seccessfully entered the last name - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().genderDropdown, row.get("gender"));
+			selectByVisibleText(factory.getCreateAccountPage().genderDropdown, row.get("gender"));
 			logger.info("User seccessfully select the gender - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
+			selectByVisibleText(factory.getCreateAccountPage().maritalStatusDropdown, row.get("maritalStatus"));
 			logger.info("User seccessfully select the marital status - process passed");
 
-			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
-			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+			factory.getCreateAccountPage().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+			sendText(factory.getCreateAccountPage().dateOfBirthField, row.get("dateOfBirth"));
 			logger.info("User seccessfully entered the date of birth - process passed");
 
-			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
+			sendText(factory.getCreateAccountPage().employmentStatusField, row.get("employmentStatus"));
 			logger.info("User seccessfully entered the employment status - process passed");
 		}
 	}
@@ -238,37 +238,37 @@ public class CreateAccountTestStep extends CommonUtility {
 		emailLookup1 = DataGenerator.getEmail();
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
-			sendText(factory.getCreateAccountTest().emailField, emailLookup1);
+			sendText(factory.getCreateAccountPage().emailField, emailLookup1);
 			logger.info("User seccessfully entered the email - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().titleDropdown, row.get("title"));
+			selectByVisibleText(factory.getCreateAccountPage().titleDropdown, row.get("title"));
 			logger.info("User seccessfully select the title - process passed");
 
-			sendText(factory.getCreateAccountTest().firstNameField, row.get("firstName"));
+			sendText(factory.getCreateAccountPage().firstNameField, row.get("firstName"));
 			logger.info("User seccessfully entered the first name - process passed");
-			firstName = getAttribute(factory.getCreateAccountTest().firstNameField, "value");
+			firstName = getAttribute(factory.getCreateAccountPage().firstNameField, "value");
 
-			sendText(factory.getCreateAccountTest().lastNameField, row.get("lastName"));
+			sendText(factory.getCreateAccountPage().lastNameField, row.get("lastName"));
 			logger.info("User seccessfully entered the last name - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().genderDropdown, row.get("gender"));
+			selectByVisibleText(factory.getCreateAccountPage().genderDropdown, row.get("gender"));
 			logger.info("User seccessfully select the gender - process passed");
 
-			selectByVisibleText(factory.getCreateAccountTest().maritalStatusDropdown, row.get("maritalStatus"));
+			selectByVisibleText(factory.getCreateAccountPage().maritalStatusDropdown, row.get("maritalStatus"));
 			logger.info("User seccessfully select the marital status - process passed");
 
-			factory.getCreateAccountTest().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
-			sendText(factory.getCreateAccountTest().dateOfBirthField, row.get("dateOfBirth"));
+			factory.getCreateAccountPage().dateOfBirthField.sendKeys(row.get("dateOfBirth"));
+			sendText(factory.getCreateAccountPage().dateOfBirthField, row.get("dateOfBirth"));
 			logger.info("User seccessfully entered the date of birth - process passed");
 
-			sendText(factory.getCreateAccountTest().employmentStatusField, row.get("employmentStatus"));
+			sendText(factory.getCreateAccountPage().employmentStatusField, row.get("employmentStatus"));
 			logger.info("User seccessfully entered the employment status - process passed");
 		}
 	}
 
 	@Then("user navigate to sign up")
 	public void userNavigateToSignUp() {
-		String actualSignUpText = getElementText(factory.getCreateAccountTest().signupFormText);
+		String actualSignUpText = getElementText(factory.getCreateAccountPage().signupFormText);
 		Assert.assertEquals("Sign up your account", actualSignUpText);
 		logger.info("signup your account text was displayed - process passed");
 
@@ -284,8 +284,8 @@ public class CreateAccountTestStep extends CommonUtility {
 
 	@Then("click on register here")
 	public void clickOnRegisterHere() {
-		waitTillClickable(factory.getCreateAccountTest().registerHereBttn);
-		click(factory.getCreateAccountTest().registerHereBttn);
+		waitTillClickable(factory.getCreateAccountPage().registerHereBttn);
+		click(factory.getCreateAccountPage().registerHereBttn);
 		logger.info("User successfully registered - process passed");
 	}
 
@@ -295,16 +295,16 @@ public class CreateAccountTestStep extends CommonUtility {
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
 
-			sendText(factory.getCreateAccountTest().emailLookup, emailLookup1);
+			sendText(factory.getCreateAccountPage().emailLookup, emailLookup1);
 			logger.info("User seccessfully entered the email - process passed");
 
-			sendText(factory.getCreateAccountTest().firstnameLookup, row.get("FirstName"));
+			sendText(factory.getCreateAccountPage().firstnameLookup, row.get("FirstName"));
 			logger.info("User seccessfully entered the firstname - process passed");
 
-			sendText(factory.getCreateAccountTest().lastNameLookup, row.get("LastName"));
+			sendText(factory.getCreateAccountPage().lastNameLookup, row.get("LastName"));
 			logger.info("User seccessfully entered the lastName - process passed");
 
-			sendText(factory.getCreateAccountTest().dateOfBirthLookup, row.get("DateOfBirth"));
+			sendText(factory.getCreateAccountPage().dateOfBirthLookup, row.get("DateOfBirth"));
 			logger.info("User seccessfully entered the dateOfBirth - process passed");
 			// matched data message display
 		}
@@ -312,8 +312,8 @@ public class CreateAccountTestStep extends CommonUtility {
 
 	@Then("click on submit")
 	public void clickOnSubmit() throws InterruptedException {
-		waitTillClickable(factory.getCreateAccountTest().submitLookup);
-		click(factory.getCreateAccountTest().submitLookup);
+		waitTillClickable(factory.getCreateAccountPage().submitLookup);
+		click(factory.getCreateAccountPage().submitLookup);
 		logger.info("User successfully clicked on submit - process passed");
 
 	}
@@ -321,7 +321,7 @@ public class CreateAccountTestStep extends CommonUtility {
 	@Then("User should see Success message of {string}")
 	public void userShouldSeeSuccessMessageOf(String expectedSuccessMessage) {
 		String expected = expectedSuccessMessage + " " + firstName;
-		String successMessage = getElementText(factory.getCreateAccountTest().successMessage);
+		String successMessage = getElementText(factory.getCreateAccountPage().successMessage);
 		String actualSuccessMessage = successMessage.replaceAll("SUCCESS\n", "");
 		Assert.assertEquals(actualSuccessMessage, expected);
 		loggerActualAndExpected(actualSuccessMessage, expected);
@@ -331,13 +331,13 @@ public class CreateAccountTestStep extends CommonUtility {
 	public void fillFromForUsernameAndPassword(DataTable dataTable) {
 		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
 		for (Map<String, String> row : data) {
-			sendText(factory.getCreateAccountTest().userNameLookup, emailLookup1);
+			sendText(factory.getCreateAccountPage().userNameLookup, emailLookup1);
 			logger.info("User successfully entered username - process passed");
 
-			sendText(factory.getCreateAccountTest().passowrdLookup, row.get("password"));
+			sendText(factory.getCreateAccountPage().passowrdLookup, row.get("password"));
 			logger.info("User successfully entered password - process passed");
 
-			sendText(factory.getCreateAccountTest().confirmPassLookup, row.get("confirmPassword"));
+			sendText(factory.getCreateAccountPage().confirmPassLookup, row.get("confirmPassword"));
 			logger.info("User successfully entered confirmPassword - process passed");
 		}
 	}
