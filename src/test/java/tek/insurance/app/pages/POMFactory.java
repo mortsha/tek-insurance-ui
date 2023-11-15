@@ -7,6 +7,8 @@ public class POMFactory {
 	private LoginPage loginPage;
 	private CSRAccountDetailsPage cSRAccountDetailsPage;
 	private CSRAccountPlansPage cSRAccountPlansPage;
+	private AccountViewPage accountViewPage;
+	private RemovingIncorrectDataPage removingIncorrectDataPage;
 
 	public POMFactory() {
 		this.createAccountPage = new CreateAccountPage();
@@ -14,10 +16,20 @@ public class POMFactory {
 		this.loginPage = new LoginPage();
 		this.cSRAccountDetailsPage = new CSRAccountDetailsPage();
 		this.cSRAccountPlansPage = new CSRAccountPlansPage();
+		this.accountViewPage = new AccountViewPage();
+		this.removingIncorrectDataPage = new RemovingIncorrectDataPage();
+	}
+
+	public RemovingIncorrectDataPage getRemovingIncorrectDataPage() {
+		return this.removingIncorrectDataPage;
+	}
+
+	public AccountViewPage getAccountViewPage() {
+		return this.accountViewPage;
 	}
 
 	public CreateAccountPage getCreateAccountPage() {
-		return createAccountPage;
+		return this.createAccountPage;
 	}
 
 	public MainPage getMainPage() {

@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DatabaseConfig extends BaseSetup {
+public class DatabaseConfig {
 	private Connection connection;
 
 	public void connectToDatabase() {

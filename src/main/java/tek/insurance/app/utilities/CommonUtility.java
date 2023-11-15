@@ -1,8 +1,13 @@
 package tek.insurance.app.utilities;
 
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
@@ -26,6 +31,126 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import tek.insurance.app.base.BaseSetup;
 
 public class CommonUtility extends BaseSetup {
+
+	public static boolean recordsMatchList4(List<HashMap<String, String>> uiRecords,
+			List<HashMap<String, Object>> dbRecords) {
+		int counterUI = 0;
+		int counterDB = 0;
+		boolean recordsMatch = true;
+		for (HashMap<String, String> uiRec : uiRecords) {
+			if (!dbRecords.contains(uiRec)) {
+				System.err.println("Record mismatch in UI: " + uiRec);
+				counterUI++;
+				recordsMatch = false;
+			}
+		}
+		for (HashMap<String, Object> dbRec : dbRecords) {
+			if (!uiRecords.contains(dbRec)) {
+				System.err.println("Record mismatch in DB: " + dbRec);
+				counterDB++;
+				recordsMatch = false;
+			}
+		}
+		System.out.println("Total UI Record mismatch: " + counterUI);
+		System.out.println("Total DB Record mismatch: " + counterDB);
+		return recordsMatch;
+	}
+
+	public boolean recordsMatchList2(List<HashMap<String, String>> uiRecords, List<HashMap<String, Object>> dbRecords) {
+		if (uiRecords.size() != dbRecords.size()) {
+			return false;
+		}
+		for (int i = 0; i < uiRecords.size(); i++) {
+			HashMap<String, String> uiRecord = uiRecords.get(i);
+			HashMap<String, Object> dbRecord = dbRecords.get(i);
+
+			if (!uiRecord.equals(dbRecord)) {
+				return false;
+
+			}
+		}
+		return true;
+	}
+
+	public boolean sizeListMatch(List<HashMap<String, String>> uiRecords, List<HashMap<String, Object>> dbRecords) {
+		if (uiRecords.size() != dbRecords.size()) {
+			return false;
+		}
+		return true;
+	}
+
+	public static boolean recordsMatchsList(List<HashMap<String, String>> uiRecords,
+			List<HashMap<String, Object>> dbRecords) {
+		if (uiRecords.size() != dbRecords.size()) {
+//			System.out.println("The size of the lists are not equal.");
+			return false;
+		}
+		for (HashMap<String, String> ui : uiRecords) {
+			boolean foundMatch = false;
+
+			for (HashMap<String, Object> db : dbRecords) {
+				if (mapEquals(ui, db)) {
+					foundMatch = true;
+					break;
+				}
+			}
+			if (!foundMatch) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	private static boolean mapEquals(Map<String, String> map1, Map<String, Object> map2) {
+		if (map1.size() != map2.size()) {
+//			System.out.println("Maps sizes are not equal.");
+			return false;
+		}
+
+		for (Map.Entry<String, String> entry : map1.entrySet()) {
+			String key = entry.getKey();
+			String value1 = entry.getValue();
+			Object value2 = map2.get(key);
+
+			if (!value1.equals(value2)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	public static String capitalizeFirstLetter(String input) {
+		if (input == null) {
+			return input;
+		}
+		return input.substring(0, 1).toUpperCase() + input.substring(1).toLowerCase();
+	}
+
+	public static String dateFormatted(String inputDate) {
+		if (inputDate == null || inputDate.isEmpty()) {
+			return "Date is null or empty";
+		}
+		try {
+			DateTimeFormatter inputFormatWithMillis = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSSSSS");
+			LocalDateTime dateWithMillis = LocalDateTime.parse(inputDate, inputFormatWithMillis);
+			DateTimeFormatter outputFormat = DateTimeFormatter.ofPattern("MMMM d, yyyy");
+			return dateWithMillis.format(outputFormat);
+		} catch (DateTimeParseException e) {
+			// Parsing with milliseconds failed, try without milliseconds
+			try {
+				DateTimeFormatter inputFormatWithoutMillis = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+				LocalDateTime dateWithoutMillis = LocalDateTime.parse(inputDate, inputFormatWithoutMillis);
+				DateTimeFormatter outputFormat = DateTimeFormatter.ofPattern("MMMM d, yyyy");
+				return dateWithoutMillis.format(outputFormat);
+			} catch (DateTimeParseException ex) {
+				return "Invalid date format";
+			}
+		}
+	}
+
+	public static void print(String string) {
+		System.out.println(string);
+	}
 
 	public void loggerActualAndExpected(String actual, String expected) {
 		logger.info("The actual: " + actual + " and expected: " + expected + " was same - process passed");

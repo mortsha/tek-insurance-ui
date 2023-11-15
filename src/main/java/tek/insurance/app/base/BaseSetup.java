@@ -34,7 +34,7 @@ public class BaseSetup {
 		}
 		logger = logger.getLogger("logger_file");
 		PropertyConfigurator.configure(log4jPath);
-//		databaseConfig = new DatabaseConfig();
+		databaseConfig = new DatabaseConfig();
 	}
 
 	public WebDriver getDriver() {

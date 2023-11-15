@@ -12011,3 +12011,505 @@
 2023-11-08 23:57:46,478 - logger_file -INFO - the full name and username was present - process passed
 2023-11-08 23:57:46,776 - logger_file -INFO - Matched found: User successfully Activated
 2023-11-08 23:57:46,806 - logger_file -INFO - The account is: Active - process passed
+2023-11-11 13:44:14,094 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 13:44:14,215 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 13:44:14,336 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 13:44:14,445 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 13:44:14,523 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 13:44:15,183 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:07:42,142 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:07:42,243 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:07:42,352 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:07:42,452 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:07:42,519 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:07:43,111 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:08:28,902 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:08:29,002 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:08:29,116 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:08:29,216 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:08:29,284 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:08:29,874 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:10:29,122 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:10:29,219 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:10:29,333 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:10:29,432 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:10:29,498 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:10:30,026 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:10:33,118 - logger_file -INFO - The title: Primary Accounts was displayed - process passed
+2023-11-11 14:11:23,254 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:11:23,354 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:11:23,468 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:11:23,567 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:11:23,631 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:11:24,106 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:14:10,049 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:14:10,149 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:14:10,262 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:14:10,363 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:14:10,428 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:14:11,030 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:14:11,388 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 14:18:32,984 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:18:33,087 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:18:33,200 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:18:33,304 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:18:33,375 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:18:33,971 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:18:34,334 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 14:28:57,324 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:28:57,424 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:28:57,537 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:28:57,637 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:28:57,704 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:28:58,359 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:28:58,707 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 14:35:16,514 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:35:16,617 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:35:16,729 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:35:16,826 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:35:16,889 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:35:17,528 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:35:17,879 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 14:36:06,720 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:36:06,821 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:36:06,936 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:36:07,038 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:36:07,104 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:36:07,701 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:36:08,237 - logger_file -INFO - User successfully clicked on detail button
+2023-11-11 14:36:10,388 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:36:10,483 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:36:10,593 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:36:10,694 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:36:10,757 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:36:11,273 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:36:11,786 - logger_file -INFO - User successfully clicked on detail button
+2023-11-11 14:45:03,972 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:45:04,080 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:45:04,197 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:45:04,298 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:45:04,365 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:45:05,019 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:45:05,561 - logger_file -INFO - User successfully clicked on detail button
+2023-11-11 14:45:07,645 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:45:07,742 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:45:07,854 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:45:07,960 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:45:08,024 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:45:08,527 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:45:09,024 - logger_file -INFO - User successfully clicked on detail button
+2023-11-11 14:45:45,885 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:45:45,986 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:45:46,097 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:45:46,199 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:45:46,262 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:45:46,797 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:45:47,158 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 14:48:00,560 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:48:00,662 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:48:00,775 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:48:00,874 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:48:00,940 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:48:01,655 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:48:02,017 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 14:50:18,973 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 14:50:19,072 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 14:50:19,184 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 14:50:19,284 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 14:50:19,352 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 14:50:20,070 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 14:50:20,432 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 16:56:34,146 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 16:56:34,248 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 16:56:34,364 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 16:56:34,473 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 16:56:34,540 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 16:56:35,203 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 16:56:35,567 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 17:13:24,735 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 17:13:24,835 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 17:13:24,949 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 17:13:25,048 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 17:13:25,115 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 17:13:25,703 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 17:13:26,066 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 17:13:26,254 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-11 17:13:47,032 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 17:13:47,132 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 17:13:47,245 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 17:13:47,346 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 17:13:47,411 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 17:13:47,943 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 17:13:48,307 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 17:13:48,499 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-11 17:20:01,761 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 17:20:01,865 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 17:20:01,983 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 17:20:02,101 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 17:20:02,183 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 17:20:02,841 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 17:20:03,202 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 17:20:03,392 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-11 17:20:32,906 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-11 17:20:33,012 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-11 17:20:33,130 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-11 17:20:33,234 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-11 17:20:33,303 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-11 17:20:33,835 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-11 17:20:34,194 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-11 17:20:34,386 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-13 16:25:25,546 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:25:25,652 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:25:25,770 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:25:25,873 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:25:25,944 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:25:26,605 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:25:26,965 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:26:00,578 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:26:00,683 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:26:00,803 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:26:00,904 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:26:00,973 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:26:01,548 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:26:01,913 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:30:05,080 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:30:05,182 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:30:05,296 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:30:05,398 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:30:05,465 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:30:06,120 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:30:06,499 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:30:06,690 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-13 16:34:24,722 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:34:24,828 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:34:24,946 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:34:25,046 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:34:25,111 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:34:25,754 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:34:26,115 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:35:52,774 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:35:52,878 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:35:52,992 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:35:53,095 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:35:53,160 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:35:53,809 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:35:54,110 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:41:50,962 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:41:51,066 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:41:51,180 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:41:51,282 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:41:51,351 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:41:52,004 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:41:52,364 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:42:53,053 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:42:53,154 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:42:53,264 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:42:53,362 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:42:53,428 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:42:54,011 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:42:54,374 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:42:55,167 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-13 16:44:08,908 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:44:09,008 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:44:09,122 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:44:09,222 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:44:09,285 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:44:09,864 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:44:10,229 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:44:10,415 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-13 16:44:53,075 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-13 16:44:53,893 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-13 16:48:42,903 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:48:43,005 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:48:43,121 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:48:43,221 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:48:43,287 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:48:43,880 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:48:44,191 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:48:44,383 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-13 16:49:25,687 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-13 16:49:26,458 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-13 16:57:58,535 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 16:57:58,641 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 16:57:58,757 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 16:57:58,861 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 16:57:58,928 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 16:57:59,634 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 16:57:59,992 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 16:58:00,187 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-13 16:58:44,086 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-13 16:58:44,849 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-13 16:58:44,852 - logger_file -INFO - successfully data form ui and database validated - process passed
+2023-11-13 17:04:26,779 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 17:04:26,883 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 17:04:26,997 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 17:04:27,099 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 17:04:27,169 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 17:04:27,690 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 17:04:27,998 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 17:04:28,189 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-13 17:05:12,182 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-13 17:05:13,005 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-13 17:06:51,354 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-13 17:06:51,463 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-13 17:06:51,582 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-13 17:06:51,687 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-13 17:06:51,755 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-13 17:06:52,395 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-13 17:06:52,765 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-13 17:06:52,964 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-13 17:07:36,376 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-13 17:07:37,156 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-14 13:46:49,023 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 13:46:49,132 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 13:46:49,249 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 13:46:49,356 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 13:46:49,422 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 13:46:50,009 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 13:46:50,334 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 13:46:50,523 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-14 14:02:49,666 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:02:49,772 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:02:49,891 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:02:49,995 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:02:50,064 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:02:50,658 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:02:51,013 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:02:51,572 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:06:17,075 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:06:17,185 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:06:17,299 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:06:17,404 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:06:17,469 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:06:18,054 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:06:18,362 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:06:18,910 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:19:32,985 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:19:33,088 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:19:33,200 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:19:33,301 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:19:33,368 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:19:34,020 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:19:34,346 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:19:34,906 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:22:31,470 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:22:31,568 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:22:31,679 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:22:31,780 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:22:31,845 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:22:32,428 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:22:32,788 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:22:33,304 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:25:33,158 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:25:33,260 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:25:33,375 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:25:33,474 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:25:33,542 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:25:34,196 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:25:34,562 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:25:35,127 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:26:23,307 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:26:23,412 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:26:23,526 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:26:23,626 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:26:23,692 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:26:24,276 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:26:24,648 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:26:25,510 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:39:07,677 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:39:07,781 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:39:07,894 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:39:07,996 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:39:08,063 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:39:08,714 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:39:09,075 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:39:09,618 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:40:18,029 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:40:18,129 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:40:18,241 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:40:18,340 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:40:18,406 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:40:18,990 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:40:19,340 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:40:19,870 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:41:25,506 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:41:25,604 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:41:25,714 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:41:25,817 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:41:25,885 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:41:26,529 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:41:26,891 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:41:27,432 - logger_file -INFO - Successfully connected to database
+2023-11-14 14:42:56,705 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 14:42:56,809 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 14:42:56,922 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 14:42:57,026 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 14:42:57,095 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 14:42:57,674 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 14:42:58,035 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 14:42:58,576 - logger_file -INFO - Successfully connected to database
+2023-11-14 19:26:20,010 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:26:20,121 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:26:20,235 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:26:20,341 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:26:20,407 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:26:21,054 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:26:21,416 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:26:21,995 - logger_file -INFO - Successfully connected to database
+2023-11-14 19:28:11,255 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:28:11,360 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:28:11,473 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:28:11,583 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:28:11,653 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:28:12,311 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:28:12,639 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:28:13,231 - logger_file -INFO - Successfully connected to database
+2023-11-14 19:36:42,232 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:36:42,336 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:36:42,448 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:36:42,550 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:36:42,618 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:36:43,210 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:36:43,571 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:36:44,109 - logger_file -INFO - Successfully connected to database
+2023-11-14 19:46:50,681 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:46:50,789 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:46:50,903 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:46:51,004 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:46:51,071 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:46:51,723 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:46:52,073 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:46:52,658 - logger_file -INFO - Successfully connected to database
+2023-11-14 19:47:19,175 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:47:19,280 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:47:19,394 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:47:19,495 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:47:19,563 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:47:20,084 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:47:20,414 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:47:20,896 - logger_file -INFO - Successfully connected to database
+2023-11-14 19:49:14,567 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:49:14,675 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:49:14,791 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:49:14,892 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:49:14,961 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:49:15,492 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:49:15,794 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:49:16,352 - logger_file -INFO - Successfully connected to database
+2023-11-14 19:50:55,229 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:50:55,332 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:50:55,446 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:50:55,546 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:50:55,611 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:50:56,253 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:50:56,574 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:50:56,763 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-14 19:51:38,535 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-14 19:51:39,322 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-14 19:55:54,566 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 19:55:54,665 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 19:55:54,777 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 19:55:54,878 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 19:55:54,945 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 19:55:55,549 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 19:55:55,851 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 19:55:56,050 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-14 19:56:37,656 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-14 19:56:38,450 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-14 19:56:38,617 - logger_file -INFO - successfully data form ui and database validated - process passed
+2023-11-14 20:03:14,677 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 20:03:14,779 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 20:03:14,896 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 20:03:14,996 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 20:03:15,063 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 20:03:15,651 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 20:03:15,961 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 20:03:16,149 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-14 20:04:42,178 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 20:04:42,288 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 20:04:42,404 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 20:04:42,506 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 20:04:42,571 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 20:04:43,166 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 20:04:43,513 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 20:04:43,707 - logger_file -INFO - User successfully selected the 50 of dropdown - process passed
+2023-11-14 20:05:26,003 - logger_file -INFO - Successfully retireve data from uiWebsite - process passed
+2023-11-14 20:05:26,787 - logger_file -INFO - Successfully retireve data from database - process passed
+2023-11-14 20:05:26,971 - logger_file -INFO - successfully data form ui and database validated - process passed
+2023-11-14 20:28:29,304 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-14 20:28:29,406 - logger_file -INFO - User successfully clicked on login button  - Process Passed
+2023-11-14 20:28:29,521 - logger_file -INFO - User successfully entered the username: supervisor - Process Passed
+2023-11-14 20:28:29,627 - logger_file -INFO - User successfully entered the password. process - Process Passed
+2023-11-14 20:28:29,691 - logger_file -INFO - User successfully clicked on sign in button - Process Passed
+2023-11-14 20:28:30,274 - logger_file -INFO - User successfully clicked on Accounts - process passed
+2023-11-14 20:28:30,597 - logger_file -INFO - The actual: Primary Accounts and expected: Primary Accounts was same - process passed
+2023-11-14 20:28:30,662 - logger_file -INFO - user successfully clicked on create account button - process passed
+2023-11-14 20:28:30,689 - logger_file -INFO - The actual: Create Primary Account Holder and expected: Create Primary Account Holder was same - process passed
+2023-11-15 13:01:04,583 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-15 13:01:04,686 - logger_file -INFO - User successfully clicked - process passed
+2023-11-15 13:01:04,721 - logger_file -INFO - the create primary account was displayed - process passed
+2023-11-15 13:01:04,754 - logger_file -INFO - The actual: Create Primary Account Holder and expected: Create Primary Account Holder was same - process passed
+2023-11-15 13:01:04,785 - logger_file -INFO - The actual: Create Account and expected: Create Account was same - process passed
+2023-11-15 13:01:04,831 - logger_file -INFO - The actual: Clear Form and expected: Clear Form was same - process passed
+2023-11-15 13:01:05,014 - logger_file -INFO - User seccessfully entered the email - process passed
+2023-11-15 13:01:05,115 - logger_file -INFO - User seccessfully select the title - process passed
+2023-11-15 13:01:05,221 - logger_file -INFO - User seccessfully entered the first name - process passed
+2023-11-15 13:01:05,312 - logger_file -INFO - User seccessfully entered the last name - process passed
+2023-11-15 13:01:05,394 - logger_file -INFO - User seccessfully select the gender - process passed
+2023-11-15 13:01:05,468 - logger_file -INFO - User seccessfully select the marital status - process passed
+2023-11-15 13:01:05,588 - logger_file -INFO - User seccessfully entered the date of birth - process passed
+2023-11-15 13:01:05,724 - logger_file -INFO - User seccessfully entered the employment status - process passed
+2023-11-15 13:01:05,797 - logger_file -INFO - User successfully clicked - process passed
+2023-11-15 13:01:06,503 - logger_file -INFO - another page displayed successfully and text validated - process passed
+2023-11-15 13:01:06,561 - logger_file -INFO - The fullname: Test User was displayed - process passed
+2023-11-15 13:01:06,588 - logger_file -INFO - The email: smile7863@msh.ca was displayed - process passed
+2023-11-15 13:01:06,706 - logger_file -INFO - User successfully entered the username - process passed
+2023-11-15 13:01:06,799 - logger_file -INFO - User successfully entered the password - process passed
+2023-11-15 13:01:06,889 - logger_file -INFO - User successfully entered the confirm password - process passed
+2023-11-15 13:01:06,958 - logger_file -INFO - User successfully clicked on submit button
+2023-11-15 13:01:09,689 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-15 13:01:09,779 - logger_file -INFO - User successfully clicked - process passed
+2023-11-15 13:01:09,811 - logger_file -INFO - the create primary account was displayed - process passed
+2023-11-15 13:01:09,840 - logger_file -INFO - The actual: Create Primary Account Holder and expected: Create Primary Account Holder was same - process passed
+2023-11-15 13:01:09,868 - logger_file -INFO - The actual: Create Account and expected: Create Account was same - process passed
+2023-11-15 13:01:09,911 - logger_file -INFO - The actual: Clear Form and expected: Clear Form was same - process passed
+2023-11-15 13:01:10,104 - logger_file -INFO - User seccessfully entered the email - process passed
+2023-11-15 13:01:10,190 - logger_file -INFO - User seccessfully select the title - process passed
+2023-11-15 13:01:10,277 - logger_file -INFO - User seccessfully entered the first name - process passed
+2023-11-15 13:01:10,362 - logger_file -INFO - User seccessfully entered the last name - process passed
+2023-11-15 13:01:10,440 - logger_file -INFO - User seccessfully select the gender - process passed
+2023-11-15 13:01:10,520 - logger_file -INFO - User seccessfully select the marital status - process passed
+2023-11-15 13:01:10,642 - logger_file -INFO - User seccessfully entered the date of birth - process passed
+2023-11-15 13:01:10,781 - logger_file -INFO - User seccessfully entered the employment status - process passed
+2023-11-15 13:01:10,849 - logger_file -INFO - User successfully clicked - process passed
+2023-11-15 13:01:11,189 - logger_file -INFO - The actual: Account with email mori1234@gmail.com is exist and expected: Account with email mori1234@gmail.com is exist was same - process passed
+2023-11-15 13:01:11,249 - logger_file -INFO - Use successfully clicked - process passed
+2023-11-15 13:01:11,351 - logger_file -INFO - The field are empty
+2023-11-15 13:01:13,299 - logger_file -INFO - website logo successfully displayed - process passed
+2023-11-15 13:01:13,394 - logger_file -INFO - User successfully clicked - process passed
+2023-11-15 13:01:13,423 - logger_file -INFO - the create primary account was displayed - process passed
+2023-11-15 13:01:13,452 - logger_file -INFO - The actual: Create Primary Account Holder and expected: Create Primary Account Holder was same - process passed
+2023-11-15 13:01:13,489 - logger_file -INFO - The actual: Create Account and expected: Create Account was same - process passed
+2023-11-15 13:01:13,532 - logger_file -INFO - The actual: Clear Form and expected: Clear Form was same - process passed
+2023-11-15 13:01:13,713 - logger_file -INFO - User seccessfully entered the email - process passed
+2023-11-15 13:01:13,799 - logger_file -INFO - User seccessfully select the title - process passed
+2023-11-15 13:01:13,880 - logger_file -INFO - User seccessfully entered the first name - process passed
+2023-11-15 13:01:13,986 - logger_file -INFO - User seccessfully entered the last name - process passed
+2023-11-15 13:01:14,058 - logger_file -INFO - User seccessfully select the gender - process passed
+2023-11-15 13:01:14,137 - logger_file -INFO - User seccessfully select the marital status - process passed
+2023-11-15 13:01:14,262 - logger_file -INFO - User seccessfully entered the date of birth - process passed
+2023-11-15 13:01:14,399 - logger_file -INFO - User seccessfully entered the employment status - process passed
+2023-11-15 13:01:14,463 - logger_file -INFO - User successfully clicked - process passed
+2023-11-15 13:01:14,862 - logger_file -INFO - signup your account text was displayed - process passed
+2023-11-15 13:01:14,927 - logger_file -INFO - User successfully cliked - process passed
+2023-11-15 13:01:15,020 - logger_file -INFO - User successfully registered - process passed
+2023-11-15 13:01:16,145 - logger_file -INFO - User seccessfully entered the email - process passed
+2023-11-15 13:01:16,227 - logger_file -INFO - User seccessfully entered the firstname - process passed
+2023-11-15 13:01:16,318 - logger_file -INFO - User seccessfully entered the lastName - process passed
+2023-11-15 13:01:16,384 - logger_file -INFO - User seccessfully entered the dateOfBirth - process passed
+2023-11-15 13:01:16,476 - logger_file -INFO - User successfully clicked on submit - process passed
+2023-11-15 13:01:16,953 - logger_file -INFO - The actual: Found matching data for Test and expected: Found matching data for Test was same - process passed
+2023-11-15 13:01:20,076 - logger_file -INFO - User successfully entered username - process passed
+2023-11-15 13:01:20,185 - logger_file -INFO - User successfully entered password - process passed
+2023-11-15 13:01:20,294 - logger_file -INFO - User successfully entered confirmPassword - process passed
+2023-11-15 13:01:20,363 - logger_file -INFO - User successfully clicked on submit button
