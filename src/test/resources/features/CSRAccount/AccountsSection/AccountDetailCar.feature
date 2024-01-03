@@ -34,4 +34,4 @@ Feature: Launch the website, Login to account and add car
     And The user click on delete button of 'car'
     And The message Warning 'Confirm Delete' should be display
     And The user click on confirm button
-    And The message 'Car with id' id 'has been deleted' should be displayed in car section
+    And The message 'Car with id' id 'had been deleted' should be displayed in car section

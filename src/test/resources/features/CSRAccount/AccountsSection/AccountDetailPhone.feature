@@ -34,4 +34,4 @@ Feature: Launch the website, Login to account and add phone
     And The user click on delete button of 'phone'
     And The message Warning 'Confirm Delete' should be display
     And The user click on confirm button
-    And The message 'Phone with id' id 'has been deleted' should be displayed in phone section
+    And The message 'Phone with id' id 'had been deleted' should be displayed in phone section

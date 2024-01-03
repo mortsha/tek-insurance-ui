@@ -43,7 +43,17 @@ public class BaseSetup {
 
 	public void setupBrowser() {
 		HashMap uiProperty = environmentVariables.getYamlProperty("ui");
-		String url = uiProperty.get("url").toString().toLowerCase();
+		String environment = System.getProperty("tek_env","dev").toLowerCase();
+		String url;
+		
+		if("dev".equals(environment)) {
+			url = uiProperty.get("dev-url").toString().toLowerCase();
+		}else if("qa".equals(environment)) {
+			url = uiProperty.get("qa-url").toString().toLowerCase();
+		}else {
+			throw new RuntimeException("Invalid environment specified. Supported values are 'dev' and 'qa'.");
+		}
+		
 		Browser browser;
 		switch (uiProperty.get("browser").toString().toLowerCase()) {
 		case "chrome":

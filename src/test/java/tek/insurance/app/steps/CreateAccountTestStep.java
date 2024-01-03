@@ -7,6 +7,7 @@ import tek.insurance.app.pages.POMFactory;
 import tek.insurance.app.utilities.CommonUtility;
 import tek.insurance.app.utilities.DataGenerator;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
 
@@ -147,6 +148,11 @@ public class CreateAccountTestStep extends CommonUtility {
 	public void validateTheFirstNameLastNameAndEmailShouldBeTheSame(String expectedFirstName, String expectedLastName,
 			String expectedEmail) {
 		String expectedFullName = expectedFirstName + " " + expectedLastName;
+		
+//		for(WebElement ele : waitTillPrecenseElements(By.xpath("sdfs"))) {
+//			ele.getText();
+//		}
+		
 		for (WebElement element : factory.getCreateAccountPage().validateSingupOptions) {
 			if (element.getText().equals(expectedFullName)) {
 				Assert.assertTrue(isElementDisplayed(element));

@@ -25,7 +25,7 @@ Feature: Login to the account with two different portals
     Given User entered the username '<Username>' and password '<Password>'
     When User clicked on sign in
     Then The '<Title>' title should be displayed
-    And Validate some options like 'Dashboard' 'Plans' 'Payments' 'Settings'
+    And Validate some options like 'Dashboard' 'Request Quote' 'Plans' 'Payments' 'Settings'
     And User click on profile and user type '<UserType>' Full name '<FullName>' username '<username>'
     And User click on logout button
     And Validate the home page

@@ -12,14 +12,14 @@ Feature: Create Primary Account with positive and negative tests
     When user fill the form with below information
       | email                 | title | firstName | lastName | gender | maritalStatus | employmentStatus | dateOfBirth |
       | userTest@tekschool.us | Mr.   | Test      | User     | Male   | Single        | Software Tester  | 10-09-1990  |
-    Then user click on Create Account button
+    When user click on Create Account button
     And another page is displayed with the text "Sign up your account"
     And Validate the firstName 'Test' lastName 'User' and email 'email' should be the same
-    When fill the from for username and password
+    And fill the from for username and password
       | username | password  | confirmPassword |
       | username | smile7788 | smile7788       |
-    Then The user submits the form
-    And User should see the Success message of 'Your account successfully register'
+    And The user submits the form
+    Then User should see the Success message of 'Your account successfully register'
 
   @CANegative
   Scenario: Creation of a Primary Account negative test with existing email
@@ -36,7 +36,7 @@ Feature: Create Primary Account with positive and negative tests
     When user fill form with the below information
       | email              | title | firstName | lastName | gender | maritalStatus | employmentStatus | dateOfBirth |
       | mori1234@gmail.com | Mr.   | Test      | User     | Male   | Single        | Software Tester  | 12-12-1990  |
-    Then user click on Create Account button
+    And user click on Create Account button
     And user navigate to sign up
     And user click on Login button
     And click on register here
@@ -48,5 +48,5 @@ Feature: Create Primary Account with positive and negative tests
     And fill from for username and password
       | userName           | password  | confirmPassword |
       | mori1234@gmail.com | smile7788 | smile7788       |
-    Then The user submits the form
-    And User should see the Success message of 'You account Successfully register'
+    When The user submits the form
+    Then User should see the Success message of 'Your account successfully register'

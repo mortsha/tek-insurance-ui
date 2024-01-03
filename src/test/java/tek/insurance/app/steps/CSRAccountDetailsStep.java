@@ -31,6 +31,57 @@ public class CSRAccountDetailsStep extends CommonUtility {
 	private String phoneId;
 	private String carId;
 
+	@Then("the information {string} {string} {string} {string} {string} should be present")
+	public void theInformationShouldBePresent(String expectedEmail, String expectedGender, String expectedMS,
+			String expectedES, String expectedDOB) {
+		String actualEmail = getElementText(factory.getCSRAccountDetailsPage().emailAddressText);
+		Assert.assertEquals(actualEmail, expectedEmail);
+		loggerActualAndExpected(actualEmail, expectedEmail);
+
+		String actualGender = getElementText(factory.getCSRAccountDetailsPage().gemderText);
+		Assert.assertEquals(actualGender, expectedGender);
+		loggerActualAndExpected(actualGender, expectedGender);
+
+		String actualMS = getElementText(factory.getCSRAccountDetailsPage().maritalStatusText);
+		Assert.assertEquals(actualMS, expectedMS);
+		loggerActualAndExpected(actualMS, expectedMS);
+
+		String actualES = getElementText(factory.getCSRAccountDetailsPage().employmentStatusText);
+		Assert.assertEquals(actualES, expectedES);
+		loggerActualAndExpected(actualES, expectedES);
+
+		String actualDOB = getElementText(factory.getCSRAccountDetailsPage().DOBText);
+		Assert.assertEquals(actualDOB, expectedDOB);
+		loggerActualAndExpected(actualDOB, expectedDOB);
+	}
+
+	@Then("the following information should be in")
+	public void theFollowingInformationShouldBeIn(DataTable dataTable) {
+		List<Map<String, String>> info = dataTable.asMaps(String.class, String.class);
+		String actualEmail = getElementText(factory.getCSRAccountDetailsPage().emailAddressInfo);
+		String actualGender = getElementText(factory.getCSRAccountDetailsPage().genderInfo);
+		String actualMS = getElementText(factory.getCSRAccountDetailsPage().maritalStatusInfo);
+		String actualES = getElementText(factory.getCSRAccountDetailsPage().employmentStatusInfo);
+		String actualDOB = getElementText(factory.getCSRAccountDetailsPage().dobInfo);
+		for (Map<String, String> row : info) {
+			Assert.assertEquals(actualEmail, row.get("Email Address"));
+			loggerActualAndExpected(actualEmail, row.get("Email Address"));
+
+			Assert.assertEquals(actualGender, row.get("Gender"));
+			loggerActualAndExpected(actualGender, row.get("Gender"));
+
+			Assert.assertEquals(actualMS, row.get("Marital Status"));
+			loggerActualAndExpected(actualMS, row.get("Marital Status"));
+
+			Assert.assertEquals(actualES, row.get("Employment Status"));
+			loggerActualAndExpected(actualES, row.get("Employment Status"));
+
+			Assert.assertEquals(actualDOB, row.get("Date of Birth"));
+			loggerActualAndExpected(actualDOB, row.get("Date of Birth"));
+
+		}
+	}
+
 	@Then("User click on close button to close the profile section")
 	public void userClickOnCloseButtonToCloseTheProfileSection() {
 		click(factory.getCSRAccountDetailsPage().closeBttn);
@@ -502,9 +553,10 @@ public class CSRAccountDetailsStep extends CommonUtility {
 	@Then("the success message {string} should be displayed")
 	public void theSuccessMessageShouldBeDisplayed(String successMessage) {
 		boolean messageFound = false;
+		String actualMessage = null;
 		waitTillPrecenseElements(factory.getCSRAccountDetailsPage().successDeleteMessageList);
 		for (WebElement element : factory.getCSRAccountDetailsPage().successDeleteMessageList) {
-			String actualMessage = element.getText().replace("User status update\n", "");
+			 actualMessage = element.getText().replace("User status update\n", "");
 			if (actualMessage.equals(successMessage)) {
 				messageFound = true;
 				break;
@@ -515,15 +567,15 @@ public class CSRAccountDetailsStep extends CommonUtility {
 			Assert.assertTrue(true);
 			logger.info("Matched found: " + successMessage);
 		} else {
-			Assert.fail("Message not found: " + successMessage);
+			Assert.fail("Message not found: " + successMessage + " \nbut it was " + actualMessage);
 		}
 
 	}
 
 	@Then("the account should be {string} and display {string}")
 	public void theAccountShouldBeAndDisplay(String expectedStatus, String newStatus) {
-		for(WebElement element : factory.getCSRAccountDetailsPage().listOfActiveOrDeactive) {
-			if(element.getText().equals(newStatus)) {
+		for (WebElement element : factory.getCSRAccountDetailsPage().listOfActiveOrDeactive) {
+			if (element.getText().equals(newStatus)) {
 				Assert.assertTrue(isElementDisplayed(element));
 				logger.info("The account is: " + element.getText() + " - process passed");
 			}

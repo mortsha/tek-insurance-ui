@@ -39,5 +39,5 @@ Feature: Launch the website, Login to account and add address
     And The user click on delete button of 'Address'
     And The message Warning 'Confirm Delete' should be display
     And The user click on confirm button
-    And The message 'Address with id' id 'has been deleted' should be displayed
+    And The message 'Address with id' id 'had been deleted' should be displayed
     

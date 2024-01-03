@@ -8,7 +8,7 @@ Feature: CSR Account Profile Validation
     And User clicked on sign in
     And The user click on Accounts
     And find the account with email 'mori1234@gmail.com' and click on details
-    And validate the title 'Primary Account detail' should be present
+    And validate the title 'Primary Account Detail' should be present
 
   Scenario Outline: Changing Account Status
     Given the user is on the 'Profile' section
@@ -20,5 +20,5 @@ Feature: CSR Account Profile Validation
 
     Examples: 
       | currentStatus | newStatus | expectedStatus | successMessage                |
-      | Active        | Deactive  | Deactive       | User Successfully Deactivated |
-      | Deactive      | Active    | Active         | User Successfully Activated   |
+      | Active        | Deactive  | Deactive       | User successfully Deactivated |
+      | Deactive      | Active    | Active         | User successfully Activated   |

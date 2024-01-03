@@ -3,7 +3,7 @@ Feature: Website Login and Data Validation
 
   Background: User logs in to the tek insurance app
     Given User is on tek insurance app website and validate the website
-    And User clicked on login button
+    When User clicked on login button
     And User entered the username 'supervisor' and password 'tek_supervisor'
     And User clicked on sign in
     And The user click on Accounts

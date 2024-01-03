@@ -1,4 +1,5 @@
 ui:
    browser: chrome
-   headless: false
-   url: https://dev.insurance.tekschool-students.com
+   headless: true
+   dev-url: https://dev.insurance.tekschool-students.com
+   qa-url: https://kind-wave-01e284d0f.4.azurestaticapps.net

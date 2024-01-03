@@ -1,4 +1,4 @@
-@deletingData
+
 Feature: Removing Unnecessary Data and Correcting Input Errors
 
   Background: Navigating and login to CSR account

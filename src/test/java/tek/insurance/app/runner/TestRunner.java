@@ -7,7 +7,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@createAccount",
+		tags = "",
 		features = ("classpath:features"),
 		glue = "tek.insurance.app",
 		dryRun = false,

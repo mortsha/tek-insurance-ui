@@ -35,16 +35,19 @@ public class LoginPage extends BaseSetup {
 	@FindBy(xpath = "//a[text()='Accounts']")
 	public WebElement accountsSection;
 	
-	@FindBy(xpath = "//a[text()='Dashboard']")
+	@FindBy(partialLinkText = "Dashboard")
 	public WebElement dashboardSection;
 	
-	@FindBy(xpath = "//a[text()='Plans']")
+	@FindBy(partialLinkText = "Request Quote")
+	public WebElement requestQuoteSection;
+	
+	@FindBy(partialLinkText = "Plans")
 	public WebElement plansSection;
 	
-	@FindBy(xpath = "//a[text()='Payments']")
+	@FindBy(partialLinkText = "Payments")
 	public WebElement paymentsSection;
 	
-	@FindBy(xpath = "//a[text()='Settings']")
+	@FindBy(partialLinkText = "Settings")
 	public WebElement settingsSection;
 	
 	@FindBy(xpath = "//button[@type='button']")

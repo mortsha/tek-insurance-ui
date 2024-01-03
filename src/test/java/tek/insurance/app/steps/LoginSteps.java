@@ -66,7 +66,7 @@ public class LoginSteps extends CommonUtility {
 			System.out.println("None of the titles was displayed - Sign in to Accounts Part");
 			break;
 		}
-		
+
 	}
 
 	@Then("User should be see the sections {string}  {string}")
@@ -79,7 +79,6 @@ public class LoginSteps extends CommonUtility {
 		Assert.assertEquals(actualPlans, expectedPlans);
 		loggerActualAndExpected(actualPlans, expectedPlans);
 	}
-
 
 	@Then("User click on profile and user type {string} Full name {string} username {string}")
 	public void userClickOnProfileAndUserTypeFullNameUsername(String userType, String fullName, String username) {
@@ -123,23 +122,28 @@ public class LoginSteps extends CommonUtility {
 		loggerActualAndExpected(actual, primaryPortal);
 	}
 
-	@Then("Validate some options like {string} {string} {string} {string}")
-	public void validateSomeOptionsLike(String dashboard, String plans, String payments, String settings) {
+	@Then("Validate some options like {string} {string} {string} {string} {string}")
+	public void validateSomeOptionsLike(String expectedBoard, String expectedRQ, String expectedPlans, String expectedPayments,
+			String expectedSettings) {
 		String actualDashboard = getElementText(factory.getLoginPage().dashboardSection);
-		Assert.assertEquals(actualDashboard, dashboard);
-		loggerActualAndExpected(actualDashboard, dashboard);
+		Assert.assertEquals(actualDashboard, expectedBoard);
+		loggerActualAndExpected(actualDashboard, expectedBoard);
+		
+		String actualRQ = getElementText(factory.getLoginPage().requestQuoteSection);
+		Assert.assertEquals(actualRQ, expectedRQ);
+		loggerActualAndExpected(actualRQ, expectedRQ);
 
 		String actualPlans = getElementText(factory.getLoginPage().plansSection);
-		Assert.assertEquals(actualPlans, plans);
-		loggerActualAndExpected(actualPlans, plans);
+		Assert.assertEquals(actualPlans, expectedPlans);
+		loggerActualAndExpected(actualPlans, expectedPlans);
 
 		String actualPayments = getElementText(factory.getLoginPage().paymentsSection);
-		Assert.assertEquals(actualPayments, payments);
-		loggerActualAndExpected(actualPayments, payments);
+		Assert.assertEquals(actualPayments, expectedPayments);
+		loggerActualAndExpected(actualPayments, expectedPayments);
 
 		String actualsettings = getElementText(factory.getLoginPage().settingsSection);
-		Assert.assertEquals(actualsettings, settings);
-		loggerActualAndExpected(actualsettings, settings);
+		Assert.assertEquals(actualsettings, expectedSettings);
+		loggerActualAndExpected(actualsettings, expectedSettings);
 	}
 
 	@Then("User click on profile section and user type {string} FullName {string} username {string}")

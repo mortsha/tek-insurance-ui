@@ -31,11 +31,13 @@ public class DataGenerator {
 		return name + num + provider;
 	}
 
+
 	public DataGenerator() {
 		this.faker = new Faker();
 	}
 
 	public String getFirstName() {
+
 		return faker.name().firstName();
 	}
 
@@ -81,17 +83,16 @@ public class DataGenerator {
 	public String getLicensePlate() {
 		Random random = new Random();
 		StringBuilder licensePlate = new StringBuilder();
-		for(int i = 0; i<4; i++) {
+		for (int i = 0; i < 4; i++) {
 			char letter = (char) ('A' + random.nextInt(28));
 			licensePlate.append(letter);
 		}
 		licensePlate.append('-');
-		
-		for(int i = 0; i<3; i++) {
+
+		for (int i = 0; i < 3; i++) {
 			int number = random.nextInt(9);
 			licensePlate.append(number);
 		}
-		
 
 		return licensePlate.toString();
 	}

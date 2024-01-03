@@ -15,6 +15,35 @@ public class CSRAccountDetailsPage extends BaseSetup {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
+	// Info
+	@FindBy(xpath = "//p[starts-with(@class,'chakra-text')]")
+	public List<WebElement> sectionInfoList;
+	
+	@FindBy(xpath = "//p[text()='Email Address:']")
+	public WebElement emailAddressText;
+	@FindBy(xpath = "//p[text()='Gender:']")
+	public WebElement gemderText;
+	@FindBy(xpath = "//p[text()='Marital Status:']")
+	public WebElement maritalStatusText;
+	@FindBy(xpath = "//p[text()='Employment Status:']")
+	public WebElement employmentStatusText;
+	@FindBy(xpath = "//p[text()='Date of birth']")
+	public WebElement DOBText;
+	
+	@FindBy(xpath = "//p[text()='Email Address:']//following-sibling::p")
+	public WebElement emailAddressInfo;
+	@FindBy(xpath = "//p[text()='Gender:']//following-sibling::p")
+	public WebElement genderInfo;
+	@FindBy(xpath = "//p[text()='Marital Status:']//following-sibling::p")
+	public WebElement maritalStatusInfo;
+	@FindBy(xpath = "//p[text()='Employment Status:']//following-sibling::p")
+	public WebElement employmentStatusInfo;
+	@FindBy(xpath = "//p[text()='Date of birth']//following-sibling::p")
+	public WebElement dobInfo;
+	
+	
+	
+	
 	// Address
 	
 	@FindBy(xpath = "//button[contains(@class,'chakra-modal__close-btn')]")

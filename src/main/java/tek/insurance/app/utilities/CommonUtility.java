@@ -160,6 +160,12 @@ public class CommonUtility extends BaseSetup {
 	public WebElement findElementByCustomXPath(String customXPath) {
 		return getDriver().findElement(By.xpath(customXPath));
 	}
+	public WebElement findElementWithBy(By locator) {
+		return getDriver().findElement(locator);
+	}
+	public List<WebElement> findElementsWithBy(By locator){
+		return getDriver().findElements(locator);
+	}
 
 	public void refresh() {
 		getDriver().navigate().refresh();
@@ -190,6 +196,9 @@ public class CommonUtility extends BaseSetup {
 
 	public List<WebElement> waitTillPrecenseElements(List<WebElement> elements) {
 		return this.getWait().until(ExpectedConditions.visibilityOfAllElements(elements));
+	}
+	public List<WebElement> waitTillPrecenseElements(By locator){
+		return this.getWait().until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
 
 	public WebElement waitTillPresence(By by) {
