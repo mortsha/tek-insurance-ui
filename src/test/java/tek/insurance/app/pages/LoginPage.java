@@ -1,5 +1,7 @@
 package tek.insurance.app.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,7 +14,7 @@ public class LoginPage extends BaseSetup {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	@FindBy(xpath = "//a[text()='Login']")
+	@FindBy(linkText = "Login")
 	public WebElement loginLink;
 	
 	@FindBy(xpath = "//h2[text()='Sign in to your Account']")
@@ -28,55 +30,51 @@ public class LoginPage extends BaseSetup {
 	public WebElement singInBttn;
 	
 	@FindBy(xpath = "//h2[text()='Customer Service Portal']")
-	public WebElement customerServicePortal;
+	public WebElement cSRTitle;
 	
 	@FindBy(xpath = "//a[text()='Accounts']")
-	public WebElement accountsLinkInCustomerPortal;
+	public WebElement accountsSection;
 	
-	@FindBy(xpath = "//a[text()='Plans']")
-	public WebElement plansLinkInCustomerPortal;
+	@FindBy(partialLinkText = "Dashboard")
+	public WebElement dashboardSection;
+	
+	@FindBy(partialLinkText = "Request Quote")
+	public WebElement requestQuoteSection;
+	
+	@FindBy(partialLinkText = "Plans")
+	public WebElement plansSection;
+	
+	@FindBy(partialLinkText = "Payments")
+	public WebElement paymentsSection;
+	
+	@FindBy(partialLinkText = "Settings")
+	public WebElement settingsSection;
 	
 	@FindBy(xpath = "//button[@type='button']")
 	public WebElement profileBttn;
-	
-	@FindBy(xpath = "//p[text()='CSR']")
-	public WebElement userTypeInCustomer;
-	
-	@FindBy(xpath = "//p[text()='Supervisor']")
-	public WebElement fullNameInCustomer;
-	
 
-	@FindBy(xpath = "//p[text()='supervisor']")
-	public WebElement usernameInCustomer;
-	
 	@FindBy(xpath = "//button[text()='Logout']")
-	public WebElement logoutBttnInCustomer;
+	public WebElement profileLogoutBttn;
 	
 	// scenario second: login to primary account portal
 	
 	@FindBy(xpath = "//h2[text()='Primary Account Portal']")
 	public WebElement primaryAccountPortal;
 	
-
+	@FindBy(xpath = "//p[text()='User Type']//following-sibling::p")
+	public WebElement profileUserType;
 	
-	@FindBy(xpath = "//a[text()='Dashboard']")
-	public WebElement dashboardLink;
+	@FindBy(xpath = "//p[text()='Name']//following-sibling::p")
+	public WebElement profileFullName;
 	
-	@FindBy(xpath = "//a[text()='Plans']")
-	public WebElement plansLink;
+	@FindBy(xpath = "//p[text()='Username']//following-sibling::p")
+	public WebElement profileUsername;
 	
-	@FindBy(xpath = "//a[text()='Payments']")
-	public WebElement paymentsLink;
+	// negative testing
 	
-	@FindBy(xpath = "//a[text()='Settings']")
-	public WebElement settingsLink;
+	@FindBy(xpath = "//div[@data-status='error' and @role='alert']")
+	public WebElement errorMessage;
 	
-	@FindBy(xpath = "//p[text()='CUSTOMER']")
-	public WebElement userTypeInPrimary;
 	
-	@FindBy(xpath = "//p[text()='Mroi Shi']")
-	public WebElement fullNameInPrimary;
 	
-	@FindBy(xpath = "//p[text()='mori123']")
-	public WebElement usernameInPrimary;
 }

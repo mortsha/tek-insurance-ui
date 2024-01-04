@@ -1,5 +1,6 @@
 package tek.insurance.app.base;
 
+import java.sql.ResultSet;
 import java.time.Duration;
 import java.util.HashMap;
 
@@ -16,9 +17,9 @@ import tek.insurance.app.utilities.ReadYamlFiles;
 public class BaseSetup {
 
 	private static WebDriver webDriver;
-
 	private final ReadYamlFiles environmentVariables;
 	public static Logger logger;
+	private DatabaseConfig databaseConfig;
 
 	public BaseSetup() {
 		// need the path of the environment config and log4j and store them as String
@@ -33,6 +34,7 @@ public class BaseSetup {
 		}
 		logger = logger.getLogger("logger_file");
 		PropertyConfigurator.configure(log4jPath);
+		databaseConfig = new DatabaseConfig();
 	}
 
 	public WebDriver getDriver() {
@@ -41,7 +43,17 @@ public class BaseSetup {
 
 	public void setupBrowser() {
 		HashMap uiProperty = environmentVariables.getYamlProperty("ui");
-		String url = uiProperty.get("url").toString().toLowerCase();
+		String environment = System.getProperty("tek_env","dev").toLowerCase();
+		String url;
+		
+		if("dev".equals(environment)) {
+			url = uiProperty.get("dev-url").toString().toLowerCase();
+		}else if("qa".equals(environment)) {
+			url = uiProperty.get("qa-url").toString().toLowerCase();
+		}else {
+			throw new RuntimeException("Invalid environment specified. Supported values are 'dev' and 'qa'.");
+		}
+		
 		Browser browser;
 		switch (uiProperty.get("browser").toString().toLowerCase()) {
 		case "chrome":
@@ -69,6 +81,19 @@ public class BaseSetup {
 		webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(40));
 		webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		webDriver.manage().window().maximize();
+	}
+
+	public void setupDatabaseConnection() {
+		databaseConfig.connectToDatabase();
+	}
+
+	public ResultSet runDatabaseQuery(String query) {
+		return databaseConfig.runQuery(query);
+	}
+	public void closeDatabaseConnection() {
+		if(databaseConfig != null) {
+			databaseConfig.closeDatabaseConnection();
+		}
 	}
 
 	public void quitBrowser() {
